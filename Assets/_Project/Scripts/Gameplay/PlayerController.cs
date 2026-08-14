@@ -3,12 +3,19 @@ using DemHoiDenLong.Data;
 
 namespace DemHoiDenLong.Gameplay
 {
+    public enum FireMode
+    {
+        SingleStream,
+        DoubleStream,
+        TripleStream
+    }
+
     /// <summary>
     /// PlayerController handles player movement via touch-drag, screen bounds clamping,
-    /// health management, and stat initialization for the "Đêm Hội Đèn Lồng" game.
+    /// health management, and automatic projectile firing using BulletPool.
     /// </summary>
     [RequireComponent(typeof(Collider2D))]
-    public class PlayerController : MonoBehaviour
+    public class PlayerController : MonoBehaviour, IDamageable
     {
         [Header("Character Data")]
         [SerializeField] private LanData lanData;
@@ -17,7 +24,7 @@ namespace DemHoiDenLong.Gameplay
         [Tooltip("Relative touch offset (Y-axis) so finger does not cover the character sprite.")]
         [SerializeField] private float fingerVerticalOffset = 0.8f;
 
-        [Tooltip("Smooth time for movement interpolation (0 = instant 1:1, higher = smoother). Set to 0.02f for ultra-responsive 60fps feel.")]
+        [Tooltip("Smooth time for movement interpolation (0 = instant 1:1, higher = smoother). Set to 0.01f for ultra-responsive 60fps feel.")]
         [Range(0f, 0.1f)]
         [SerializeField] private float smoothTime = 0.01f;
 
@@ -31,18 +38,26 @@ namespace DemHoiDenLong.Gameplay
         [Tooltip("Manual padding offset from screen edges (X: Left/Right, Y: Top/Bottom). Auto-calculated from SpriteRenderer if 0.")]
         [SerializeField] private Vector2 padding = Vector2.zero;
 
+        [Header("Auto-Firing Settings")]
+        [SerializeField] private bool isAutoFiring = true;
+        [SerializeField] private FireMode currentFireMode = FireMode.SingleStream;
+        [SerializeField] private Transform firePoint;
+        [SerializeField] private float bulletSpeed = 12f;
+        [SerializeField] private Sprite bulletSprite;
+
         [Header("Runtime Stats")]
         [SerializeField] private float currentHp;
         [SerializeField] private float maxHp = 100f;
         [SerializeField] private float moveSpeed = 300f;
         [SerializeField] private float currentDamage = 5f;
-        [SerializeField] private float fireRate = 5f;
+        [SerializeField] private float fireRate = 5f; // Bullets per second
 
-        // Private movement variables
+        // Private movement & firing variables
         private Vector3 targetWorldPosition;
         private Vector3 currentVelocity = Vector3.zero;
         private Vector3 lastTouchPosition;
         private bool isDragging = false;
+        private float fireTimer = 0f;
 
         // Screen bounds caching
         private Vector2 minScreenBounds;
@@ -53,7 +68,11 @@ namespace DemHoiDenLong.Gameplay
         public float CurrentHp => currentHp;
         public float MaxHp => maxHp;
         public float MoveSpeed => moveSpeed;
+        public float FireRate { get => fireRate; set => fireRate = value; }
+        public float CurrentDamage => currentDamage;
         public bool IsDead => currentHp <= 0;
+        public bool IsAutoFiring { get => isAutoFiring; set => isAutoFiring = value; }
+        public FireMode CurrentFireMode { get => currentFireMode; set => currentFireMode = value; }
 
         // Public getters for testing and UI integration
         public Vector2 MinScreenBounds => minScreenBounds;
@@ -84,6 +103,11 @@ namespace DemHoiDenLong.Gameplay
         {
             HandleInput();
             UpdatePosition();
+
+            if (isAutoFiring && !IsDead)
+            {
+                HandleAutoFiring();
+            }
         }
 
         private void LateUpdate()
@@ -106,6 +130,55 @@ namespace DemHoiDenLong.Gameplay
                 fireRate = lanData.fireRate;
             }
             currentHp = maxHp;
+        }
+
+        /// <summary>
+        /// Handles continuous automatic firing using BulletPool.
+        /// </summary>
+        private void HandleAutoFiring()
+        {
+            if (fireRate <= 0f) return;
+
+            fireTimer += Time.deltaTime;
+            float fireInterval = 1f / fireRate;
+
+            if (fireTimer >= fireInterval)
+            {
+                fireTimer -= fireInterval;
+                FireProjectiles();
+            }
+        }
+
+        /// <summary>
+        /// Fires projectiles according to active FireMode (Single, Double, Triple stream).
+        /// </summary>
+        public void FireProjectiles()
+        {
+            if (BulletPool.Instance == null) return;
+
+            Vector3 origin = firePoint != null ? firePoint.position : transform.position + new Vector3(0, 0.5f, 0);
+
+            switch (currentFireMode)
+            {
+                case FireMode.SingleStream:
+                    BulletPool.Instance.SpawnBullet(origin, Vector2.up, bulletSpeed, currentDamage, true, bulletSprite);
+                    break;
+
+                case FireMode.DoubleStream:
+                    Vector3 leftOrigin = origin + new Vector3(-0.25f, 0, 0);
+                    Vector3 rightOrigin = origin + new Vector3(0.25f, 0, 0);
+                    BulletPool.Instance.SpawnBullet(leftOrigin, Vector2.up, bulletSpeed, currentDamage, true, bulletSprite);
+                    BulletPool.Instance.SpawnBullet(rightOrigin, Vector2.up, bulletSpeed, currentDamage, true, bulletSprite);
+                    break;
+
+                case FireMode.TripleStream:
+                    BulletPool.Instance.SpawnBullet(origin, Vector2.up, bulletSpeed, currentDamage, true, bulletSprite);
+                    Vector2 leftDir = Quaternion.Euler(0, 0, 15f) * Vector2.up;
+                    Vector2 rightDir = Quaternion.Euler(0, 0, -15f) * Vector2.up;
+                    BulletPool.Instance.SpawnBullet(origin, leftDir, bulletSpeed, currentDamage, true, bulletSprite);
+                    BulletPool.Instance.SpawnBullet(origin, rightDir, bulletSpeed, currentDamage, true, bulletSprite);
+                    break;
+            }
         }
 
         /// <summary>
