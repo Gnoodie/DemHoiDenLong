@@ -98,21 +98,24 @@ namespace DemHoiDenLong.Gameplay
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            // Collision logic will interact with IDamageable targets
             // Player bullets damage Enemies; Enemy bullets damage Player
-            if (isPlayerBullet && other.CompareTag("Enemy"))
+            if (isPlayerBullet)
             {
-                // Deal damage to enemy IDamageable component
-                Recycle();
+                var enemy = other.GetComponent<EnemyBase>();
+                if (enemy != null)
+                {
+                    enemy.TakeDamage(damage);
+                    Recycle();
+                }
             }
-            else if (!isPlayerBullet && other.CompareTag("Player"))
+            else
             {
                 var player = other.GetComponent<PlayerController>();
                 if (player != null)
                 {
                     player.TakeDamage(damage);
+                    Recycle();
                 }
-                Recycle();
             }
         }
     }
