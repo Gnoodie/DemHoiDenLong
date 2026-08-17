@@ -63,6 +63,7 @@ namespace DemHoiDenLong.Tests
         public void PlayerController_TakeFatalDamage_TriggersDeath()
         {
             playerController.InitializeStats();
+            playerController.LivesCount = 1; // Explicitly set to 1 to trigger death instead of respawn
             playerController.TakeDamage(150f);
 
             Assert.AreEqual(0f, playerController.CurrentHp);

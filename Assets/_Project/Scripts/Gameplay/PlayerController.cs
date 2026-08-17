@@ -12,7 +12,7 @@ namespace DemHoiDenLong.Gameplay
 
     /// <summary>
     /// PlayerController handles player movement via touch-drag, screen bounds clamping,
-    /// health management, and automatic projectile firing using BulletPool.
+    /// health management, lives/respawn, invincibility i-frames, and automatic projectile firing using BulletPool.
     /// </summary>
     [RequireComponent(typeof(Collider2D))]
     public class PlayerController : MonoBehaviour, IDamageable
@@ -45,19 +45,27 @@ namespace DemHoiDenLong.Gameplay
         [SerializeField] private float bulletSpeed = 12f;
         [SerializeField] private Sprite bulletSprite;
 
-        [Header("Runtime Stats")]
+        [Header("Health & Lives System")]
+        [SerializeField] private int livesCount = 3;
         [SerializeField] private float currentHp;
         [SerializeField] private float maxHp = 100f;
         [SerializeField] private float moveSpeed = 300f;
         [SerializeField] private float currentDamage = 5f;
         [SerializeField] private float fireRate = 5f; // Bullets per second
+        [SerializeField] private int shieldCharges = 0;
 
-        // Private movement & firing variables
+        [Header("Invincibility i-Frames")]
+        [SerializeField] private bool isInvincible = false;
+        [SerializeField] private float defaultInvincibilityDuration = 1.5f;
+
+        // Private variables
         private Vector3 targetWorldPosition;
         private Vector3 currentVelocity = Vector3.zero;
         private Vector3 lastTouchPosition;
         private bool isDragging = false;
         private float fireTimer = 0f;
+        private float invincibilityTimer = 0f;
+        private float blinkTimer = 0f;
 
         // Screen bounds caching
         private Vector2 minScreenBounds;
@@ -65,12 +73,15 @@ namespace DemHoiDenLong.Gameplay
         private SpriteRenderer spriteRenderer;
         private Collider2D playerCollider;
 
+        public int LivesCount { get => livesCount; set => livesCount = value; }
         public float CurrentHp => currentHp;
         public float MaxHp => maxHp;
         public float MoveSpeed => moveSpeed;
         public float FireRate { get => fireRate; set => fireRate = value; }
         public float CurrentDamage => currentDamage;
-        public bool IsDead => currentHp <= 0;
+        public bool IsDead => currentHp <= 0 && livesCount <= 0;
+        public bool IsInvincible => isInvincible;
+        public int ShieldCharges { get => shieldCharges; set => shieldCharges = value; }
         public bool IsAutoFiring { get => isAutoFiring; set => isAutoFiring = value; }
         public FireMode CurrentFireMode { get => currentFireMode; set => currentFireMode = value; }
 
@@ -103,6 +114,7 @@ namespace DemHoiDenLong.Gameplay
         {
             HandleInput();
             UpdatePosition();
+            HandleInvincibility();
 
             if (isAutoFiring && !IsDead)
             {
@@ -112,7 +124,6 @@ namespace DemHoiDenLong.Gameplay
 
         private void LateUpdate()
         {
-            // Recalculate bounds in case screen orientation or camera size changes
             CalculateScreenBounds();
             ClampPosition();
         }
@@ -130,6 +141,119 @@ namespace DemHoiDenLong.Gameplay
                 fireRate = lanData.fireRate;
             }
             currentHp = maxHp;
+            isInvincible = false;
+            invincibilityTimer = 0f;
+        }
+
+        /// <summary>
+        /// Triggers invincibility i-frames with visual sprite blinking.
+        /// </summary>
+        public void TriggerInvincibility(float duration)
+        {
+            isInvincible = true;
+            invincibilityTimer = duration;
+            blinkTimer = 0f;
+        }
+
+        private void HandleInvincibility()
+        {
+            if (!isInvincible) return;
+
+            invincibilityTimer -= Time.deltaTime;
+            blinkTimer += Time.deltaTime;
+
+            if (spriteRenderer != null)
+            {
+                // Visual sprite alpha flicker during i-frames
+                float alpha = (Mathf.FloorToInt(blinkTimer * 10f) % 2 == 0) ? 0.3f : 1.0f;
+                Color col = spriteRenderer.color;
+                col.a = alpha;
+                spriteRenderer.color = col;
+            }
+
+            if (invincibilityTimer <= 0f)
+            {
+                isInvincible = false;
+                invincibilityTimer = 0f;
+
+                if (spriteRenderer != null)
+                {
+                    Color col = spriteRenderer.color;
+                    col.a = 1.0f;
+                    spriteRenderer.color = col;
+                }
+            }
+        }
+
+        /// <summary>
+        /// Applies damage to player, respecting invincibility and active shield.
+        /// </summary>
+        public void TakeDamage(float amount)
+        {
+            if (IsDead || isInvincible) return;
+
+            // Check Mooncake Shield
+            if (shieldCharges > 0)
+            {
+                shieldCharges--;
+                TriggerInvincibility(0.5f); // Short grace period after shield break
+                return;
+            }
+
+            currentHp = Mathf.Max(0f, currentHp - amount);
+
+            if (currentHp <= 0f)
+            {
+                if (livesCount > 1)
+                {
+                    Respawn();
+                }
+                else
+                {
+                    livesCount = 0;
+                    OnDeath();
+                }
+            }
+            else
+            {
+                TriggerInvincibility(defaultInvincibilityDuration);
+            }
+        }
+
+        /// <summary>
+        /// Respawns player at bottom center with restored HP and invincibility i-frames.
+        /// </summary>
+        public void Respawn()
+        {
+            livesCount = Mathf.Max(0, livesCount - 1);
+            currentHp = maxHp;
+
+            Vector3 respawnPos = new Vector3(0f, minScreenBounds.y + 1.5f, transform.position.z);
+            ForceUpdatePosition(respawnPos);
+
+            TriggerInvincibility(2.0f);
+            gameObject.SetActive(true);
+        }
+
+        public void Heal(float amount)
+        {
+            if (IsDead) return;
+            currentHp = Mathf.Min(maxHp, currentHp + amount);
+        }
+
+        public void AddLife()
+        {
+            livesCount++;
+        }
+
+        public void AddShieldCharges(int count)
+        {
+            shieldCharges += count;
+        }
+
+        private void OnDeath()
+        {
+            gameObject.SetActive(false);
         }
 
         /// <summary>
@@ -181,9 +305,6 @@ namespace DemHoiDenLong.Gameplay
             }
         }
 
-        /// <summary>
-        /// Calculates world space boundaries based on Camera orthographic view and Sprite/Collider size.
-        /// </summary>
         public void CalculateScreenBounds()
         {
             if (mainCamera == null) return;
@@ -210,9 +331,6 @@ namespace DemHoiDenLong.Gameplay
             maxScreenBounds = new Vector2(upperRight.x - objectExtent.x, upperRight.y - objectExtent.y);
         }
 
-        /// <summary>
-        /// Simulates touch/mouse drag movement delta (useful for unit testing and automated AI player input).
-        /// </summary>
         public void SimulateDragDelta(Vector3 delta)
         {
             targetWorldPosition += delta;
@@ -220,9 +338,6 @@ namespace DemHoiDenLong.Gameplay
             ClampPosition();
         }
 
-        /// <summary>
-        /// Directly forces updating and clamping transform position to target position (instant move).
-        /// </summary>
         public void ForceUpdatePosition(Vector3 newTargetPos)
         {
             targetWorldPosition = newTargetPos;
@@ -231,12 +346,8 @@ namespace DemHoiDenLong.Gameplay
             transform.position = targetWorldPosition;
         }
 
-        /// <summary>
-        /// Handles touch and mouse input across mobile and Unity Editor platforms.
-        /// </summary>
         private void HandleInput()
         {
-            // Mobile Touch Input
             if (Input.touchCount > 0)
             {
                 Touch touch = Input.GetTouch(0);
@@ -272,7 +383,6 @@ namespace DemHoiDenLong.Gameplay
                     isDragging = false;
                 }
             }
-            // PC / Unity Editor Mouse Input Fallback
             else if (Input.GetMouseButtonDown(0))
             {
                 isDragging = true;
@@ -305,9 +415,6 @@ namespace DemHoiDenLong.Gameplay
             }
         }
 
-        /// <summary>
-        /// Converts screen pixel position into 2D world coordinates.
-        /// </summary>
         private Vector3 GetWorldTouchPosition(Vector3 screenPos)
         {
             if (mainCamera == null) return transform.position;
@@ -315,12 +422,8 @@ namespace DemHoiDenLong.Gameplay
             return mainCamera.ScreenToWorldPoint(screenPos);
         }
 
-        /// <summary>
-        /// Smoothly updates transform position towards target location.
-        /// </summary>
         public void UpdatePosition()
         {
-            // Clamp target position first to avoid target drifting off screen
             targetWorldPosition.x = Mathf.Clamp(targetWorldPosition.x, minScreenBounds.x, maxScreenBounds.x);
             targetWorldPosition.y = Mathf.Clamp(targetWorldPosition.y, minScreenBounds.y, maxScreenBounds.y);
             targetWorldPosition.z = transform.position.z;
@@ -335,43 +438,12 @@ namespace DemHoiDenLong.Gameplay
             }
         }
 
-        /// <summary>
-        /// Enforces strict screen bounds clamping on character transform.
-        /// </summary>
         public void ClampPosition()
         {
             Vector3 clampedPos = transform.position;
             clampedPos.x = Mathf.Clamp(clampedPos.x, minScreenBounds.x, maxScreenBounds.x);
             clampedPos.y = Mathf.Clamp(clampedPos.y, minScreenBounds.y, maxScreenBounds.y);
             transform.position = clampedPos;
-        }
-
-        /// <summary>
-        /// Applies damage to player.
-        /// </summary>
-        public void TakeDamage(float amount)
-        {
-            if (IsDead) return;
-            currentHp = Mathf.Max(0f, currentHp - amount);
-            if (IsDead)
-            {
-                OnDeath();
-            }
-        }
-
-        /// <summary>
-        /// Heals player.
-        /// </summary>
-        public void Heal(float amount)
-        {
-            if (IsDead) return;
-            currentHp = Mathf.Min(maxHp, currentHp + amount);
-        }
-
-        private void OnDeath()
-        {
-            // Trigger death sequence / event notification
-            gameObject.SetActive(false);
         }
 
 #if UNITY_EDITOR
