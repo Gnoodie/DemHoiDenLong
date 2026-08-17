@@ -9,15 +9,15 @@ namespace DemHoiDenLong.Gameplay
     public static class CollisionHandler
     {
         /// <summary>
-        /// Processes collision between a Player Bullet and an Enemy.
+        /// Processes collision between a Player Bullet and an IDamageable target (Enemy, Boss, etc.).
         /// Returns true if hit was registered and applied.
         /// </summary>
-        public static bool ProcessPlayerBulletHitEnemy(Bullet bullet, EnemyBase enemy)
+        public static bool ProcessPlayerBulletHit(Bullet bullet, IDamageable target)
         {
-            if (bullet == null || enemy == null) return false;
-            if (!bullet.gameObject.activeSelf || enemy.IsDead) return false;
+            if (bullet == null || target == null) return false;
+            if (!bullet.gameObject.activeSelf || target.IsDead) return false;
 
-            enemy.TakeDamage(bullet.Damage);
+            target.TakeDamage(bullet.Damage);
             bullet.Recycle();
             return true;
         }

@@ -29,6 +29,7 @@ namespace DemHoiDenLong.Tests
             poolObject = new GameObject("BulletPool");
             bulletPool = poolObject.AddComponent<BulletPool>();
             bulletPool.InitializePool();
+            typeof(BulletPool).GetProperty("Instance").SetValue(null, bulletPool);
 
             playerObject = new GameObject("TestPlayer");
             playerObject.AddComponent<BoxCollider2D>();
@@ -58,13 +59,13 @@ namespace DemHoiDenLong.Tests
             Bullet bullet = bulletPool.SpawnBullet(Vector3.zero, Vector2.up, 10f, 4f, true);
 
             // First hit: registers hit and recycles bullet
-            bool firstHit = CollisionHandler.ProcessPlayerBulletHitEnemy(bullet, enemy);
+            bool firstHit = CollisionHandler.ProcessPlayerBulletHit(bullet, enemy);
             Assert.IsTrue(firstHit);
             Assert.AreEqual(6f, enemy.CurrentHp); // Base 10 - 4 = 6
             Assert.IsFalse(bullet.gameObject.activeSelf);
 
             // Second hit in same frame: fails because bullet is already recycled (no double hit)
-            bool secondHit = CollisionHandler.ProcessPlayerBulletHitEnemy(bullet, enemy);
+            bool secondHit = CollisionHandler.ProcessPlayerBulletHit(bullet, enemy);
             Assert.IsFalse(secondHit);
             Assert.AreEqual(6f, enemy.CurrentHp);
         }

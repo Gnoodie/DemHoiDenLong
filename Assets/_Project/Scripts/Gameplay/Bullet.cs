@@ -98,14 +98,14 @@ namespace DemHoiDenLong.Gameplay
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            // Player bullets damage Enemies; Enemy bullets damage Player
+            // Player bullets damage Enemies/Boss; Enemy bullets damage Player
             if (isPlayerBullet)
             {
-                var enemy = other.GetComponent<EnemyBase>();
-                if (enemy != null)
+                var target = other.GetComponent<IDamageable>();
+                // Make sure we don't shoot ourselves
+                if (target != null && !(target is PlayerController))
                 {
-                    enemy.TakeDamage(damage);
-                    Recycle();
+                    CollisionHandler.ProcessPlayerBulletHit(this, target);
                 }
             }
             else
@@ -113,8 +113,11 @@ namespace DemHoiDenLong.Gameplay
                 var player = other.GetComponent<PlayerController>();
                 if (player != null)
                 {
-                    player.TakeDamage(damage);
-                    Recycle();
+                    bool hitProcessed = CollisionHandler.ProcessDamageToPlayer(player, damage);
+                    if (hitProcessed)
+                    {
+                        Recycle();
+                    }
                 }
             }
         }
