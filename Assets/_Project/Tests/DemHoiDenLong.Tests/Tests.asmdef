@@ -2,7 +2,8 @@
     "name": "Tests",
     "rootNamespace": "DemHoiDenLong.Tests",
     "references": [
-        "DemHoiDenLong"
+        "DemHoiDenLong",
+        "Unity.TextMeshPro"
     ],
     "optionalUnityReferences": [
         "TestAssemblies"

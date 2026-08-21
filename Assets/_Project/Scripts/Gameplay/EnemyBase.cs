@@ -137,9 +137,26 @@ namespace DemHoiDenLong.Gameplay
             if (IsDead) return;
 
             currentHp = Mathf.Max(0f, currentHp - amount);
+            
+            if (gameObject.activeInHierarchy)
+            {
+                StartCoroutine(HitFlash());
+            }
+
             if (IsDead)
             {
                 OnDeath();
+            }
+        }
+
+        protected virtual System.Collections.IEnumerator HitFlash()
+        {
+            if (spriteRenderer != null)
+            {
+                Color originalColor = spriteRenderer.color;
+                spriteRenderer.color = Color.white;
+                yield return new WaitForSeconds(0.05f);
+                spriteRenderer.color = originalColor;
             }
         }
 
@@ -151,6 +168,15 @@ namespace DemHoiDenLong.Gameplay
 
         protected virtual void OnDeath()
         {
+            if (VFX.VFXManager.Instance != null)
+            {
+                VFX.VFXManager.Instance.PlayExplosion(transform.position);
+            }
+            if (VFX.CameraShake.Instance != null)
+            {
+                VFX.CameraShake.Instance.Shake(0.1f, 0.2f);
+            }
+
             // Award stars/currency to player
             Despawn();
         }

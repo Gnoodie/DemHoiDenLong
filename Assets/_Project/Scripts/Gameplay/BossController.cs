@@ -35,6 +35,13 @@ namespace DemHoiDenLong.Gameplay
         public float MaxHp => maxHp * hpMultiplier;
         public bool IsDead => isDead;
         public bool IsEntering => isEntering;
+        
+        private SpriteRenderer spriteRenderer;
+
+        private void Awake()
+        {
+            spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        }
 
         private void Start()
         {
@@ -110,6 +117,11 @@ namespace DemHoiDenLong.Gameplay
 
             currentHp = Mathf.Max(0, currentHp - amount);
             OnHealthChanged?.Invoke(currentHp, MaxHp);
+            
+            if (gameObject.activeInHierarchy)
+            {
+                StartCoroutine(HitFlash());
+            }
 
             if (currentHp <= 0)
             {
@@ -124,10 +136,35 @@ namespace DemHoiDenLong.Gameplay
             OnHealthChanged?.Invoke(currentHp, MaxHp);
         }
 
+        private System.Collections.IEnumerator HitFlash()
+        {
+            if (spriteRenderer != null)
+            {
+                Color originalColor = spriteRenderer.color;
+                spriteRenderer.color = Color.white;
+                yield return new WaitForSeconds(0.05f);
+                spriteRenderer.color = originalColor;
+            }
+        }
+
         private void Die()
         {
             isDead = true;
             OnDeath?.Invoke();
+            
+            if (GameManager.Instance != null)
+            {
+                GameManager.Instance.TriggerVictory();
+            }
+
+            if (VFX.VFXManager.Instance != null)
+            {
+                VFX.VFXManager.Instance.PlayExplosion(transform.position);
+            }
+            if (VFX.CameraShake.Instance != null)
+            {
+                VFX.CameraShake.Instance.Shake(0.5f, 0.5f); // Bigger shake for boss
+            }
             
             // Clear bullets
             if (BulletPool.Instance != null)

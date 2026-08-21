@@ -58,6 +58,10 @@ namespace DemHoiDenLong.Gameplay
         [SerializeField] private bool isInvincible = false;
         [SerializeField] private float defaultInvincibilityDuration = 1.5f;
 
+        // Events
+        public event System.Action<int, float, float> OnPlayerHealthChanged; // lives, currentHp, maxHp
+        public event System.Action OnPlayerDeath;
+
         // Private variables
         private Vector3 targetWorldPosition;
         private Vector3 currentVelocity = Vector3.zero;
@@ -143,6 +147,8 @@ namespace DemHoiDenLong.Gameplay
             currentHp = maxHp;
             isInvincible = false;
             invincibilityTimer = 0f;
+            
+            OnPlayerHealthChanged?.Invoke(livesCount, currentHp, maxHp);
         }
 
         /// <summary>
@@ -197,10 +203,14 @@ namespace DemHoiDenLong.Gameplay
             {
                 shieldCharges--;
                 TriggerInvincibility(0.5f); // Short grace period after shield break
+                if (VFX.CameraShake.Instance != null) VFX.CameraShake.Instance.Shake(0.1f, 0.1f);
                 return;
             }
 
             currentHp = Mathf.Max(0f, currentHp - amount);
+            OnPlayerHealthChanged?.Invoke(livesCount, currentHp, maxHp);
+
+            if (VFX.CameraShake.Instance != null) VFX.CameraShake.Instance.Shake(0.2f, 0.2f);
 
             if (currentHp <= 0f)
             {
@@ -233,17 +243,20 @@ namespace DemHoiDenLong.Gameplay
 
             TriggerInvincibility(2.0f);
             gameObject.SetActive(true);
+            OnPlayerHealthChanged?.Invoke(livesCount, currentHp, maxHp);
         }
 
         public void Heal(float amount)
         {
             if (IsDead) return;
             currentHp = Mathf.Min(maxHp, currentHp + amount);
+            OnPlayerHealthChanged?.Invoke(livesCount, currentHp, maxHp);
         }
 
         public void AddLife()
         {
             livesCount++;
+            OnPlayerHealthChanged?.Invoke(livesCount, currentHp, maxHp);
         }
 
         public void AddShieldCharges(int count)
@@ -253,7 +266,17 @@ namespace DemHoiDenLong.Gameplay
 
         private void OnDeath()
         {
+            if (VFX.VFXManager.Instance != null)
+            {
+                VFX.VFXManager.Instance.PlayExplosion(transform.position);
+            }
+            if (VFX.CameraShake.Instance != null)
+            {
+                VFX.CameraShake.Instance.Shake(0.5f, 0.5f); // Big shake
+            }
+            
             gameObject.SetActive(false);
+            OnPlayerDeath?.Invoke();
         }
 
         /// <summary>

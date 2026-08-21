@@ -1,7 +1,9 @@
 {
     "name": "DemHoiDenLong",
     "rootNamespace": "DemHoiDenLong",
-    "references": [],
+    "references": [
+        "Unity.TextMeshPro"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
