@@ -16,8 +16,12 @@ namespace DemHoiDenLong.Tests
         [SetUp]
         public void Setup()
         {
+            var instanceField = typeof(SaveManager).GetProperty("Instance", System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.Static);
+            if (instanceField != null) instanceField.SetValue(null, null);
+
             saveManagerGO = new GameObject("SaveManager");
             saveManager = saveManagerGO.AddComponent<SaveManager>();
+            typeof(SaveManager).GetMethod("Awake", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance)?.Invoke(saveManager, null);
             
             // In some Unity EditMode configurations, Awake is not called synchronously on AddComponent.
             // We explicitly call LoadData to ensure initialization.
@@ -67,6 +71,7 @@ namespace DemHoiDenLong.Tests
 
             saveManagerGO = new GameObject("SaveManager2");
             saveManager = saveManagerGO.AddComponent<SaveManager>(); 
+            typeof(SaveManager).GetMethod("Awake", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance)?.Invoke(saveManager, null);
             saveManager.LoadData();
 
             // Assert data was loaded correctly
