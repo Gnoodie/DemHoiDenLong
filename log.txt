@@ -1,0 +1,577 @@
+﻿d661088 Complete P01-07
+M	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/configure_fingerprint.bin
+A	Assets/TextMesh Pro.meta
+A	Assets/TextMesh Pro/Examples & Extras.meta
+A	Assets/TextMesh Pro/Examples & Extras/Fonts.meta
+A	Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt
+A	Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt.meta
+A	Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+A	Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf.meta
+A	Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt
+A	Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt.meta
+A	Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+A	Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf.meta
+A	Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+A	Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF.meta
+A	Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt
+A	Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt.meta
+A	Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+A	Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf.meta
+A	Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold - AFL.txt
+A	Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold - AFL.txt.meta
+A	Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold - License.txt
+A	Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold - License.txt.meta
+A	Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+A	Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf.meta
+A	Assets/TextMesh Pro/Examples & Extras/Fonts/Unity - OFL.txt
+A	Assets/TextMesh Pro/Examples & Extras/Fonts/Unity - OFL.txt.meta
+A	Assets/TextMesh Pro/Examples & Extras/Fonts/Unity.ttf
+A	Assets/TextMesh Pro/Examples & Extras/Fonts/Unity.ttf.meta
+A	Assets/TextMesh Pro/Examples & Extras/Materials.meta
+A	Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
+A	Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat.meta
+A	Assets/TextMesh Pro/Examples & Extras/Materials/Crate - URP.mat
+A	Assets/TextMesh Pro/Examples & Extras/Materials/Crate - URP.mat.meta
+A	Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
+A	Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat.meta
+A	Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
+A	Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat.meta
+A	Assets/TextMesh Pro/Examples & Extras/Materials/Ground - URP.mat
+A	Assets/TextMesh Pro/Examples & Extras/Materials/Ground - URP.mat.meta
+A	Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat
+A	Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat.meta
+A	Assets/TextMesh Pro/Examples & Extras/Prefabs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab
+A	Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab.meta
+A	Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab
+A	Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab.meta
+A	Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab
+A	Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow - 2 Pass.mat
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow - 2 Pass.mat.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo - URP.mat
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo - URP.mat.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - HDRP Unlit.mat
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - HDRP Unlit.mat.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - URP.mat
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - URP.mat.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF - HDRP LIT - Bloom.mat
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF - HDRP LIT - Bloom.mat.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF - HDRP LIT - Outline.mat
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF - HDRP LIT - Outline.mat.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF.asset
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF.asset.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite Asset.asset
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite Asset.asset.meta
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset
+A	Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/07 - Superscript & Subscript Example.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/07 - Superscript & Subscript Example.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & Sprites.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & Sprites.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode example.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode example.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft Mask.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft Mask.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example URP.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example URP.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/27 - Double Pass Shader Example.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/27 - Double Pass Shader Example.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/28 - HDRP Shader Example.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/28 - HDRP Shader Example.unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/28 - HDRP Shader Example.unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/28 - HDRP Shader Example/Sky and Fog Volume Profile.asset
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/28 - HDRP Shader Example/Sky and Fog Volume Profile.asset.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/Benchmark (Floating Text).unity
+A	Assets/TextMesh Pro/Examples & Extras/Scenes/Benchmark (Floating Text).unity.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs
+A	Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs.meta
+A	Assets/TextMesh Pro/Examples & Extras/Sprites.meta
+A	Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+A	Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png.meta
+A	Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd
+A	Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd.meta
+A	Assets/TextMesh Pro/Examples & Extras/Textures.meta
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg.meta
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg.meta
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg.meta
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg.meta
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg.meta
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg.meta
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg.meta
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd.meta
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg.meta
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg.meta
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg.meta
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png.meta
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png.meta
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd.meta
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd.meta
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd.meta
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd
+A	Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd.meta
+A	Assets/TextMesh Pro/Fonts.meta
+A	Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+A	Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+A	Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+A	Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+A	Assets/TextMesh Pro/Resources.meta
+A	Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+A	Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+A	Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+A	Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+A	Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+A	Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+A	Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+A	Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+A	Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+A	Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+A	Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+A	Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+A	Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+A	Assets/TextMesh Pro/Resources/Style Sheets.meta
+A	Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+A	Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+A	Assets/TextMesh Pro/Resources/TMP Settings.asset
+A	Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+A	Assets/TextMesh Pro/Shaders.meta
+A	Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl
+A	Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl.meta
+A	Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+A	Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+A	Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+A	Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+A	Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+A	Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+A	Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+A	Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+A	Assets/TextMesh Pro/Shaders/TMP_SDF SSD SpaceWarp.shader
+A	Assets/TextMesh Pro/Shaders/TMP_SDF SSD SpaceWarp.shader.meta
+A	Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+A	Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+A	Assets/TextMesh Pro/Shaders/TMP_SDF SpaceWarp.shader
+A	Assets/TextMesh Pro/Shaders/TMP_SDF SpaceWarp.shader.meta
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph.meta
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph.meta
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD SpaceWarp.shader
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD SpaceWarp.shader.meta
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SpaceWarp.shader
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SpaceWarp.shader.meta
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader.meta
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph.meta
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph
+A	Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph.meta
+A	Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+A	Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+A	Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+A	Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+A	Assets/TextMesh Pro/Shaders/TMPro.cginc
+A	Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+A	Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+A	Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+A	Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+A	Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+A	Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+A	Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+M	Assets/_Project/Scripts/DemHoiDenLong.asmdef
+M	Assets/_Project/Scripts/Gameplay/BossController.cs
+M	Assets/_Project/Scripts/Gameplay/EnemyBase.cs
+A	Assets/_Project/Scripts/Gameplay/GameManager.cs
+A	Assets/_Project/Scripts/Gameplay/GameManager.cs.meta
+M	Assets/_Project/Scripts/Gameplay/PlayerController.cs
+A	Assets/_Project/Scripts/UI/GameplayHUD.cs
+A	Assets/_Project/Scripts/UI/GameplayHUD.cs.meta
+A	Assets/_Project/Scripts/VFX.meta
+A	Assets/_Project/Scripts/VFX/CameraShake.cs
+A	Assets/_Project/Scripts/VFX/CameraShake.cs.meta
+A	Assets/_Project/Scripts/VFX/VFXManager.cs
+A	Assets/_Project/Scripts/VFX/VFXManager.cs.meta
+A	Assets/_Project/Tests/DemHoiDenLong.Tests/GameManagerTests.cs
+A	Assets/_Project/Tests/DemHoiDenLong.Tests/GameManagerTests.cs.meta
+A	Assets/_Project/Tests/DemHoiDenLong.Tests/GameplayHUDTests.cs
+A	Assets/_Project/Tests/DemHoiDenLong.Tests/GameplayHUDTests.cs.meta
+M	Assets/_Project/Tests/DemHoiDenLong.Tests/Tests.asmdef
+M	ProjectSettings/TimeManager.asset
+32b87b9 Complete P01-06
+M	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/configure_fingerprint.bin
+A	Assets/_Project/Scripts/Data/LevelData.cs
+A	Assets/_Project/Scripts/Data/LevelData.cs.meta
+A	Assets/_Project/Scripts/Data/WaveData.cs
+A	Assets/_Project/Scripts/Data/WaveData.cs.meta
+A	Assets/_Project/Scripts/Gameplay/BossController.cs
+A	Assets/_Project/Scripts/Gameplay/BossController.cs.meta
+M	Assets/_Project/Scripts/Gameplay/Bullet.cs
+M	Assets/_Project/Scripts/Gameplay/CollisionHandler.cs
+A	Assets/_Project/Scripts/Gameplay/WaveManager.cs
+A	Assets/_Project/Scripts/Gameplay/WaveManager.cs.meta
+A	Assets/_Project/Scripts/UI/BossHUD.cs
+A	Assets/_Project/Scripts/UI/BossHUD.cs.meta
+M	Assets/_Project/Tests/DemHoiDenLong.Tests/CollisionHealthTests.cs
+A	Assets/_Project/Tests/DemHoiDenLong.Tests/WaveBossTests.cs
+A	Assets/_Project/Tests/DemHoiDenLong.Tests/WaveBossTests.cs.meta
+86f8953 Complete P01-05
+M	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/configure_fingerprint.bin
+A	Assets/_Project/Scripts/Gameplay/CollisionHandler.cs
+A	Assets/_Project/Scripts/Gameplay/CollisionHandler.cs.meta
+M	Assets/_Project/Scripts/Gameplay/PlayerController.cs
+A	Assets/_Project/Tests/DemHoiDenLong.Tests/CollisionHealthTests.cs
+A	Assets/_Project/Tests/DemHoiDenLong.Tests/CollisionHealthTests.cs.meta
+M	Assets/_Project/Tests/DemHoiDenLong.Tests/PlayerControllerTests.cs
+86d9b1e Complete P01-04
+M	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/configure_fingerprint.bin
+A	Assets/_Project/Scripts/Data/EnemyData.cs
+A	Assets/_Project/Scripts/Data/EnemyData.cs.meta
+M	Assets/_Project/Scripts/Gameplay/Bullet.cs
+A	Assets/_Project/Scripts/Gameplay/EnemyBase.cs
+A	Assets/_Project/Scripts/Gameplay/EnemyBase.cs.meta
+A	Assets/_Project/Scripts/Gameplay/EnemySpawner.cs
+A	Assets/_Project/Scripts/Gameplay/EnemySpawner.cs.meta
+A	Assets/_Project/Scripts/Gameplay/IDamageable.cs.meta
+A	Assets/_Project/Scripts/Gameplay/PaperLanternEnemy.cs
+A	Assets/_Project/Scripts/Gameplay/PaperLanternEnemy.cs.meta
+A	Assets/_Project/Tests/DemHoiDenLong.Tests/EnemyTests.cs
+A	Assets/_Project/Tests/DemHoiDenLong.Tests/EnemyTests.cs.meta
+898f57f Complete P01-03
+M	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/configure_fingerprint.bin
+A	Assets/_Project/Scripts/Gameplay/Bullet.cs
+A	Assets/_Project/Scripts/Gameplay/Bullet.cs.meta
+A	Assets/_Project/Scripts/Gameplay/BulletPool.cs
+A	Assets/_Project/Scripts/Gameplay/BulletPool.cs.meta
+A	Assets/_Project/Scripts/Gameplay/IDamageable.cs
+M	Assets/_Project/Scripts/Gameplay/PlayerController.cs
+A	Assets/_Project/Tests/DemHoiDenLong.Tests/BulletPoolTests.cs
+A	Assets/_Project/Tests/DemHoiDenLong.Tests/BulletPoolTests.cs.meta
+86421ac Complete P1-02
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/.cmake/api/v1/query/client-agp/cache-v2
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/.cmake/api/v1/query/client-agp/cmakeFiles-v1
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/.cmake/api/v1/query/client-agp/codemodel-v2
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/.cmake/api/v1/reply/cache-v2-37508a97d7cfc97afc66.json
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/.cmake/api/v1/reply/cmakeFiles-v1-099e30257ac0f2238794.json
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/.cmake/api/v1/reply/codemodel-v2-149147323679d85dd108.json
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/.cmake/api/v1/reply/directory-.-RelWithDebInfo-d0094a50bb2071803777.json
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/.cmake/api/v1/reply/directory-FramePacing-RelWithDebInfo-7f9c8865fd027a154c90.json
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/.cmake/api/v1/reply/directory-GameActivity-RelWithDebInfo-3edf2ef9e25ca0503118.json
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/.cmake/api/v1/reply/index-2026-08-13T09-27-27-0101.json
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/.cmake/api/v1/reply/target-game-RelWithDebInfo-80bb3e77c7759636d1a1.json
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/.cmake/api/v1/reply/target-swappywrapper-RelWithDebInfo-f1054b1de98a3c950182.json
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/.ninja_deps
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/.ninja_log
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/CMakeCache.txt
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCCompiler.cmake
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCXXCompiler.cmake
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_C.bin
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_CXX.bin
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeSystem.cmake
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.c
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.o
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.cpp
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.o
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/CMakeFiles/CMakeOutput.log
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/CMakeFiles/TargetDirectories.txt
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/CMakeFiles/cmake.check_cache
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/CMakeFiles/rules.ninja
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/FramePacing/cmake_install.cmake
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/GameActivity/cmake_install.cmake
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/additional_project_files.txt
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/android_gradle_build.json
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/android_gradle_build_mini.json
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/build.ninja
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/build_file_index.txt
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/cmake_install.cmake
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/compile_commands.json
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/compile_commands.json.bin
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/configure_fingerprint.bin
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/metadata_generation_command.txt
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/prefab_config.json
+A	.utmp/RelWithDebInfo/1t405x53/arm64-v8a/symbol_folder_index.txt
+A	.utmp/RelWithDebInfo/1t405x53/hash_key.txt
+A	.utmp/RelWithDebInfo/1t405x53/prefab/arm64-v8a/prefab/lib/aarch64-linux-android/cmake/game-activity/game-activityConfig.cmake
+A	.utmp/RelWithDebInfo/1t405x53/prefab/arm64-v8a/prefab/lib/aarch64-linux-android/cmake/games-frame-pacing/games-frame-pacingConfig.cmake
+A	.utmp/tools/release/arm64-v8a/compile_commands.json
+A	Assets/Resources.meta
+A	Assets/Settings/Build Profiles.meta
+A	"Assets/Settings/Build Profiles/Android\342\204\242.asset"
+A	"Assets/Settings/Build Profiles/Android\342\204\242.asset.meta"
+M	Assets/Settings/DefaultVolumeProfile.asset
+M	Assets/Settings/UniversalRP.asset
+M	Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+A	Assets/_Project/Scripts/Data.meta
+A	Assets/_Project/Scripts/Data/LanData.cs
+A	Assets/_Project/Scripts/Data/LanData.cs.meta
+A	Assets/_Project/Scripts/DemHoiDenLong.asmdef
+A	Assets/_Project/Scripts/DemHoiDenLong.asmdef.meta
+A	Assets/_Project/Scripts/Gameplay/PlayerController.cs
+A	Assets/_Project/Scripts/Gameplay/PlayerController.cs.meta
+A	Assets/_Project/Tests/DemHoiDenLong.Tests.meta
+A	Assets/_Project/Tests/DemHoiDenLong.Tests/PlayerControllerTests.cs
+A	Assets/_Project/Tests/DemHoiDenLong.Tests/PlayerControllerTests.cs.meta
+A	Assets/_Project/Tests/DemHoiDenLong.Tests/Tests.asmdef
+A	Assets/_Project/Tests/DemHoiDenLong.Tests/Tests.asmdef.meta
+M	ProjectSettings/ProjectSettings.asset
+M	ProjectSettings/ShaderGraphSettings.asset
+M	ProjectSettings/UnityConnectSettings.asset
+4d27eaa Initial project setup: Universal 2D + folder structure
+A	.gitattributes
+A	.gitignore
+A	Assets/Scenes.meta
+A	Assets/Scenes/SampleScene.unity
+A	Assets/Scenes/SampleScene.unity.meta
+A	Assets/Settings.meta
+A	Assets/Settings/DefaultVolumeProfile.asset
+A	Assets/Settings/DefaultVolumeProfile.asset.meta
+A	Assets/Settings/InputSystem_Actions.inputactions
+A	Assets/Settings/InputSystem_Actions.inputactions.meta
+A	Assets/Settings/Lit2DSceneTemplate.scenetemplate
+A	Assets/Settings/Lit2DSceneTemplate.scenetemplate.meta
+A	Assets/Settings/Renderer2D.asset
+A	Assets/Settings/Renderer2D.asset.meta
+A	Assets/Settings/Scenes.meta
+A	Assets/Settings/Scenes/URP2DSceneTemplate.unity
+A	Assets/Settings/Scenes/URP2DSceneTemplate.unity.meta
+A	Assets/Settings/UniversalRP.asset
+A	Assets/Settings/UniversalRP.asset.meta
+A	Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+A	Assets/Settings/UniversalRenderPipelineGlobalSettings.asset.meta
+A	Assets/_Project.meta
+A	Assets/_Project/Art.meta
+A	Assets/_Project/Audio.meta
+A	Assets/_Project/Data.meta
+A	Assets/_Project/Prefabs.meta
+A	Assets/_Project/Scenes.meta
+A	Assets/_Project/Scripts.meta
+A	Assets/_Project/Scripts/Gameplay.meta
+A	Assets/_Project/Scripts/Meta.meta
+A	Assets/_Project/Scripts/Monetization.meta
+A	Assets/_Project/Scripts/Systems.meta
+A	Assets/_Project/Scripts/UI.meta
+A	Assets/_Project/Tests.meta
+A	Packages/manifest.json
+A	Packages/packages-lock.json
+A	ProjectSettings/AudioManager.asset
+A	ProjectSettings/ClusterInputManager.asset
+A	ProjectSettings/DynamicsManager.asset
+A	ProjectSettings/EditorBuildSettings.asset
+A	ProjectSettings/EditorSettings.asset
+A	ProjectSettings/GraphicsSettings.asset
+A	ProjectSettings/InputManager.asset
+A	ProjectSettings/MemorySettings.asset
+A	ProjectSettings/MultiplayerManager.asset
+A	ProjectSettings/NavMeshAreas.asset
+A	ProjectSettings/NetworkManager.asset
+A	ProjectSettings/PackageManagerSettings.asset
+A	ProjectSettings/Physics2DSettings.asset
+A	ProjectSettings/PhysicsCoreProjectSettings2D.asset
+A	ProjectSettings/PresetManager.asset
+A	ProjectSettings/ProjectAuditorSettings.asset
+A	ProjectSettings/ProjectSettings.asset
+A	ProjectSettings/ProjectVersion.txt
+A	ProjectSettings/QualitySettings.asset
+A	ProjectSettings/ShaderGraphSettings.asset
+A	ProjectSettings/TagManager.asset
+A	ProjectSettings/TimeManager.asset
+A	ProjectSettings/URPProjectSettings.asset
+A	ProjectSettings/UnityConnectSettings.asset
+A	ProjectSettings/VFXManager.asset
+A	ProjectSettings/VersionControlSettings.asset
+A	ProjectSettings/XRSettings.asset
