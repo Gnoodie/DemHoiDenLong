@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d70dcaa96c883140b10e0809ac77106, type: 3}
+  m_Name: 4
+  m_EditorClassIdentifier: DemHoiDenLong::DemHoiDenLong.Data.LanConfig
+  LanId: 4
+  LanName: "L\xE2n V\xE0ng (Premium)"
+  LanIcon: {fileID: -6457455979207012126, guid: 523c1de76f9b35d4a9cc4e7dac1e08b7, type: 3}
+  UnlockCostStar: 0
+  UnlockCostDiamond: 300
+  BaseHp: 150
+  BaseSpeed: 250
+  BaseDamage: 15
+  BaseFireRate: 5
+  SkillName: "M\u01B0a ph\xE1o hoa to\xE0n m\xE0n"
+  SkillDescription: "B\u1EAFn ra m\u01B0a ph\xE1o hoa \u0111a h\u01B0\u1EDBng bao
+    ph\u1EE7 to\xE0n m\xE0n h\xECnh, m\u1ED7i \u0111\u1EA7u \u0111\u1EA1n ph\xE1o
+    hoa g\xE2y s\xE1t th\u01B0\u01A1ng l\u1EDBn khi ch\u1EA1m \u0111\u1ECBch."
+  SkillDamage: 100
+  SkillCooldown: 25
+  lanNickname: "L\xE2n \xC1nh Tr\u0103ng"
+  storyChapter: "H\u1ED2I 01 - NG\u01AF\u1EDCI GI\u1EEE \u0110\xC8N"
+  storyTitle: "L\u1EDDi h\u1EE9a d\u01B0\u1EDBi tr\u0103ng"
+  storyDescription: "L\xE2n V\xE0ng kh\xF4ng sinh ra \u1EDF nh\xE2n gian nh\u01B0
+    ba ng\u01B0\u1EDDi anh em \u2014 \u0111\xE2y l\xE0 ho\xE1 th\xE2n cu\u1ED1i c\xF9ng
+    v\xE0 m\u1EA1nh nh\u1EA5t c\u1EE7a Nguy\xEAn L\xE2n, \u0111\u01B0\u1EE3c t\xF4i
+    luy\u1EC7n ngay t\u1EA1i Cung Tr\u0103ng d\u01B0\u1EDBi \xE1nh s\xE1ng c\u1EE7a
+    H\u1EB1ng Nga v\xE0 s\u1EF1 b\u1EA7u b\u1EA1n c\u1EE7a Th\u1ECF Ng\u1ECDc. Trong
+    khi Kim, H\u1ECFa, Th\u1EE7y L\xE2n ph\u1EA3i chi\u1EBFn \u0111\u1EA5u \u0111\u1EC3
+    b\u1EA3o v\u1EC7 t\u1EEBng v\xF9ng \u0111\u1EA5t nh\xE2n gian, L\xE2n V\xE0ng
+    mang s\u1EE9 m\u1EC7nh l\u1EDBn h\u01A1n: tr\u1EA5n gi\u1EEF c\xE1nh c\u1ED5ng
+    cu\u1ED1i c\xF9ng n\u1ED1i Cung Tr\u0103ng v\u1EDBi h\u1EA1 gi\u1EDBi, ng\u0103n
+    kh\xF4ng cho b\xF3ng t\u1ED1i v\u01B0\u1EE3t qua con \u0111\u01B0\u1EDDng \xE1nh
+    tr\u0103ng v\xE0o \u0111\xEAm h\u1ED9i.\n\nS\u1EF1 uy nghi c\u1EE7a L\xE2n V\xE0ng
+    th\u1EC3 hi\u1EC7n qua k\u1EF9 n\u0103ng \"M\u01B0a ph\xE1o hoa to\xE0n m\xE0n\"
+    \u2014 kh\xF4ng ph\u1EA3i m\u1ED9t \u0111\xF2n t\u1EA5n c\xF4ng \u0111\u01A1n
+    thu\u1EA7n, m\xE0 l\xE0 l\u1EDDi ch\xFAc ph\xFAc c\u1EE7a c\u1EA3 Cung Tr\u0103ng
+    g\u1EEDi xu\u1ED1ng nh\xE2n gian, m\u1ED7i tia ph\xE1o hoa mang theo m\u1ED9t
+    \u0111i\u1EC1u \u01B0\u1EDBc c\u1EE7a ng\u01B0\u1EDDi tr\u1EA7n \u0111\xE3 \u0111\u01B0\u1EE3c
+    H\u1EB1ng Nga ch\u1EA5p thu\u1EADn. \u0110\xE2y c\u0169ng l\xE0 l\xFD do L\xE2n
+    V\xE0ng ch\u1EC9 xu\u1EA5t hi\u1EC7n v\u1EDBi ng\u01B0\u1EDDi ch\u01A1i th\xF4ng
+    qua nghi th\u1EE9c \u0111\u1EB7c bi\u1EC7t  \u2014 nh\u01B0 m\u1ED9t \xE2n hu\u1EC7
+    hi\u1EBFm hoi ch\u1EE9 kh\xF4ng ph\u1EA3i s\u1EE9c m\u1EA1nh c\xF3 th\u1EC3 \u0111\u1EA1t
+    \u0111\u01B0\u1EE3c b\u1EB1ng n\u1ED7 l\u1EF1c th\xF4ng th\u01B0\u1EDDng."
+  lanRole: "\u0110\u1EA1i di\u1EC7n Cung Tr\u0103ng \u2014 Act 3 (Final). \u0110\u1ED1i
+    \u0111\u1EA7u Th\u1ECF Ng\u1ECDc h\xF3a qu\xE1i, ng\u01B0\u1EDDi b\u1EA1n th\xE2n
+    c\u1EE7a ch\xEDnh L\xE2n V\xE0ng."
+  storyToken: "T\xEDn v\u1EADt: Chu\xF4ng Nguy\u1EC7t Quang"

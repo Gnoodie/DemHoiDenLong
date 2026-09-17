@@ -1,0 +1,470 @@
+TÀI LIỆU THIẾT KẾ GAME
+(GAME DESIGN DOCUMENT)
+ĐÊM HỘI ĐÈN LỒNG
+Lân Cưỡi Trăng — Vertical Shoot 'em up mùa Trung Thu
+Thể loại: Vertical Shoot 'em up (Casual)
+Nền tảng: iOS / Android
+Mô hình kinh doanh: Free-to-play + IAP (mở khóa Lân/Skin)
+Quy mô đội ngũ: Solo Developer
+Phiên bản tài liệu: 1.0
+Cập nhật: Tháng 8, 2026
+MỤC LỤC
+MỤC LỤC
+2
+1. TỔNG QUAN DỰ ÁN
+4
+1.1 Thông tin chung
+4
+1.2 Tầm nhìn sản phẩm (Vision Statement)
+4
+1.3 Đối tượng người chơi mục tiêu
+4
+1.4 Điểm khác biệt (Unique Selling Points)
+4
+1.5 Nền tảng & công nghệ (tóm tắt)
+5
+2. CỐT TRUYỆN & THẾ GIỚI QUAN
+5
+2.1 Bối cảnh
+5
+2.2 Cốt truyện chính
+5
+Cấu trúc 3 vùng (Acts)
+5
+2.3 Nhân vật chính & phụ
+5
+3. GAMEPLAY CỐT LÕI
+6
+3.1 Điều khiển
+6
+3.2 Vòng lặp gameplay (Core Loop)
+6
+3.3 Điều kiện thắng / thua
+6
+3.4 Hệ thống mạng & tiếp tục chơi
+6
+4. HỆ THỐNG NHÂN VẬT — LÂN
+6
+4.1 Danh sách Lân
+7
+4.2 Hệ thống kỹ năng đặc biệt
+7
+4.3 Hệ thống nâng cấp Lân
+7
+5. HỆ THỐNG ĐỊCH & BOSS
+7
+5.1 Phân loại địch (Đèn lồng)
+7
+5.2 Boss theo vùng
+7
+5.3 Độ khó tăng dần (Wave Scaling)
+8
+6. VẬT PHẨM & SỰ KIỆN ĐẶC BIỆT
+8
+6.1 Power-up trong màn (tạm thời)
+8
+6.2 Hệ thống sự kiện ngẫu nhiên
+8
+7. CẤU TRÚC MÀN CHƠI & TIẾN TRÌNH
+8
+7.1 Cấu trúc 1 màn chơi tiêu chuẩn
+8
+7.2 Lộ trình tổng thể
+9
+7.3 Hệ thống unlock & chơi lại (replay)
+9
+8. KINH TẾ TRONG GAME & MONETIZATION
+9
+8.1 Hệ thống tiền tệ
+9
+8.2 Chiến lược IAP
+9
+8.3 Quảng cáo (Ads)
+9
+8.4 Vòng đời chi tiêu người chơi (Player Spending Loop)
+10
+9. LUỒNG GIAO DIỆN (UI/UX FLOW)
+10
+9.1 Sơ đồ màn hình chính
+10
+9.2 Mô tả từng màn hình
+10
+10. ĐỊNH HƯỚNG NGHỆ THUẬT & ÂM THANH
+10
+10.1 Phong cách hình ảnh (Art Style)
+10
+10.2 Bảng màu định hướng theo vùng
+10
+10.3 Âm thanh & âm nhạc
+11
+11. CÔNG NGHỆ & KIẾN TRÚC KỸ THUẬT
+11
+11.1 Engine & công cụ chính
+11
+11.2 Kiến trúc hệ thống (tổng quan)
+11
+11.3 Cân nhắc hiệu năng cho solo dev
+11
+12. LỘ TRÌNH PHÁT TRIỂN (ROADMAP)
+12
+13. THAM CHIẾU CÂN BẰNG SỐ LIỆU
+12
+14. CHỈ SỐ THÀNH CÔNG & KPI
+12
+15. RỦI RO & GIẢI PHÁP
+13
+16. PHỤ LỤC
+13
+16.1 Tài liệu liên quan
+13
+16.2 Thuật ngữ
+13
+16.3 Ghi chú phiên bản
+14
+1. TỔNG QUAN DỰ ÁN
+1.1 Thông tin chung
+Mục
+Nội dung
+Tên game (tạm)
+Đêm Hội Đèn Lồng (Lantern Night)
+Thể loại
+Vertical Shoot 'em up, casual, cuộn màn dọc
+Nền tảng
+iOS, Android
+Đối tượng
+Casual gamer 10-40 tuổi, yêu thích văn hóa Việt/Trung Thu
+Mô hình kinh doanh
+Free-to-play, IAP mở khóa Lân/Skin, quảng cáo tùy chọn (rewarded)
+Quy mô đội ngũ
+Solo developer
+Thời lượng phát triển dự kiến
+~4-5 tháng (part-time) / 2-3 tháng (full-time)
+Công cụ phát triển
+Unity (2D)
+1.2 Tầm nhìn sản phẩm (Vision Statement)
+Đêm Hội Đèn Lồng là một game bắn súng cuộn dọc (vertical shoot 'em up) mang đậm bản sắc Trung Thu Việt Nam, nơi người chơi hóa thân thành một chú lân bay lượn giữa đêm hội, dùng pháo hoa để hóa giải những chiếc đèn lồng bị ma quái hóa, cứu lấy ánh sáng cho lễ hội. Game hướng tới cảm giác chơi nhanh, dễ tiếp cận trong các phiên chơi ngắn (1-3 phút/màn), đồng thời có chiều sâu qua hệ thống nâng cấp Lân và sưu tầm skin, giữ chân người chơi quay lại từ mùa Trung Thu này qua mùa khác.
+1.3 Đối tượng người chơi mục tiêu
+Nhóm chính: 
+Người chơi casual mobile, đã quen thuộc với thể loại shoot 'em up nhẹ nhàng (Galaga, 1942...), tìm kiếm trải nghiệm chơi nhanh, thư giãn.
+Nhóm phụ: 
+Người dùng yêu thích văn hóa và các dịp lễ truyền thống Việt Nam, có xu hướng tìm game theo mùa (seasonal) vào dịp Trung Thu.
+Độ tuổi: 
+10-40, không giới hạn giới tính, phù hợp chơi mọi lứa tuổi (không bạo lực máu me, phong cách dễ thương).
+1.4 Điểm khác biệt (Unique Selling Points)
+Chủ đề Trung Thu độc đáo — khác biệt hoàn toàn so với hàng loạt game bắn phi thuyền không gian đại trà trên thị trường.
+Nhân vật lân + biểu tượng văn hóa (Chú Cuội, Thỏ Ngọc, Chị Hằng) dễ tạo sự đồng cảm và chia sẻ.
+Có tính thời vụ (seasonal) rõ ràng — cơ hội tận dụng traffic tìm kiếm tự nhiên mỗi dịp Trung Thu hàng năm, tạo chu kỳ live-ops lặp lại.
+Monetize công bằng: skin/tàu không phá vỡ cân bằng (không pay-to-win), phù hợp giữ thiện cảm cộng đồng casual.
+1.5 Nền tảng & công nghệ (tóm tắt)
+Xem chi tiết đầy đủ tại Chương 11 — Công nghệ & Kiến trúc kỹ thuật. Tóm tắt nhanh: Unity 2D (URP), C#, tích hợp Unity IAP / RevenueCat, Firebase Analytics, AdMob (rewarded ads).
+2. CỐT TRUYỆN & THẾ GIỚI QUAN
+2.1 Bối cảnh
+Vào đêm rằm tháng Tám, khi cả làng chuẩn bị đón lễ hội Trung Thu, một thế lực bóng tối bí ẩn đã 'ma quái hóa' những chiếc đèn lồng vốn dĩ mang ánh sáng ấm áp, biến chúng thành những sinh vật gây hại, rơi xuống khắp làng quê, phố cổ, và lan tới tận cung trăng. Ánh trăng dần mờ đi, lễ hội có nguy cơ tắt lịm.
+2.2 Cốt truyện chính
+Nhân vật chính — một cậu bé/cô bé được chọn bởi linh vật Lân thiêng — cưỡi trên lưng lân, mang theo pháo hoa phép thuật, bắt đầu hành trình xuyên qua ba vùng đất để hóa giải đèn lồng, khôi phục ánh sáng cho đêm hội. Trên đường đi, nhân vật gặp gỡ Chú Cuội, Thỏ Ngọc, và cuối cùng đối đầu với nguồn cơn của bóng tối tại Cung Trăng.
+Cấu trúc 3 vùng (Acts)
+Vùng
+Bối cảnh
+Không khí
+Boss cuối vùng
+Vùng 1: Làng Quê
+Cánh đồng, mái đình, ao làng dưới trăng rằm
+Ấm áp, mở đầu nhẹ nhàng
+Đèn Lồng Khổng Lồ
+Vùng 2: Phố Cổ
+Phố đèn lồng, chợ đêm, mái ngói cổ kính
+Nhộn nhịp nhưng dần u ám hơn
+Rồng Đèn Phố Cổ
+Vùng 3: Cung Trăng
+Cung điện trên mây, ánh bạc, hoa quế
+Huyền ảo, cao trào
+Thỏ Ngọc hóa quái
+2.3 Nhân vật chính & phụ
+Nhân vật người chơi: 
+Một em bé làng chài/làng quê được Lân thiêng chọn làm bạn đồng hành — thiết kế trung tính để nhiều người chơi dễ đồng cảm.
+Lân thiêng: 
+Phương tiện chính, có nhiều biến thể (xem Chương 4).
+Chú Cuội: 
+NPC xuất hiện ngẫu nhiên, bay ngang màn hình, thả lọ thuốc hồi mạng — biểu tượng may mắn.
+Thỏ Ngọc: 
+NPC hỗ trợ, xuất hiện thả buff tạm thời.
+Chị Hằng: 
+NPC hiếm, ban phép làm chậm thời gian — biểu tượng bảo hộ cao quý nhất.
+Thế lực bóng tối (phản diện ẩn): 
+Không lộ diện trực tiếp cho đến cuối game, gợi mở qua lore từng vùng — có thể dùng làm nội dung mở rộng (DLC theo mùa) sau này.
+3. GAMEPLAY CỐT LÕI
+3.1 Điều khiển
+Kéo/thả ngón tay (touch-drag) để di chuyển Lân tự do trong khung màn hình — chuẩn thao tác 1 tay cho mobile.
+Bắn tự động (auto-fire liên tục) — người chơi tập trung hoàn toàn vào né tránh và định vị.
+Chạm nút kỹ năng (skill button) ở góc màn hình để kích hoạt kỹ năng đặc biệt của Lân khi hết cooldown.
+3.2 Vòng lặp gameplay (Core Loop)
+Vòng lặp trong 1 phiên chơi:
+Vào màn → né/bắn hạ đèn lồng liên tục → gặp sự kiện đặc biệt ngẫu nhiên → đối đầu boss cuối màn (nếu là màn boss) → nhận thưởng đèn ông sao.
+Vòng lặp giữa các phiên chơi (Meta loop):
+Về Hangar → dùng đèn ông sao/kim cương nâng cấp Lân hoặc mở khóa Lân mới/skin → quay lại chơi màn tiếp theo hoặc chơi lại màn cũ để cày thêm tiền tệ.
+3.3 Điều kiện thắng / thua
+Thắng màn: 
+Sống sót đến hết màn (hoặc hạ gục boss ở màn boss).
+Thua: 
+Hết toàn bộ mạng (mất tất cả HP + không còn mạng dự phòng) → quay về Hangar, vẫn giữ đèn ông sao đã kiếm được trong màn.
+3.4 Hệ thống mạng & tiếp tục chơi
+Người chơi bắt đầu mỗi màn với 3 mạng (tim).
+Va chạm với địch hoặc trúng đạn địch → mất 1 mạng, có 1.5s bất tử tạm thời (i-frame) sau khi mất mạng.
+Lọ thuốc Cuội (từ sự kiện Chú Cuội) cho thêm 1 mạng, cộng dồn tối đa 5 mạng/màn.
+Khi hết mạng: có thể xem quảng cáo (rewarded ad) để hồi sinh tại chỗ 1 lần/màn, hoặc dùng kim cương để hồi sinh (giới hạn số lần/ngày để tránh lạm dụng).
+Ghi chú: 
+Cơ chế 'xem quảng cáo hồi sinh' là nguồn thu phụ quan trọng cho người chơi không mua IAP, đồng thời tăng thời gian chơi trung bình mỗi phiên.
+4. HỆ THỐNG NHÂN VẬT — LÂN
+4.1 Danh sách Lân
+Chi tiết chỉ số đầy đủ (HP, damage, tốc độ bắn, DPS) được quản lý trong file bảng cân bằng riêng (Trung_Thu_Shooter_Balance.xlsx, sheet 'Lân - Nhân vật'). Tóm tắt định hướng thiết kế từng Lân:
+Lân
+Định hướng chơi
+Cách mở khóa
+Kim Lân
+Cân bằng, dễ dùng — Lân mặc định cho người mới
+Miễn phí từ đầu
+Hỏa Lân
+Sát thương cao/viên, bắn chậm — thiên về 'burst damage'
+Mở khóa bằng đèn ông sao
+Thủy Lân
+Đạn xuyên nhiều địch — mạnh khi địch đông
+Mở khóa bằng đèn ông sao
+Lân Vàng (Premium)
+Chỉ số cao nhất, hiệu ứng hình ảnh đặc biệt
+IAP hoặc sự kiện giới hạn
+4.2 Hệ thống kỹ năng đặc biệt
+Mỗi Lân có 1 kỹ năng chủ động riêng, kích hoạt bằng nút chạm, có thời gian hồi (cooldown). Kỹ năng được thiết kế để tạo bản sắc riêng cho từng Lân thay vì chỉ khác biệt về số liệu — xem Chương 5.2 sheet 'Lân' trong file Excel để biết chi tiết damage/cooldown.
+4.3 Hệ thống nâng cấp Lân
+Mỗi Lân có 3 nhánh nâng cấp độc lập, mỗi nhánh 10 cấp: Damage, HP, Tốc độ bắn. Chi phí tăng theo cấp số nhân (~15%/cấp) để tạo đường cong tiến triển tự nhiên — chi tiết công thức nằm ở sheet 'Nâng cấp & Kinh tế' trong file Excel.
+Ghi chú: 
+Toàn bộ số liệu chi tiết (HP, damage, DPS, chi phí nâng cấp từng cấp) nằm trong file Excel đính kèm dự án — tài liệu này chỉ mô tả định hướng thiết kế, không lặp lại số liệu để tránh 2 nguồn dữ liệu lệch nhau khi chỉnh sửa.
+5. HỆ THỐNG ĐỊCH & BOSS
+5.1 Phân loại địch (Đèn lồng)
+Loại
+Hành vi đặc trưng
+Vai trò thiết kế
+Đèn lồng giấy (thường)
+Bay thẳng xuống, tốc độ trung bình
+Địch nền, dạy người chơi nhịp bắn cơ bản
+Đèn lồng gai
+Nổ thành nhiều mảnh nhỏ khi bị hạ
+Dạy người chơi cẩn trọng vị trí đứng
+Đèn cá chép
+Bay ngoằn ngoèo (sin wave)
+Tăng độ khó né tránh, thử thách phản xạ
+Đèn ma (đèn quỷ)
+Bắn ngược đạn về người chơi
+Chuyển từ 'né' sang 'né + tính toán'
+5.2 Boss theo vùng
+Đèn Lồng Khổng Lồ (Vùng 1, màn 5): giới thiệu cơ chế boss nhiều pha, tốc độ chậm, dễ học pattern.
+Rồng Đèn Phố Cổ (Vùng 2, màn 10): di chuyển phức tạp hơn, phun chuỗi đạn liên tục, đòi hỏi né chủ động.
+Thỏ Ngọc hóa quái (Vùng 3, màn cuối): boss cuối game, tổng hợp toàn bộ kỹ năng người chơi đã học, có pha triệu hồi địch phụ.
+5.3 Độ khó tăng dần (Wave Scaling)
+Độ khó tăng dần qua từng màn bằng hệ số nhân lên trên chỉ số gốc của địch (HP, tốc độ, damage), không tạo loại địch mới liên tục — giúp tiết kiệm khối lượng công việc cho solo dev trong khi vẫn giữ cảm giác thử thách tăng dần. Công thức và bảng đầy đủ 20 màn nằm ở sheet 'Độ khó theo màn' trong file Excel.
+6. VẬT PHẨM & SỰ KIỆN ĐẶC BIỆT
+6.1 Power-up trong màn (tạm thời)
+Pháo hoa đôi / ba: tăng số tia bắn song song trong thời gian ngắn.
+Bánh Trung Thu khiên: chắn một số lần va chạm nhất định.
+Nam châm đèn ông sao: tự động hút tiền tệ gần đó.
+Trống lân: gây choáng toàn màn hình trong thời gian ngắn.
+6.2 Hệ thống sự kiện ngẫu nhiên
+Mỗi màn có xác suất độc lập kích hoạt các sự kiện đặc biệt, tạo trải nghiệm khác nhau mỗi lượt chơi:
+Sự kiện
+Hiệu ứng chính
+Vai trò
+Chú Cuội bay qua
+Rơi lọ thuốc hồi mạng
+An toàn / cứu trợ
+Thỏ Ngọc giã thuốc
+Rơi buff ngẫu nhiên
+Thưởng thêm
+Chị Hằng ban phép
+Làm chậm thời gian (bullet-time)
+Cứu trợ hiếm, mạnh
+Mưa hoa đăng
+Ngừng spawn địch, mưa tiền thưởng
+Nhịp nghỉ / thu nhập
+Gió heo may
+Đạn người chơi lệch hướng nhẹ
+Tăng thử thách có kiểm soát
+Ghi chú: 
+Tỷ lệ xuất hiện chi tiết (%) từng sự kiện nằm ở sheet 'Sự kiện đặc biệt' trong file Excel cân bằng số liệu.
+7. CẤU TRÚC MÀN CHƠI & TIẾN TRÌNH
+7.1 Cấu trúc 1 màn chơi tiêu chuẩn
+Thời lượng: 60-120 giây/màn thường, 120-180 giây/màn boss.
+Nhịp độ: mở đầu nhẹ (làm quen) → cao trào giữa màn (mật độ địch tăng) → cao trào cuối (dồn dập trước khi hết màn hoặc gặp boss).
+Ít nhất 1 cơ hội xuất hiện sự kiện đặc biệt mỗi màn để tạo biến số.
+7.2 Lộ trình tổng thể
+Game gồm 3 vùng, mỗi vùng khoảng 5-7 màn thường + 1 màn boss, tổng cộng ~15-20 màn cho bản phát hành đầu tiên (đủ cho ~1-1.5 giờ chơi lần đầu, chưa tính cày lại để nâng cấp).
+7.3 Hệ thống unlock & chơi lại (replay)
+Màn chơi mở khóa tuần tự theo cốt truyện.
+Sau khi hoàn thành, người chơi có thể chơi lại bất kỳ màn nào đã mở khóa để cày đèn ông sao — đáp ứng nhu cầu 'farming' vốn phổ biến ở casual IAP game.
+Chế độ 'Thử thách không giới hạn' (Endless mode) mở khóa sau khi hoàn thành cốt truyện — độ khó tăng vô hạn, dùng bảng xếp hạng để tăng khả năng giữ chân dài hạn.
+8. KINH TẾ TRONG GAME & MONETIZATION
+8.1 Hệ thống tiền tệ
+Loại tiền tệ
+Tên trong game
+Cách kiếm
+Dùng để
+Soft currency
+Đèn ông sao
+Hạ gục địch, hoàn thành màn, sự kiện Mưa hoa đăng
+Nâng cấp Lân, mở khóa Lân thường
+Hard currency
+Kim cương / Ngọc bích
+Mua bằng tiền thật, thưởng thành tựu hiếm, sự kiện giới hạn
+Mở khóa Lân Vàng/skin premium, hồi sinh nhanh
+8.2 Chiến lược IAP
+Nguyên tắc cốt lõi: KHÔNG pay-to-win — skin chỉ thay đổi hình ảnh, Lân premium chỉ nhỉnh hơn ~20-25% so với Lân miễn phí tốt nhất (không áp đảo).
+Gói giá đa dạng: gói nhỏ (0.99$, 1 skin lẻ), gói trung (4.99$, bundle Lân + skin), gói lớn (9.99-19.99$, Lân huyền thoại + hiệu ứng đặc biệt).
+Cho phép 'dùng thử trước khi mua': thử Lân premium miễn phí trong 1 màn giới hạn để tăng tỷ lệ chuyển đổi.
+Gói khởi đầu ưu đãi (starter pack) giá rẻ xuất hiện sớm cho người chơi mới — mô hình phổ biến giúp tăng tỷ lệ người chơi trả tiền lần đầu.
+8.3 Quảng cáo (Ads)
+Rewarded ads (xem quảng cáo tự nguyện): đổi lấy đèn ông sao thưởng, hồi sinh tại chỗ, hoặc quay thưởng hàng ngày.
+Không dùng quảng cáo ép buộc (interstitial ads) giữa các màn để tránh gây khó chịu — ưu tiên trải nghiệm người chơi trong giai đoạn đầu, có thể cân nhắc bổ sung sau nếu dữ liệu retention cho phép.
+8.4 Vòng đời chi tiêu người chơi (Player Spending Loop)
+Người chơi free chơi lại màn cũ để cày đèn ông sao → nâng cấp dần Lân miễn phí → khi thấy tốc độ cày chậm hoặc muốn thẩm mỹ riêng, cân nhắc mua skin/Lân premium bằng tiền thật để rút ngắn thời gian hoặc thể hiện cá tính. Đây là mô hình 'time vs money' kinh điển của casual F2P, phù hợp với người chơi Trung Thu tìm trải nghiệm nhẹ nhàng, không ép buộc.
+9. LUỒNG GIAO DIỆN (UI/UX FLOW)
+9.1 Sơ đồ màn hình chính
+Màn hình chính (Main Menu) → Hangar (chọn/nâng cấp Lân) ↔ Cửa hàng (Shop) → Bản đồ vùng (World Map) → Màn chơi (Gameplay) → Màn kết quả (Result) → quay lại Bản đồ vùng hoặc Hangar.
+9.2 Mô tả từng màn hình
+Main Menu: 
+Logo game, nút Chơi, nút Cửa hàng, nút Cài đặt, hiển thị số dư đèn ông sao/kim cương hiện có.
+Hangar: 
+Xem/chọn Lân hiện có, thanh nâng cấp Damage/HP/Tốc độ bắn theo cấp, xem trước hiệu ứng skin.
+Cửa hàng (Shop): 
+Danh sách gói IAP, shop xoay vòng theo ngày (daily shop), gói ưu đãi giới hạn thời gian.
+Bản đồ vùng (World Map): 
+Hiển thị 3 vùng theo cốt truyện, các màn đã mở khóa/đã hoàn thành, điểm số cao nhất từng màn.
+Gameplay HUD: 
+Thanh mạng (tim) góc trên trái, thanh tiến độ màn góc trên giữa, nút kỹ năng góc dưới phải, bộ đếm đèn ông sao thu được góc trên phải.
+Result Screen: 
+Tổng đèn ông sao kiếm được, số địch hạ gục, nút Chơi lại / Tiếp tục / Về bản đồ, gợi ý mua IAP nếu người chơi thua gần cuối màn boss (soft prompt, không ép buộc).
+10. ĐỊNH HƯỚNG NGHỆ THUẬT & ÂM THANH
+10.1 Phong cách hình ảnh (Art Style)
+Phong cách 2D vector/flat dễ thương (cute, chibi), màu sắc rực rỡ đặc trưng Trung Thu: đỏ - vàng - cam ánh đèn lồng, kết hợp xanh lam - bạc của ánh trăng. Thiết kế nhân vật tròn trịa, thân thiện, phù hợp mọi lứa tuổi, dễ nhận diện trên màn hình nhỏ khi đang di chuyển nhanh.
+10.2 Bảng màu định hướng theo vùng
+Vùng
+Tông màu chủ đạo
+Cảm xúc mong muốn
+Làng Quê
+Vàng ấm, xanh lá cây nhạt, cam đất
+Ấm áp, thân thuộc, dễ chịu
+Phố Cổ
+Đỏ đèn lồng, nâu gỗ cổ, cam rực
+Nhộn nhịp, sống động, dồn dập hơn
+Cung Trăng
+Bạc, tím nhạt, xanh dương ánh trăng
+Huyền ảo, cao trào, thiêng liêng
+10.3 Âm thanh & âm nhạc
+Nhạc nền: phối khí nhạc cụ dân tộc (đàn tranh, trống, sáo) kết hợp nhịp điệu hiện đại nhẹ nhàng, tạo không khí lễ hội mà không gây mệt tai khi nghe lặp lại nhiều lần.
+Hiệu ứng âm thanh (SFX): tiếng pháo hoa nổ giòn, tiếng trống lân đặc trưng khi kích hoạt kỹ năng, tiếng chuông gió nhẹ khi nhặt vật phẩm.
+Giọng đọc/hiệu ứng thoại: hạn chế lồng tiếng đầy đủ (chi phí cao cho solo dev), ưu tiên hiệu ứng âm thanh biểu cảm ngắn (voice grunt) cho nhân vật.
+11. CÔNG NGHỆ & KIẾN TRÚC KỸ THUẬT
+11.1 Engine & công cụ chính
+Hạng mục
+Lựa chọn
+Engine
+Unity (2D URP)
+Ngôn ngữ
+C#
+IAP
+Unity IAP hoặc RevenueCat
+Analytics
+Firebase Analytics
+Quảng cáo
+Google AdMob (rewarded ads)
+Lưu trữ dữ liệu người chơi
+Local save (PlayerPrefs/JSON) + Cloud save (Firebase) để đồng bộ đa thiết bị
+Quản lý version/asset
+Git + Git LFS cho asset lớn
+11.2 Kiến trúc hệ thống (tổng quan)
+Hệ thống Object Pooling cho đạn và địch — bắt buộc với thể loại shoot 'em up để tránh giật lag khi nhiều đối tượng xuất hiện cùng lúc.
+Hệ thống Data-driven cho chỉ số địch/Lân/nâng cấp (đọc từ ScriptableObject hoặc file cấu hình JSON) — giúp chỉnh cân bằng số liệu (theo file Excel) mà không cần sửa code.
+Hệ thống Event/State Machine riêng cho spawn sự kiện đặc biệt, tách biệt khỏi logic spawn địch thường để dễ mở rộng thêm sự kiện mới sau này.
+11.3 Cân nhắc hiệu năng cho solo dev
+Giới hạn số lượng đối tượng đạn/địch đồng thời trên màn hình (cap cứng) để đảm bảo chạy mượt trên thiết bị tầm trung/thấp — ưu tiên trải nghiệm ổn định hơn hiệu ứng hoành tráng.
+Test định kỳ trên thiết bị Android tầm thấp (RAM 3-4GB) vì phân khúc casual có tỷ lệ người dùng thiết bị phổ thông cao.
+12. LỘ TRÌNH PHÁT TRIỂN (ROADMAP)
+Giai đoạn
+Thời lượng
+Nội dung chính
+1. Prototype cơ chế lõi
+2-3 tuần
+Điều khiển, bắn, va chạm, 1 địch, 1 boss đơn giản — xác nhận game feel
+2. Xây hệ thống meta
+2-3 tuần
+Hangar, hệ thống Lân, tiền tệ, save/load, màn hình nâng cấp
+3. Content pipeline
+4-6 tuần
+Sản xuất 4 Lân, các loại địch, 3 boss, 15-20 màn chơi
+4. Tích hợp Monetization & SDK
+1-2 tuần
+IAP, rewarded ads, Firebase Analytics
+5. Polish & Balance
+2-3 tuần
+Cân bằng độ khó, âm thanh, hiệu ứng, tối ưu hiệu năng
+6. Soft launch
+2-4 tuần
+Ra mắt thị trường nhỏ, theo dõi retention/tỷ lệ mua IAP, tinh chỉnh
+7. Full launch & Live Ops
+Liên tục
+Ra mắt chính thức, cập nhật nội dung định kỳ theo mùa Trung Thu
+Ghi chú: 
+Nên nhắm mốc hoàn thành Giai đoạn 5 (Polish & Balance) trước Trung Thu ít nhất 4-6 tuần để có đủ thời gian soft launch và tối ưu trước cao điểm mùa lễ hội.
+13. THAM CHIẾU CÂN BẰNG SỐ LIỆU
+Toàn bộ số liệu chi tiết và có thể tính toán lại (HP, damage, DPS, chi phí nâng cấp, hệ số độ khó theo màn, tỷ lệ rơi vật phẩm, tỷ lệ sự kiện) được quản lý trong file Excel riêng: Trung_Thu_Shooter_Balance.xlsx — gồm các sheet:
+Địch - Đèn lồng
+Lân - Nhân vật
+Vật phẩm nâng cấp
+Sự kiện đặc biệt
+Nâng cấp & Kinh tế
+Độ khó theo màn
+Ghi chú: 
+Tài liệu thiết kế này (GDD) mô tả 'vì sao' và 'như thế nào' về mặt thiết kế; file Excel là nguồn số liệu 'chính xác bao nhiêu' duy nhất, cần cập nhật song song khi cân bằng thay đổi để tránh 2 tài liệu lệch nhau.
+14. CHỈ SỐ THÀNH CÔNG & KPI
+Chỉ số
+Mục tiêu tham khảo (giai đoạn đầu)
+Retention Day 1
+≥ 35%
+Retention Day 7
+≥ 12%
+Tỷ lệ người chơi trả tiền (Payer conversion)
+2-5%
+ARPDAU (doanh thu trung bình/người dùng hoạt động/ngày)
+Theo dõi & tối ưu dần qua soft launch
+Thời lượng phiên chơi trung bình
+5-10 phút/phiên
+Tỷ lệ hoàn thành màn đầu tiên
+≥ 80% (đảm bảo tutorial/độ khó mở đầu hợp lý)
+Ghi chú: 
+Đây là mục tiêu tham khảo dựa trên chuẩn ngành casual mobile game — cần điều chỉnh dựa trên dữ liệu thực tế thu thập được trong giai đoạn soft launch.
+15. RỦI RO & GIẢI PHÁP
+Rủi ro
+Giải pháp giảm thiểu
+Solo dev quá tải khối lượng art
+Tận dụng asset pack có sẵn (Unity Asset Store/Itch.io), tùy biến màu sắc/hiệu ứng thay vì vẽ mới hoàn toàn
+Trễ tiến độ, ra mắt sau mùa Trung Thu
+Ưu tiên MVP (1 vùng + đủ hệ thống meta) có thể ra mắt được, các vùng còn lại làm nội dung cập nhật sau
+Cân bằng IAP gây cảm giác pay-to-win
+Nguyên tắc thiết kế skin/Lân premium không chênh lệch quá 20-25% sức mạnh, kiểm tra kỹ ở bước playtest
+Thị trường vertical shooter bão hòa
+Tập trung khai thác USP văn hóa Trung Thu — khó bị sao chép nhanh, có lợi thế tìm kiếm theo mùa
+Người chơi rời bỏ sau mùa lễ hội kết thúc
+Thiết kế chế độ Endless/bảng xếp hạng để duy trì giá trị chơi quanh năm, không chỉ giới hạn theo mùa
+16. PHỤ LỤC
+16.1 Tài liệu liên quan
+Trung_Thu_Shooter_Balance.xlsx — bảng cân bằng số liệu chi tiết đầy đủ công thức
+16.2 Thuật ngữ
+GDD: 
+Game Design Document — tài liệu thiết kế game.
+DPS: 
+Damage Per Second — sát thương mỗi giây.
+IAP: 
+In-App Purchase — mua hàng trong ứng dụng.
+Soft launch: 
+Ra mắt thử nghiệm ở thị trường nhỏ trước khi ra mắt toàn cầu.
+Live Ops: 
+Vận hành nội dung trực tiếp sau khi ra mắt (sự kiện, cập nhật định kỳ).
+16.3 Ghi chú phiên bản
+Phiên bản 1.0 — tài liệu khởi tạo, tổng hợp từ giai đoạn lên ý tưởng ban đầu. Cần cập nhật liên tục khi có thay đổi thiết kế qua các giai đoạn phát triển và kết quả playtest.

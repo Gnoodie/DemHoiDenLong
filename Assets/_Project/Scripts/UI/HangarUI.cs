@@ -18,6 +18,12 @@ namespace DemHoiDenLong.UI
         [SerializeField] private Image lanIconLarge;
         [SerializeField] private TextMeshProUGUI skillDescText;
         
+        [Header("Skill/Story UI")]
+        [SerializeField] private TextMeshProUGUI storyChapterText;
+        [SerializeField] private TextMeshProUGUI storyTitleText;
+        [SerializeField] private TextMeshProUGUI storyDescriptionText;
+        [SerializeField] private TextMeshProUGUI storyTokenText;
+
         [Header("Stats")]
         [SerializeField] private TextMeshProUGUI hpText;
         [SerializeField] private TextMeshProUGUI damageText;
@@ -98,7 +104,12 @@ namespace DemHoiDenLong.UI
 
             lanNameText.text = currentSelectedLan.LanName;
             lanIconLarge.sprite = currentSelectedLan.LanIcon;
-            skillDescText.text = $"Skill: {currentSelectedLan.SkillName}\n{currentSelectedLan.SkillDescription}";
+            if (skillDescText != null) skillDescText.text = $"Kỹ năng: {currentSelectedLan.SkillName} — {currentSelectedLan.SkillDescription}";
+            
+            if (storyChapterText != null) storyChapterText.text = currentSelectedLan.storyChapter;
+            if (storyTitleText != null) storyTitleText.text = currentSelectedLan.storyTitle;
+            if (storyDescriptionText != null) storyDescriptionText.text = currentSelectedLan.storyDescription;
+            if (storyTokenText != null) storyTokenText.text = currentSelectedLan.storyToken;
 
             bool isUnlocked = LanManager.Instance.IsLanUnlocked(currentSelectedLan.LanId);
 
@@ -153,7 +164,15 @@ namespace DemHoiDenLong.UI
 
         private void UpdateUpgradeButton(UpgradeType type, Button btn, TextMeshProUGUI costText)
         {
-            if (UpgradeManager.Instance != null && UpgradeManager.Instance.CanUpgrade(currentSelectedLan.LanId, type, out int cost))
+            int cost = 0;
+            bool canUpgrade = false;
+            
+            if (UpgradeManager.Instance != null)
+            {
+                canUpgrade = UpgradeManager.Instance.CanUpgrade(currentSelectedLan.LanId, type, out cost);
+            }
+
+            if (canUpgrade)
             {
                 btn.interactable = true;
                 costText.text = cost.ToString();
@@ -163,7 +182,6 @@ namespace DemHoiDenLong.UI
                 btn.interactable = false;
                 if (UpgradeManager.Instance != null)
                 {
-                    // Still show cost even if can't afford, CanUpgrade returns cost as out param
                     costText.text = cost.ToString(); 
                 }
             }

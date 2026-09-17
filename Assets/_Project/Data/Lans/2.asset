@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d70dcaa96c883140b10e0809ac77106, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: DemHoiDenLong::DemHoiDenLong.Data.LanConfig
+  LanId: 2
+  LanName: "H\u1ECFa L\xE2n"
+  LanIcon: {fileID: -4595116380797069854, guid: ecb10ef9984d781458859eb94b0a21f6, type: 3}
+  UnlockCostStar: 500
+  UnlockCostDiamond: 0
+  BaseHp: 90
+  BaseSpeed: 200
+  BaseDamage: 12
+  BaseFireRate: 3
+  SkillName: "Phun l\u1EEDa qu\xE9t ngang"
+  SkillDescription: "Phun m\u1ED9t d\u1EA3i l\u1EEDa r\u1ED9ng theo chi\u1EC1u ngang
+    m\xE0n h\xECnh, g\xE2y s\xE1t th\u01B0\u01A1ng li\xEAn t\u1EE5c l\xEAn m\u1ECDi
+    k\u1EBB \u0111\u1ECBch trong v\xF9ng l\u1EEDa."
+  SkillDamage: 50
+  SkillCooldown: 20
+  lanNickname: "L\xE2n \u0110\u1ECF \u0111\u1ED1t \u0111\xEAm"
+  storyChapter: "H\u1ED2I 01 - NG\u01AF\u1EDCI GI\u1EEE \u0110\xC8N"
+  storyTitle: "L\u1EDDi h\u1EE9a d\u01B0\u1EDBi tr\u0103ng"
+  storyDescription: "Khi l\u0169 \u0110\xE8n T\xE0n tr\xE0n v\xE0o khu Ph\u1ED1 C\u1ED5
+    \u2014 n\u01A1i h\xE0ng ng\xE0n l\u1ED3ng \u0111\xE8n gi\u1EA5y treo d\u1ECDc
+    m\xE1i ng\xF3i v\xE0 ph\u1ED1 nh\u1ECF \u2014 ch\xEDnh l\xE0 H\u1ECFa L\xE2n
+    xu\u1EA5t hi\u1EC7n \u0111\u1EA7u ti\xEAn, sinh ra t\u1EEB ng\u1ECDn l\u1EEDa
+    c\u1EE7a chi\u1EBFc \u0111\xE8n k\xE9o qu\xE2n ch\xE1y m\xE3i kh\xF4ng t\u1EAFt
+    su\u1ED1t tr\u0103m n\u0103m trong m\u1ED9t c\u1EEDa hi\u1EC7u c\u1ED5. H\u1ECFa
+    L\xE2n mang t\xEDnh c\xE1ch n\xF3ng n\u1EA3y, b\u1ED1c \u0111\u1ED3ng, kh\xF4ng
+    th\xEDch ch\u1EDD \u0111\u1EE3i hay ph\xF2ng th\u1EE7 \u2014 v\u1EDBi c\u1EADu,
+    c\xE1ch b\u1EA3o v\u1EC7 \xE1nh s\xE1ng t\u1ED1t nh\u1EA5t l\xE0 thi\xEAu r\u1EE5i
+    b\xF3ng t\u1ED1i tr\u01B0\u1EDBc khi n\xF3 k\u1ECBp lan ra.\n\nS\u1EF1 li\u1EC1u
+    l\u0129nh \u1EA5y khi\u1EBFn H\u1ECFa L\xE2n t\u1EEBng b\u1ECB Nguy\xEAn L\xE2n
+    tr\xE1ch m\u1EAFng v\xEC \u0111\xE3 \u0111\u1ED1t ch\xE1y v\xE0i d\xE3y ph\u1ED1
+    trong l\xFAc chi\u1EBFn \u0111\u1EA5u, nh\u01B0ng c\u0169ng ch\xEDnh ng\u1ECDn
+    l\u1EEDa kh\xF4ng khoan nh\u01B0\u1EE3ng \u0111\xF3 \u0111\xE3 c\u1EE9u Ph\u1ED1
+    C\u1ED5 kh\u1ECFi \u0111\xEAm t\u1ED1i nhi\u1EC1u l\u1EA7n. K\u1EF9 n\u0103ng
+    \"Phun l\u1EEDa qu\xE9t ngang\" l\xE0 bi\u1EC3u hi\u1EC7n tr\u1EF1c ti\u1EBFp
+    c\u1EE7a b\u1EA3n t\xEDnh \u1EA5y: t\u1EA5n c\xF4ng di\u1EC7n r\u1ED9ng, s\xE1t
+    th\u01B0\u01A1ng cao, kh\xF4ng m\xE0ng h\u1EADu qu\u1EA3."
+  lanRole: "\u0110\u1EA1i di\u1EC7n Ph\u1ED1 C\u1ED5 \u2014 Act 2. \u0110\u1ED1i
+    \u0111\u1EA7u R\u1ED3ng \u0110\xE8n Ph\u1ED1 C\u1ED5, ch\xEDnh l\xE0 h\u1EC7
+    qu\u1EA3 t\u1EEB nh\u1EEFng ng\u1ECDn l\u1EEDa c\u1EE7a H\u1ECFa L\xE2n."
+  storyToken: "T\xEDn v\u1EADt: Chu\xF4ng Nguy\u1EC7t Quang"
