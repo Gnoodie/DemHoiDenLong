@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21a8970982c4ea54b90afd89dc7b766f, type: 3}
+  m_Name: Act_2
+  m_EditorClassIdentifier: DemHoiDenLong::DemHoiDenLong.Data.ActData
+  actIndex: 1
+  title: "H\u1ED2I 2 - PH\u1ED0 C\u1ED4 \u0110\xC8N L\u1ED2NG"
+  subtitle: "T\xC2M \u0110I\u1EC2M L\u1EC4 H\u1ED8I"
+  unlockHint: "\u0110\xE1nh b\u1EA1i tr\xF9m H\u1ED3i 1 \u0111\u1EC3 m\u1EDF kh\xF3a"
+  accentColor: {r: 1, g: 0.706, b: 0.42, a: 1}
+  banner: {fileID: 6446126445856691512, guid: 1f5dd6a33d81c644a96bc187a3c83449, type: 3}
+  mapBackground: {fileID: 4100519789955120726, guid: d1b2801ac04950e47975e24b6904127c, type: 3}
+  battleBackground: {fileID: -7493932628956986476, guid: 9772e5ed4f3c6ee48a3ce64e9befeca8, type: 3}
+  bossSprite: {fileID: 7342994847278514920, guid: 04f822b7a382e9a42b3fc3dd1927c297, type: 3}
+  battleDim: 0.25
+  enemyTypeIds:
+  - den_gai
+  - den_ca_chep
+  - den_ma
+  levels:
+  - {fileID: 11400000, guid: 9bfa90f305f382e4e817fd88010198c1, type: 2}
+  - {fileID: 11400000, guid: 0a5678e8ed3ccf744a4026b0bfc242d0, type: 2}
+  - {fileID: 11400000, guid: 678c615502d223241a1e96dc6fb1ef75, type: 2}
+  - {fileID: 11400000, guid: f801873bb01cae44cb742aa4d8ff7e7c, type: 2}
+  - {fileID: 11400000, guid: 9f77dd07a80244f479dddb223b24f5de, type: 2}

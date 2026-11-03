@@ -1,0 +1,2290 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.8f1 (5cb7df797b7d) revision 6076383'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 16176 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin" at "2026-11-03T02:59:06.0934648Z"
+Date: 2026-11-03T02:59:06Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 14536, path: "D:/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              c18433b53ae54c3eb04d017f515cdf72
+  Correlation Id:          91fe32c955384bdb95d3579259b6fbc9
+  External correlation Id: 606073266348048647
+  Machine Id:              lQ7buzFeKRneuD95H9kLXIWklkM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Admin" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin-notifications" at "2026-11-03T02:59:06.1393013Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968483045552-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.05s
+
+COMMAND LINE ARGUMENTS:
+D:\6000.5.8f1\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+D:\Dev_Game\DemHoiDenLong
+-executeMethod
+DemHoiDenLong.Editor.VerifyUIPhase1.RunAllVerifications
+-logFile
+D:\Dev_Game\DemHoiDenLong\verify_ui_phase1.log
+Successfully changed project path to: D:\Dev_Game\DemHoiDenLong
+D:/Dev_Game/DemHoiDenLong
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.Player connection [20716]  Target information:
+
+Player connection [20716]  * "[IP] 192.168.206.1 [Port] 55504 [Flags] 2 [Guid] 1402112286 [EditorId] 1402112286 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8VS68C7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20716]  * "[IP] 192.168.65.1 [Port] 55504 [Flags] 2 [Guid] 1402112286 [EditorId] 1402112286 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8VS68C7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20716]  * "[IP] 10.10.10.1 [Port] 55504 [Flags] 2 [Guid] 1402112286 [EditorId] 1402112286 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8VS68C7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20716]  * "[IP] 192.168.29.1 [Port] 55504 [Flags] 2 [Guid] 1402112286 [EditorId] 1402112286 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8VS68C7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20716]  * "[IP] 192.168.1.1 [Port] 55504 [Flags] 2 [Guid] 1402112286 [EditorId] 1402112286 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8VS68C7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20716]  * "[IP] 192.168.10.1 [Port] 55504 [Flags] 2 [Guid] 1402112286 [EditorId] 1402112286 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8VS68C7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20716]  * "[IP] 192.168.20.1 [Port] 55504 [Flags] 2 [Guid] 1402112286 [EditorId] 1402112286 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8VS68C7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20716]  * "[IP] 192.168.1.2 [Port] 55504 [Flags] 2 [Guid] 1402112286 [EditorId] 1402112286 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8VS68C7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20716] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20716] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-19788" after 0.2 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Active build profile path: `Assets/Settings/Build Profiles/Android™.asset`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Artifact Garbage Collection - Removed 4 unused hashed content files
+[Licensing::Client] Successfully resolved entitlement details
+Got setting from build profile YAML, name `m_BuildTarget`, value `13`
+Got setting from build profile YAML, name `m_Subtarget`, value `0`
+Initialize engine version: 6000.5.8f1 (5cb7df797b7d)
+[Subsystems] Discovering subsystems at path D:/6000.5.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Dev_Game/DemHoiDenLong/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25e2)
+    Vendor:          NVIDIA
+    VRAM:            3977 MB
+    App VRAM Budget: 3380 MB
+    Driver:          31.0.15.4630
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Initialize mono
+Mono path[0] = 'D:/6000.5.8f1/Editor/Data/Managed'
+Mono path[1] = 'D:/6000.5.8f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'D:/6000.5.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/6000.5.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/6000.5.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/6000.5.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/6000.5.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001475 seconds.
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.475 seconds
+Domain Reload Profiling: 900ms
+	BeginReloadAssembly (117ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (103ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (176ms)
+				TypeCache.ScanAssembly (164ms)
+	FinalizeReload (476ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (81ms)
+			ProcessInitializeOnLoadMethodAttributes (253ms)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 65 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.2d.animation@15.1.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.animation@6d5a363ae647)
+    com.unity.2d.aseprite@5.0.3 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.aseprite@d13865913efa)
+    com.unity.2d.psdimporter@14.0.3 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.psdimporter@5d82044f9e43)
+    com.unity.2d.spriteshape@15.0.3 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.spriteshape@fcb7ec61a58b)
+    com.unity.2d.tilemap.extras@8.0.3 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.tilemap.extras@a80140457adc)
+    com.unity.2d.tooling@3.0.1 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.tooling@6f06ffb033c0)
+    com.unity.collab-proxy@2.13.5 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.collab-proxy@120d77864ebc)
+    com.unity.ide.rider@3.0.38 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.timeline@1.8.12 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.timeline@8cd8509afae5)
+    com.unity.visualscripting@1.9.12 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.2d.common@14.0.1 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.common@73badf92ba8b)
+    com.unity.searcher@4.9.5 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.burst@1.8.30 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.burst@2f3d916873ea)
+    com.unity.nuget.mono-cecil@1.11.6 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.5.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.test-framework.performance@8b56083ec0f0)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.sprite@053a968eab56)
+    com.unity.2d.tilemap@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.tilemap@b959501fd678)
+    com.unity.multiplayer.center@1.0.1 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.render-pipelines.universal@17.5.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.render-pipelines.universal@73b4c4ff130e)
+    com.unity.test-framework@1.7.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.test-framework@1405238725ab)
+    com.unity.ugui@2.5.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.ugui@1c4864518158)
+    com.unity.modules.accessibility@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.ext.nunit@44f7d31723bd)
+    com.unity.render-pipelines.core@17.5.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.render-pipelines.core@a4c9a9793789)
+    com.unity.shadergraph@17.5.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.shadergraph@8d7376ec43ee)
+    com.unity.render-pipelines.universal-config@17.5.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.render-pipelines.universal-config@fdda01c80fe3)
+    com.unity.collections@6.5.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.collections@ec2c217e4cb2)
+    com.unity.mathematics@1.4.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.mathematics@981956d94fb6)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.02 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: D:\6000.5.8f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: D:/Dev_Game/DemHoiDenLong
+DisplayProgressbar: Compiling Scripts
+Starting: D:\6000.5.8f1\Editor\Data\netcorerun\netcorerun.exe "D:\6000.5.8f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1300b0aE.dag.json" "Library/Bee/1300b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: D:/Dev_Game/DemHoiDenLong
+ExitCode: 4 Duration: 0s187ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1300b0aE-inputdata.json
+[ 897/1156  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra requires additional run (0.16 seconds), 1 items updated, 896 evaluated
+ExitCode: 0 Duration: 1s133ms
+Starting: D:\6000.5.8f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1300b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: D:/Dev_Game/DemHoiDenLong
+ExitCode: 0 Duration: 4s825ms
+Finished compiling graph: 1159 nodes, 23719 flattened edges (19595 ToBuild, 184 ToUse), maximum node priority 1323
+[ 618/1156  0s] WriteText Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp-Editor.rsp
+[ 896/1156  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1152/1156  1s] Csc Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+Assets\Editor\FixSettingsUI.cs(111,21): warning CS0618: 'TMP_Text.enableWordWrapping' is obsolete: 'The enabledWordWrapping property is now obsolete. Please use the textWrappingMode property instead.'
+
+Assets\Editor\RemoveOldGearButtons.cs(58,98): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Editor\RemoveOldGearButtons.cs(58,37): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\_Project\Editor\ValidateSceneNames.cs(26,18): warning CS0219: The variable 'changed' is assigned but its value is never used
+[1153/1156  0s] ILPostProcess Library/Bee/artifacts/1300b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp-Editor.dll, with 149 defines and 382 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1154/1156  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[1155/1156  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (4.81 seconds), 6 items updated, 1156 evaluated
+Assets\Editor\FixSettingsUI.cs(111,21): warning CS0618: 'TMP_Text.enableWordWrapping' is obsolete: 'The enabledWordWrapping property is now obsolete. Please use the textWrappingMode property instead.'
+Assets\Editor\RemoveOldGearButtons.cs(58,98): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Editor\RemoveOldGearButtons.cs(58,37): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\_Project\Editor\ValidateSceneNames.cs(26,18): warning CS0219: The variable 'changed' is assigned but its value is never used
+Total cache size 133264037
+Total cache size after purge 133264037, took 00:00:00.0665169
+AssetDatabase: script compilation time: 7.166051s
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 2.09 ms, found 5 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+================================================================================
+                       BÁO CÁO CHẨN ĐOÁN ACTSELECTVIEW                          
+================================================================================
+Thời gian: 2026-11-03 09:59:19 | IsPlaying: False
+LỖI: Không tìm thấy Canvas trong Scene!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.EditorTools.DiagnoseActSelectView:WriteAndLog (string) (at Assets/_Project/Editor/DiagnoseActSelectView.cs:280)
+DemHoiDenLong.EditorTools.DiagnoseActSelectView:RunDiagnosis () (at Assets/_Project/Editor/DiagnoseActSelectView.cs:27)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/_Project/Editor/DiagnoseActSelectView.cs Line: 280)
+
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.827 seconds
+Domain Reload Profiling: 3609ms
+	BeginReloadAssembly (184ms)
+		DisableScriptedObjects (19ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (532ms)
+		LoadAssemblies (277ms)
+		AnalyzeDomain (236ms)
+			TypeCache.Refresh (165ms)
+				TypeCache.ScanAssembly (150ms)
+			BuildScriptInfoCaches (61ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2829ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (2209ms)
+			ProcessInitializeOnLoadMethodAttributes (283ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Starting new worker id: 0 with log in D:/Dev_Game/DemHoiDenLong/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=2c3a3766cf8c7f742b62e08eaf483a1e): Total: 11.630 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=3328 ms
+		Asset DB Callback time: managed=234 ms, native=39 ms
+		Scripting: domain reloads=1, domain reload time=813 ms, compile time=7170 ms, other=43 ms
+		Project Asset Count: scripts=1693, non-scripts=3771
+		Asset File Changes: new=1, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 26.924ms
+	ApplyChangesToAssetFolders: 0.647ms
+	Scan: 120.786ms
+	Collect global state as custom dependencies: 17.338ms
+	OnSourceAssetsModified: 0.620ms
+	CategorizeScriptCompilationAssets: 42.535ms
+	ProcessAssetsWithTransientArtifactChanges: 83.334ms
+	CategorizeAssets: 60.307ms
+	CompileScripts: 7169.827ms
+	ImportOutOfDateAssets: 2901.610ms (2847.714ms without children)
+		UnloadImportedAssets: 0.676ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.838ms
+		ImportSchedulerStart: 52.341ms
+	PostProcessAllAssets: 235.122ms
+		VCAutoAddAssetPostprocess 1.078ms
+		XRBuildSystem.XRAssetImported 0.284ms
+		MonoPostProcessAllAssets: 233.274ms
+			AssetPostprocessor.OnPostprocessAllAssets 119.014ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 47.726ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 10.025ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 9.474ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.392ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 2.305ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.154ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.621ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.598ms
+			AssetChangedListener.OnPostprocessAllAssets 1.356ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.053ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.677ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.609ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.547ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.529ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.439ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.408ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.381ms
+			AssetProcessor.OnPostprocessAllAssets 0.375ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.371ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.330ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.328ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.323ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.305ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.299ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.288ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.254ms
+			AssetEvents.OnPostprocessAllAssets 0.231ms
+			PostProcessor.OnPostprocessAllAssets 0.222ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.218ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.196ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.185ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.179ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.175ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.144ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.135ms
+			SyncVS.PostprocessSyncProject 0.134ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.119ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.116ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.082ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.078ms
+	PostAssetChangesProfiler: 12.917ms
+	UnloadStreamsBegin: 2.798ms
+	PersistCurrentRevisions: 0.208ms
+	GenerateScriptTypeHashes: 5.250ms
+	GenerateScriptTypeSerializationHashes: 8.286ms
+	Untracked: 952.473ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Scanning for USB devices : 3.127ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-DemHoiDenLong
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7566 unused Assets / (5.9 MB). Loaded Objects now: 8641.
+Memory consumption went from 468.6 MB to 462.7 MB.
+Total: 12.318100 ms (FindLiveObjects: 0.618300 ms CreateObjectMapping: 3.241100 ms MarkObjects: 5.638000 ms  DeleteObjects: 2.818000 ms)
+
+Opening scene 'Assets/Scenes/Main_Menu.unity'
+Unloading 68 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Main_Menu.unity'
+	Deserialize:            65.145 ms
+	Integration:            312.023 ms
+	Integration of assets:  32.051 ms
+	Thread Wait Time:       0.285 ms
+	Total Operation Time:   409.504 ms
+Unloading 2 unused Assets / (2.0 KB). Loaded Objects now: 9428.
+Memory consumption went from 469.1 MB to 469.1 MB.
+Total: 7.603300 ms (FindLiveObjects: 0.381000 ms CreateObjectMapping: 1.284900 ms MarkObjects: 5.911600 ms  DeleteObjects: 0.025200 ms)
+
+[STATS] Hangar lan=1 level=9 hp=200 dmg=25 fr=7
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.UI.HangarUI:UpdateUpgradeUI () (at Assets/_Project/Scripts/UI/HangarUI.cs:794)
+DemHoiDenLong.UI.HangarUI:UpdateUI () (at Assets/_Project/Scripts/UI/HangarUI.cs:651)
+DemHoiDenLong.UI.HangarUI:SelectLan (DemHoiDenLong.Data.LanData) (at Assets/_Project/Scripts/UI/HangarUI.cs:419)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:120)
+
+(Filename: Assets/_Project/Scripts/UI/HangarUI.cs Line: 794)
+
+[AUDIO] BGM Switch -> 'bgm_main_menu' (Fade=True)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Audio.AudioManager:PlayBGM (UnityEngine.AudioClip,bool,single) (at Assets/_Project/Scripts/Audio/AudioManager.cs:165)
+DemHoiDenLong.UI.HangarUI:SelectLan (DemHoiDenLong.Data.LanData) (at Assets/_Project/Scripts/UI/HangarUI.cs:427)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:120)
+
+(Filename: Assets/_Project/Scripts/Audio/AudioManager.cs Line: 165)
+
+Validation Failed: Attempting to load wrong LanData index. Forcing correct data.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+DemHoiDenLong.UI.HangarUI:SelectLan (DemHoiDenLong.Data.LanData) (at Assets/_Project/Scripts/UI/HangarUI.cs:409)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:120)
+
+(Filename: Assets/_Project/Scripts/UI/HangarUI.cs Line: 409)
+
+[STATS] Hangar lan=1 level=9 hp=200 dmg=25 fr=7
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.UI.HangarUI:UpdateUpgradeUI () (at Assets/_Project/Scripts/UI/HangarUI.cs:794)
+DemHoiDenLong.UI.HangarUI:UpdateUI () (at Assets/_Project/Scripts/UI/HangarUI.cs:651)
+DemHoiDenLong.UI.HangarUI:SelectLan (DemHoiDenLong.Data.LanData) (at Assets/_Project/Scripts/UI/HangarUI.cs:419)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:120)
+
+(Filename: Assets/_Project/Scripts/UI/HangarUI.cs Line: 794)
+
+Validation Failed: Attempting to load wrong LanData index. Forcing correct data.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+DemHoiDenLong.UI.HangarUI:SelectLan (DemHoiDenLong.Data.LanData) (at Assets/_Project/Scripts/UI/HangarUI.cs:409)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:120)
+
+(Filename: Assets/_Project/Scripts/UI/HangarUI.cs Line: 409)
+
+[STATS] Hangar lan=1 level=9 hp=200 dmg=25 fr=7
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.UI.HangarUI:UpdateUpgradeUI () (at Assets/_Project/Scripts/UI/HangarUI.cs:794)
+DemHoiDenLong.UI.HangarUI:UpdateUI () (at Assets/_Project/Scripts/UI/HangarUI.cs:651)
+DemHoiDenLong.UI.HangarUI:SelectLan (DemHoiDenLong.Data.LanData) (at Assets/_Project/Scripts/UI/HangarUI.cs:419)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:120)
+
+(Filename: Assets/_Project/Scripts/UI/HangarUI.cs Line: 794)
+
+Validation Failed: Attempting to load wrong LanData index. Forcing correct data.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+DemHoiDenLong.UI.HangarUI:SelectLan (DemHoiDenLong.Data.LanData) (at Assets/_Project/Scripts/UI/HangarUI.cs:409)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:120)
+
+(Filename: Assets/_Project/Scripts/UI/HangarUI.cs Line: 409)
+
+[STATS] Hangar lan=1 level=9 hp=200 dmg=25 fr=7
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.UI.HangarUI:UpdateUpgradeUI () (at Assets/_Project/Scripts/UI/HangarUI.cs:794)
+DemHoiDenLong.UI.HangarUI:UpdateUI () (at Assets/_Project/Scripts/UI/HangarUI.cs:651)
+DemHoiDenLong.UI.HangarUI:SelectLan (DemHoiDenLong.Data.LanData) (at Assets/_Project/Scripts/UI/HangarUI.cs:419)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:120)
+
+(Filename: Assets/_Project/Scripts/UI/HangarUI.cs Line: 794)
+
+Worker ready: AssetImportWorkerHW0 0
+Opening scene 'Assets/Scenes/Gameplay.unity'
+Unloading 88 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Gameplay.unity'
+	Deserialize:            21.801 ms
+	Integration:            274.723 ms
+	Integration of assets:  22.524 ms
+	Thread Wait Time:       0.263 ms
+	Total Operation Time:   319.310 ms
+Unloading 40 unused Assets / (36.0 KB). Loaded Objects now: 9384.
+Memory consumption went from 0.54 GB to 0.54 GB.
+Total: 8.462100 ms (FindLiveObjects: 0.421200 ms CreateObjectMapping: 1.344900 ms MarkObjects: 6.533500 ms  DeleteObjects: 0.161200 ms)
+
+Opening scene 'Assets/Scenes/LevelSelect.unity'
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/LevelSelect.unity'
+	Deserialize:            26.482 ms
+	Integration:            280.777 ms
+	Integration of assets:  0.586 ms
+	Thread Wait Time:       0.007 ms
+	Total Operation Time:   307.852 ms
+Unloading 107 unused Assets / (102.6 KB). Loaded Objects now: 10741.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 8.398800 ms (FindLiveObjects: 0.529200 ms CreateObjectMapping: 1.377300 ms MarkObjects: 6.286600 ms  DeleteObjects: 0.204800 ms)
+
+Opening scene 'Assets/Scenes/Gameplay.unity'
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Gameplay.unity'
+	Deserialize:            7.559 ms
+	Integration:            264.721 ms
+	Integration of assets:  16.292 ms
+	Thread Wait Time:       3.272 ms
+	Total Operation Time:   291.844 ms
+Unloading 284 unused Assets / (97.6 KB). Loaded Objects now: 9384.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 7.988600 ms (FindLiveObjects: 0.414300 ms CreateObjectMapping: 1.405600 ms MarkObjects: 5.928900 ms  DeleteObjects: 0.239100 ms)
+
+Importing 'GUID: 40f07eb71b406854ebae428a7f6ab7ec - Path: Assets/_Project/Data/Levels/Level_11.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 40f07eb71b406854ebae428a7f6ab7ec' -> (Import Result ID: 'f4ad3f4dcef5d0ea41299ec6424a7cac') in 0.008 seconds [static dependencies only]. Details - ImportResultOutputID=80eb940c67a9eaf96adf25e92945d4b8 DependenciesID=93636dd178e013d8c9fbe388d1f5e9d1 StaticDependenciesID=cf07a2788208a873394da783b5af47dc 
+Importing 'GUID: d199e9cbb46a4f54ca6449f7d059b3f4 - Path: Assets/_Project/Data/Acts/Act_2.asset' with importer (NativeFormatImporter)
+Imported 'GUID: d199e9cbb46a4f54ca6449f7d059b3f4' -> (Import Result ID: '95e66e074115c2a40e7cf8c6055906d7') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=01829b3aaba6746522cb2c547efc404b DependenciesID=83bbca0c5b7ce04d008086810d2ae90d StaticDependenciesID=822dbbe0bbad901350a096a8e5e57a9d 
+Importing 'GUID: c3d6cd3b3cc03b746bdd851c9df9bfe9 - Path: Assets/_Project/Data/Levels/Level_15.asset' with importer (NativeFormatImporter)
+Imported 'GUID: c3d6cd3b3cc03b746bdd851c9df9bfe9' -> (Import Result ID: '280d8190ca4ba46eec09ebbc77b9b31c') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=c6b85939655bd3cdbdb79cac1a4e0beb DependenciesID=64a2ba59bd1fae4708b2dbea5b15edbe StaticDependenciesID=38a25a2a3c817c3f75ced881bdab1864 
+Importing 'GUID: 6488d1bd7af8d9b49b3b1317d788dce9 - Path: Assets/_Project/Data/Acts/Act_3.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 6488d1bd7af8d9b49b3b1317d788dce9' -> (Import Result ID: '3a22ccdcf14f124f40a5502a207261e4') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=2fef6c2432d958e9c98e70737d79af28 DependenciesID=18ce78e284db84d541213cce26c478db StaticDependenciesID=bfbfe7b9fead3d8a3fb0d8ae01190751 
+Importing 'GUID: 564b01e1c1a1ee840a0ebf23389bf13c - Path: Assets/_Project/Data/Levels/Level_04.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 564b01e1c1a1ee840a0ebf23389bf13c' -> (Import Result ID: '5ff2d4101cafe5540da2b5fd0b4c4c87') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=0ca2dead79841b5296625c630c6bcb7f DependenciesID=d0415018e2447b139dbf69485b6c213a StaticDependenciesID=1404fffd4f63b6c3c0df45aff791f75e 
+Importing 'GUID: 678c615502d223241a1e96dc6fb1ef75 - Path: Assets/_Project/Data/Levels/Level_08.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 678c615502d223241a1e96dc6fb1ef75' -> (Import Result ID: '6464bc19048c537926888733b335d614') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=d27a39c01731328c4889ecd589e6ab6d DependenciesID=3b8868e8aff3ca7e45dab87c91d5f5ba StaticDependenciesID=915c9473c20267eadd540cffe7536a18 
+Importing 'GUID: a858fc8bfaf034744a04976f58f09f37 - Path: Assets/_Project/Data/Levels/Level_01.asset' with importer (NativeFormatImporter)
+Imported 'GUID: a858fc8bfaf034744a04976f58f09f37' -> (Import Result ID: '1f0adc8ac7644e5dfee41d53b743458d') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=4667235cc7a9046c2b5449d5bb670ff4 DependenciesID=1bdc363e32574d4eff82ee08ca6d56fe StaticDependenciesID=653c213c9506974bfc542c8d932a4d2a 
+Importing 'GUID: f801873bb01cae44cb742aa4d8ff7e7c - Path: Assets/_Project/Data/Levels/Level_09.asset' with importer (NativeFormatImporter)
+Imported 'GUID: f801873bb01cae44cb742aa4d8ff7e7c' -> (Import Result ID: '2d525e7fa94f455d53907a58e5341278') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=39970f0b126f5f24c0fa45c68a281919 DependenciesID=9e150b8ba3c4c50b2993af8ea2fd82fe StaticDependenciesID=8fc3295fd6bf40c90ff4f9d50062f71e 
+Importing 'GUID: 0a5678e8ed3ccf744a4026b0bfc242d0 - Path: Assets/_Project/Data/Levels/Level_07.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 0a5678e8ed3ccf744a4026b0bfc242d0' -> (Import Result ID: '1932281b291537e24e4a14c102364731') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=6dbd368bca46bc0dd0fb5c80a24b195c DependenciesID=b4b1422e2ceb441431c31ef68d4abbbd StaticDependenciesID=e8b59cd79bb2a1c7870caace78749e9f 
+Importing 'GUID: 3b22ccab4737a5441984375cbcb815de - Path: Assets/_Project/Data/Levels/Level_14.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 3b22ccab4737a5441984375cbcb815de' -> (Import Result ID: 'b1a21aaa37c28005145b29e9157af7f1') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=ef21af8dff84fa57bfad6a3fb6c48bcb DependenciesID=af952ec961c23e337ce9bdcd644f7aeb StaticDependenciesID=7674d14776251271fd20d6d6db10a9be 
+Importing 'GUID: 7b10bb0bbede53741afaa785fb507809 - Path: Assets/_Project/Data/Levels/Level_03.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 7b10bb0bbede53741afaa785fb507809' -> (Import Result ID: '029a9144a08620b4ca76273fc683d0ca') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=a9a5ab502dee349e87d035a74bc19233 DependenciesID=4b08f7d780460c9099c6f1c4dd651ddd StaticDependenciesID=3ed9508cd1949ccd8904362c9f0196e8 
+Importing 'GUID: 9bfa90f305f382e4e817fd88010198c1 - Path: Assets/_Project/Data/Levels/Level_06.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 9bfa90f305f382e4e817fd88010198c1' -> (Import Result ID: 'cd0170a50eb5c952d35c737c094046e3') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=729d71f53c640967c0a8f40221638794 DependenciesID=23fd570742d64a80dce7d888666a261e StaticDependenciesID=fc10250594a56ae86c030171d99d3338 
+Importing 'GUID: 3c5f112482f0be44997b1368237b93aa - Path: Assets/_Project/Data/Levels/Level_05.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 3c5f112482f0be44997b1368237b93aa' -> (Import Result ID: '18ce0d9e846ddcc7e57962ef3a745c53') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=769c0d4873aaa8076f3b0e215b6ce514 DependenciesID=77f51368fc6a4870d3cb1f859a505260 StaticDependenciesID=1ae6d540dadabacbc35056466ff3a138 
+Importing 'GUID: dcac84da9e8a3de4eaaaaa0eb089da24 - Path: Assets/_Project/Resources/LevelDatabase.asset' with importer (NativeFormatImporter)
+Imported 'GUID: dcac84da9e8a3de4eaaaaa0eb089da24' -> (Import Result ID: 'b709ec455eb14414419f281ae9136d1b') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=4d7df409d8c6c532eb0959b59d631727 DependenciesID=006f6121765fffc740b9b027ff1b1e83 StaticDependenciesID=98b09154a81449c011992bd4be6cbc72 
+Importing 'GUID: fc1394fe1a13a394c8106a74e1c8d891 - Path: Assets/_Project/Data/Levels/Level_13.asset' with importer (NativeFormatImporter)
+Imported 'GUID: fc1394fe1a13a394c8106a74e1c8d891' -> (Import Result ID: 'f10e8a48526c3a409be27a435afa858a') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=487e64e95be27ad409ddef3d9fcc4a9c DependenciesID=c45d9d6a73d91fa795e9035fde1881bd StaticDependenciesID=f44de06fbe184c28b14c24e8ecba9138 
+Importing 'GUID: 4d84c23479a42b64288df57557a312df - Path: Assets/_Project/Data/Levels/Level_02.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 4d84c23479a42b64288df57557a312df' -> (Import Result ID: '2b3a1c143236fa961ed6413d2f575cf2') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=34199ab3150d37ff499cd724e506afa8 DependenciesID=9791f0038e034f7adf60452815704b96 StaticDependenciesID=36babe9bf21c3d4316ef282ff391c0b4 
+Importing 'GUID: 6d3335341714b18418e133f553af3ed2 - Path: Assets/_Project/Data/Levels/Level_12.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 6d3335341714b18418e133f553af3ed2' -> (Import Result ID: 'beae0162ae24bc2c2b11ea60a5d41b4d') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=683bc684a40974f458835031084bee31 DependenciesID=e3650e614acf4e7f9130ecb2a5e8ccfc StaticDependenciesID=503172b729de518b5700b33a742a6fd2 
+Importing 'GUID: adda8b824ca9bf74d861858187d31f7b - Path: Assets/_Project/Data/LevelDatabase.asset' with importer (NativeFormatImporter)
+Imported 'GUID: adda8b824ca9bf74d861858187d31f7b' -> (Import Result ID: '1ce2c590e15fbb929725aed229b46211') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=39780b47a8866338528e42a5877e2e9a DependenciesID=15c3f4bca2a6e0517a1ba73aad2a5bb6 StaticDependenciesID=d14eec92b4734ba5f46c890a4298464d 
+Importing 'GUID: 2e498d1c8094910479dc3e1b768306a4 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 2e498d1c8094910479dc3e1b768306a4' -> (Import Result ID: '28a634f7e8b985de60d9c6402bee6d8a') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=0d9ab57d7c55324581c8332234f64e76 DependenciesID=93efebe89381cd6e9d444517081f6986 StaticDependenciesID=4cd285a284de94f8deae8a37f48b9f65 
+Importing 'GUID: 7f8d85776015afe4aa31bbdd2359e5a2 - Path: Assets/_Project/Data/Acts/Act_1.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 7f8d85776015afe4aa31bbdd2359e5a2' -> (Import Result ID: '32ae25a28c033c92cb404f95f1ae832d') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=844330fa44a279b2c566fafad0c3b268 DependenciesID=bdcfa10173e14ab7693d6e51da684bce StaticDependenciesID=ab8659c4fbfd1504a421e4b446de5097 
+Importing 'GUID: 9f77dd07a80244f479dddb223b24f5de - Path: Assets/_Project/Data/Levels/Level_10.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 9f77dd07a80244f479dddb223b24f5de' -> (Import Result ID: '834d0d1dba86abd7e5ce52c8b49aaa9c') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=127eaaddc1acbf16c66f2ca6adc8adc6 DependenciesID=842a86956e33c54aed93275dec03431d StaticDependenciesID=f15a9d05887e5e91f4716a9362d60d1b 
+Asset Pipeline Refresh (id=a15677418a755a5409e76c3e69dcb92e): Total: 0.134 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=64b5c53a4f69e574b8d020cbae67cf93): Total: 0.006 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[SetupLevelData] === THÀNH CÔNG: Đã khởi tạo 15 LevelData, 3 ActData, và LevelDatabase ===
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.EditorTools.SetupLevelData:SetupAll () (at Assets/_Project/Editor/SetupLevelData.cs:169)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:80)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Editor/SetupLevelData.cs Line: 169)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 1: +24 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:141)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 2: +26 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:158)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 3: +28 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:158)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 1: +24 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:238)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 2 mốc 1: +28 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:238)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 3 mốc 1: +32 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:238)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 4 mốc 1: +36 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:238)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 5 mốc 1: +40 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:242)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 5 mốc 2: +50 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:242)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 5 mốc 3: +60 Sao, +5 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:242)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 1: +24 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:265)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 2 mốc 1: +28 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:265)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 3 mốc 1: +32 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:265)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 4 mốc 1: +36 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:265)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 5 mốc 1: +40 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:267)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 5 mốc 2: +50 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:273)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 5 mốc 3: +60 Sao, +5 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:273)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 10 mốc 1: +60 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:316)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 1: +24 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 2: +26 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 3: +28 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 2 mốc 1: +28 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 2 mốc 2: +32 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 2 mốc 3: +36 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 3 mốc 1: +32 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 3 mốc 2: +38 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 3 mốc 3: +44 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 4 mốc 1: +36 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 4 mốc 2: +44 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 4 mốc 3: +52 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 5 mốc 1: +40 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 5 mốc 2: +50 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 5 mốc 3: +60 Sao, +5 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 6 mốc 1: +44 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 6 mốc 2: +56 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 6 mốc 3: +68 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 7 mốc 1: +48 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 7 mốc 2: +62 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 7 mốc 3: +76 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 8 mốc 1: +52 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 8 mốc 2: +68 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 8 mốc 3: +84 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 9 mốc 1: +56 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 9 mốc 2: +74 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 9 mốc 3: +92 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 10 mốc 1: +60 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 10 mốc 2: +80 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 10 mốc 3: +100 Sao, +10 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 11 mốc 1: +64 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 11 mốc 2: +86 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 11 mốc 3: +108 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 12 mốc 1: +68 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 12 mốc 2: +92 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 12 mốc 3: +116 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 13 mốc 1: +72 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 13 mốc 2: +98 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 13 mốc 3: +124 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 14 mốc 1: +76 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 14 mốc 2: +104 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 14 mốc 3: +132 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 15 mốc 1: +80 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 15 mốc 2: +110 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 15 mốc 3: +140 Sao, +15 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:335)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 1: +24 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:360)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 2: +26 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:360)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 3: +28 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:360)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 2 mốc 1: +28 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:361)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 2 mốc 2: +32 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:361)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] RewardSink chưa sẵn sàng. Hoãn nhận thưởng mốc 1 màn 1, chưa đánh dấu đã nhận.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:495)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:392)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 495)
+
+[LevelProgressManager] RewardSink chưa sẵn sàng. Hoãn nhận thưởng mốc 2 màn 1, chưa đánh dấu đã nhận.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:495)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:392)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 495)
+
+[LevelProgressManager] RewardSink chưa sẵn sàng. Hoãn nhận thưởng mốc 3 màn 1, chưa đánh dấu đã nhận.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:495)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:392)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 495)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 1: +24 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:400)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 2: +26 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:400)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 3: +28 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:400)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] RewardSink chưa sẵn sàng. Hoãn nhận thưởng mốc 1 màn 5, chưa đánh dấu đã nhận.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:495)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:462)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 495)
+
+[LevelProgressManager] RewardSink chưa sẵn sàng. Hoãn nhận thưởng mốc 2 màn 5, chưa đánh dấu đã nhận.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:495)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:462)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 495)
+
+[LevelProgressManager] RewardSink chưa sẵn sàng. Hoãn nhận thưởng mốc 3 màn 5, chưa đánh dấu đã nhận.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:495)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:462)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 495)
+
+[LevelProgressManager] RewardSink chưa sẵn sàng. Hoãn nhận thưởng mốc 1 màn 5, chưa đánh dấu đã nhận.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:495)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:510)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 495)
+
+[LevelProgressManager] RewardSink chưa sẵn sàng. Hoãn nhận thưởng mốc 2 màn 5, chưa đánh dấu đã nhận.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:495)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:510)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 495)
+
+[LevelProgressManager] RewardSink chưa sẵn sàng. Hoãn nhận thưởng mốc 3 màn 5, chưa đánh dấu đã nhận.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:495)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:510)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 495)
+
+[LevelProgressManager] Cấp thưởng màn 5 mốc 1: +40 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:516)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 5 mốc 2: +50 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:516)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 5 mốc 3: +60 Sao, +5 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:516)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 5 mốc 1: +40 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:550)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 5 mốc 2: +50 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:550)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 1: +24 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:585)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 2: +26 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:585)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 3: +28 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:585)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 1: +24 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:610)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 2: +26 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:610)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 3: +28 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:610)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 2 mốc 1: +28 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:618)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 2 mốc 2: +32 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:618)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 1: +24 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:651)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 2: +26 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:651)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 3: +28 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:651)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] ReportLevelResult: Màn 3 đang bị khóa! Lượt chơi bị từ chối.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:435)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:655)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 435)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 1: +24 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:772)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 2: +26 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:789)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+[LevelProgressManager] Cấp thưởng màn 1 mốc 3: +28 Sao, +0 Kim Cương.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:536)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:400)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:789)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 536)
+
+Importing 'GUID: 40f07eb71b406854ebae428a7f6ab7ec - Path: Assets/_Project/Data/Levels/Level_11.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 40f07eb71b406854ebae428a7f6ab7ec' -> (Import Result ID: 'f4ad3f4dcef5d0ea41299ec6424a7cac') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=80eb940c67a9eaf96adf25e92945d4b8 DependenciesID=93636dd178e013d8c9fbe388d1f5e9d1 StaticDependenciesID=cf07a2788208a873394da783b5af47dc 
+Importing 'GUID: d199e9cbb46a4f54ca6449f7d059b3f4 - Path: Assets/_Project/Data/Acts/Act_2.asset' with importer (NativeFormatImporter)
+Imported 'GUID: d199e9cbb46a4f54ca6449f7d059b3f4' -> (Import Result ID: '95e66e074115c2a40e7cf8c6055906d7') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=01829b3aaba6746522cb2c547efc404b DependenciesID=83bbca0c5b7ce04d008086810d2ae90d StaticDependenciesID=822dbbe0bbad901350a096a8e5e57a9d 
+Importing 'GUID: c3d6cd3b3cc03b746bdd851c9df9bfe9 - Path: Assets/_Project/Data/Levels/Level_15.asset' with importer (NativeFormatImporter)
+Imported 'GUID: c3d6cd3b3cc03b746bdd851c9df9bfe9' -> (Import Result ID: '280d8190ca4ba46eec09ebbc77b9b31c') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=c6b85939655bd3cdbdb79cac1a4e0beb DependenciesID=64a2ba59bd1fae4708b2dbea5b15edbe StaticDependenciesID=38a25a2a3c817c3f75ced881bdab1864 
+Importing 'GUID: 6488d1bd7af8d9b49b3b1317d788dce9 - Path: Assets/_Project/Data/Acts/Act_3.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 6488d1bd7af8d9b49b3b1317d788dce9' -> (Import Result ID: '3a22ccdcf14f124f40a5502a207261e4') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=2fef6c2432d958e9c98e70737d79af28 DependenciesID=18ce78e284db84d541213cce26c478db StaticDependenciesID=bfbfe7b9fead3d8a3fb0d8ae01190751 
+Importing 'GUID: 564b01e1c1a1ee840a0ebf23389bf13c - Path: Assets/_Project/Data/Levels/Level_04.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 564b01e1c1a1ee840a0ebf23389bf13c' -> (Import Result ID: '5ff2d4101cafe5540da2b5fd0b4c4c87') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=0ca2dead79841b5296625c630c6bcb7f DependenciesID=d0415018e2447b139dbf69485b6c213a StaticDependenciesID=1404fffd4f63b6c3c0df45aff791f75e 
+Importing 'GUID: 678c615502d223241a1e96dc6fb1ef75 - Path: Assets/_Project/Data/Levels/Level_08.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 678c615502d223241a1e96dc6fb1ef75' -> (Import Result ID: '6464bc19048c537926888733b335d614') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=d27a39c01731328c4889ecd589e6ab6d DependenciesID=3b8868e8aff3ca7e45dab87c91d5f5ba StaticDependenciesID=915c9473c20267eadd540cffe7536a18 
+Importing 'GUID: a858fc8bfaf034744a04976f58f09f37 - Path: Assets/_Project/Data/Levels/Level_01.asset' with importer (NativeFormatImporter)
+Imported 'GUID: a858fc8bfaf034744a04976f58f09f37' -> (Import Result ID: '1f0adc8ac7644e5dfee41d53b743458d') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=4667235cc7a9046c2b5449d5bb670ff4 DependenciesID=1bdc363e32574d4eff82ee08ca6d56fe StaticDependenciesID=653c213c9506974bfc542c8d932a4d2a 
+Importing 'GUID: f801873bb01cae44cb742aa4d8ff7e7c - Path: Assets/_Project/Data/Levels/Level_09.asset' with importer (NativeFormatImporter)
+Imported 'GUID: f801873bb01cae44cb742aa4d8ff7e7c' -> (Import Result ID: '2d525e7fa94f455d53907a58e5341278') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=39970f0b126f5f24c0fa45c68a281919 DependenciesID=9e150b8ba3c4c50b2993af8ea2fd82fe StaticDependenciesID=8fc3295fd6bf40c90ff4f9d50062f71e 
+Importing 'GUID: 0a5678e8ed3ccf744a4026b0bfc242d0 - Path: Assets/_Project/Data/Levels/Level_07.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 0a5678e8ed3ccf744a4026b0bfc242d0' -> (Import Result ID: '1932281b291537e24e4a14c102364731') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=6dbd368bca46bc0dd0fb5c80a24b195c DependenciesID=b4b1422e2ceb441431c31ef68d4abbbd StaticDependenciesID=e8b59cd79bb2a1c7870caace78749e9f 
+Importing 'GUID: 3b22ccab4737a5441984375cbcb815de - Path: Assets/_Project/Data/Levels/Level_14.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 3b22ccab4737a5441984375cbcb815de' -> (Import Result ID: 'b1a21aaa37c28005145b29e9157af7f1') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=ef21af8dff84fa57bfad6a3fb6c48bcb DependenciesID=af952ec961c23e337ce9bdcd644f7aeb StaticDependenciesID=7674d14776251271fd20d6d6db10a9be 
+Importing 'GUID: 7b10bb0bbede53741afaa785fb507809 - Path: Assets/_Project/Data/Levels/Level_03.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 7b10bb0bbede53741afaa785fb507809' -> (Import Result ID: '029a9144a08620b4ca76273fc683d0ca') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=a9a5ab502dee349e87d035a74bc19233 DependenciesID=4b08f7d780460c9099c6f1c4dd651ddd StaticDependenciesID=3ed9508cd1949ccd8904362c9f0196e8 
+Importing 'GUID: 9bfa90f305f382e4e817fd88010198c1 - Path: Assets/_Project/Data/Levels/Level_06.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 9bfa90f305f382e4e817fd88010198c1' -> (Import Result ID: 'cd0170a50eb5c952d35c737c094046e3') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=729d71f53c640967c0a8f40221638794 DependenciesID=23fd570742d64a80dce7d888666a261e StaticDependenciesID=fc10250594a56ae86c030171d99d3338 
+Importing 'GUID: 3c5f112482f0be44997b1368237b93aa - Path: Assets/_Project/Data/Levels/Level_05.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 3c5f112482f0be44997b1368237b93aa' -> (Import Result ID: '18ce0d9e846ddcc7e57962ef3a745c53') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=769c0d4873aaa8076f3b0e215b6ce514 DependenciesID=77f51368fc6a4870d3cb1f859a505260 StaticDependenciesID=1ae6d540dadabacbc35056466ff3a138 
+Importing 'GUID: dcac84da9e8a3de4eaaaaa0eb089da24 - Path: Assets/_Project/Resources/LevelDatabase.asset' with importer (NativeFormatImporter)
+Imported 'GUID: dcac84da9e8a3de4eaaaaa0eb089da24' -> (Import Result ID: 'b709ec455eb14414419f281ae9136d1b') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=4d7df409d8c6c532eb0959b59d631727 DependenciesID=006f6121765fffc740b9b027ff1b1e83 StaticDependenciesID=98b09154a81449c011992bd4be6cbc72 
+Importing 'GUID: fc1394fe1a13a394c8106a74e1c8d891 - Path: Assets/_Project/Data/Levels/Level_13.asset' with importer (NativeFormatImporter)
+Imported 'GUID: fc1394fe1a13a394c8106a74e1c8d891' -> (Import Result ID: 'f10e8a48526c3a409be27a435afa858a') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=487e64e95be27ad409ddef3d9fcc4a9c DependenciesID=c45d9d6a73d91fa795e9035fde1881bd StaticDependenciesID=f44de06fbe184c28b14c24e8ecba9138 
+Importing 'GUID: 4d84c23479a42b64288df57557a312df - Path: Assets/_Project/Data/Levels/Level_02.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 4d84c23479a42b64288df57557a312df' -> (Import Result ID: 'a165f25d85ae60253d7e92a781c1dca0') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=34199ab3150d37ff499cd724e506afa8 DependenciesID=1cf287c2e4c9411d0decdebf349dc178 StaticDependenciesID=915a0f34b5079b374937b8acae3a4f77 
+Importing 'GUID: 6d3335341714b18418e133f553af3ed2 - Path: Assets/_Project/Data/Levels/Level_12.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 6d3335341714b18418e133f553af3ed2' -> (Import Result ID: 'beae0162ae24bc2c2b11ea60a5d41b4d') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=683bc684a40974f458835031084bee31 DependenciesID=e3650e614acf4e7f9130ecb2a5e8ccfc StaticDependenciesID=503172b729de518b5700b33a742a6fd2 
+Importing 'GUID: adda8b824ca9bf74d861858187d31f7b - Path: Assets/_Project/Data/LevelDatabase.asset' with importer (NativeFormatImporter)
+Imported 'GUID: adda8b824ca9bf74d861858187d31f7b' -> (Import Result ID: '1ce2c590e15fbb929725aed229b46211') in 0.000 seconds [static dependencies only]. Details - ImportResultOutputID=39780b47a8866338528e42a5877e2e9a DependenciesID=15c3f4bca2a6e0517a1ba73aad2a5bb6 StaticDependenciesID=d14eec92b4734ba5f46c890a4298464d 
+Importing 'GUID: 7f8d85776015afe4aa31bbdd2359e5a2 - Path: Assets/_Project/Data/Acts/Act_1.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 7f8d85776015afe4aa31bbdd2359e5a2' -> (Import Result ID: '32ae25a28c033c92cb404f95f1ae832d') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=844330fa44a279b2c566fafad0c3b268 DependenciesID=bdcfa10173e14ab7693d6e51da684bce StaticDependenciesID=ab8659c4fbfd1504a421e4b446de5097 
+Importing 'GUID: 9f77dd07a80244f479dddb223b24f5de - Path: Assets/_Project/Data/Levels/Level_10.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 9f77dd07a80244f479dddb223b24f5de' -> (Import Result ID: '834d0d1dba86abd7e5ce52c8b49aaa9c') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=127eaaddc1acbf16c66f2ca6adc8adc6 DependenciesID=842a86956e33c54aed93275dec03431d StaticDependenciesID=f15a9d05887e5e91f4716a9362d60d1b 
+Asset Pipeline Refresh (id=cd761daf91f6af548a321ea1f050ee38): Total: 0.085 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=27475995c2f56c34ba5b14ff42f890fe): Total: 0.006 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[SetupLevelData] === THÀNH CÔNG: Đã khởi tạo 15 LevelData, 3 ActData, và LevelDatabase ===
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.EditorTools.SetupLevelData:SetupAll () (at Assets/_Project/Editor/SetupLevelData.cs:169)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:854)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Editor/SetupLevelData.cs Line: 169)
+
+Importing 'GUID: 4d84c23479a42b64288df57557a312df - Path: Assets/_Project/Data/Levels/Level_02.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 4d84c23479a42b64288df57557a312df' -> (Import Result ID: '2b3a1c143236fa961ed6413d2f575cf2') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=34199ab3150d37ff499cd724e506afa8 DependenciesID=9791f0038e034f7adf60452815704b96 StaticDependenciesID=36babe9bf21c3d4316ef282ff391c0b4 
+Asset Pipeline Refresh (id=6a45b8225f592d24eb2d916d0ad24760): Total: 0.069 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+=== BẮT ĐẦU CHẠY PROGRESS SELF TEST (27 CA) ===
+[PASS] Ca 1: Mới tinh -> Màn 1 mở, Hồi 1 mở, Hồi 2/3 khóa, Current = Màn 1.
+[PASS] Ca 2: Thắng màn 1 HP 40% -> 1 sao, nhận 24 Sao, màn 2 mở, Current = 2.
+[PASS] Ca 3: Chơi lại màn 1 HP 90% -> 3 sao, nhận thêm 54 Sao (tổng 78), newMax=3, isNewRecord.
+[PASS] Ca 4: Chơi lại màn 1 HP 30% -> starsThisRun=1, max vẫn 3, thưởng 0, sink giữ 78.
+[PASS] Ca 5: Ngưỡng HP biên -> 0.85=3 sao, 0.8499=2 sao, 0.50=2 sao, 0.4999=1 sao.
+[PASS] Ca 6: Thua -> 0 sao, 0 thưởng, không mở khóa màn 2.
+[PASS] Ca 7: Boss màn 5 thắng 3 sao lần đầu -> nhận 150 Sao, 5 Kim Cương, unlockedNextAct=true, Màn 6 mở, Hồi 2 mở.
+[PASS] Ca 8: Boss màn 5 thắng 1 sao nhận 40 Sao 0 Kim Cương vẫn mở Hồi 2; sau đó 3 sao nhận 110 Sao và 5 Kim Cương.
+[PASS] Ca 9: Thưởng chuẩn -> Màn 8 (52/68/84), Màn 10 (240 Sao + 10 KC), Màn 15 (330 Sao + 15 KC).
+[PASS] Ca 10: Hồi 3 chỉ mở khi Boss màn 10 đạt >= 1 sao.
+[PASS] Ca 11: Toàn bộ 15 màn 3 sao -> Tổng 3060 Sao, 30 KC, 45 LevelStars, cả 3 Hồi Completed, không còn Current.
+[PASS] Ca 12: Bền vững -> Manager mới dùng chung storage đọc đúng chính xác sao, mốc đã nhận và mở khóa.
+[PASS] Ca 13: Rủi ro EconomyRewardSink lỗi -> rewardFailed=true, mốc chưa đánh dấu nhận; lần sau nhận bù đủ 78 Sao.
+[PASS] Ca 14: LevelRewards.GetTotalFirstClearRewards(15) trả đúng 3060 Sao và 30 Kim Cương.
+[PASS] Ca 15: Dữ liệu LevelDatabase khớp 100% GDD Excel (3 Hồi, 15 màn, Boss 5/10/15).
+[PASS] Ca 16: Sink lỗi khi thắng màn 5 (3 sao) -> Kỷ lục 3 sao, 0 mốc nhận; Sink sẵn sàng -> ClaimPendingRewards nhận đủ 150 Sao 5 KC, lần 2 trả 0.
+[PASS] Ca 17: Sau khi sink lỗi kỷ lục 3 sao, chơi lại chỉ đạt 1 sao -> Vẫn nhận đủ toàn bộ phần còn thiếu theo kỷ lục 3 sao (150 Sao, 5 KC).
+[PASS] Ca 18: Sink lỗi giữa chừng -> Đảm bảo tính nguyên tử: mốc 3 không cấp một nửa, không ghi nhận đã nhận.
+[PASS] Ca 19: ClaimPendingRewards khi không còn gì cần trả -> Trả về rỗng (IsEmpty = true, 0 Sao, 0 KC).
+[PASS] Ca 20: Thưởng màn 2 đúng công thức (+60 Sao: M1=28, M2=32; tổng sau 2 màn: 138 Sao).
+[PASS] Ca 21: Chặn thắng màn đang khóa -> rejected = true, 0 thưởng, tiến độ giữ nguyên.
+[PASS] Ca 22: Công thức CalcHpRemaining01 chính xác trên mọi biên máu và mạng.
+[PASS] Ca 23: CalcStars áp dụng cap 1 sao khi usedRevive = true, thua = 0 sao.
+[PASS] Ca 24: Ngưỡng biên 270 HP (229.5 -> 3★, 229 -> 2★, 135 -> 2★, 134 -> 1★) chính xác tuyệt đối.
+[PASS] Ca 25: Thắng với hồi sinh đạt 1★ nhận mốc 1; thắng lại không hồi sinh nhận bù mốc 2 & 3 đủ 78 Sao.
+[PASS] Ca 26: 15 LevelData khởi tạo đúng WinCondition (BossKill, KillCount, SurviveTime) và Setup không ghi đè giá trị sửa tay.
+[PASS] Ca 27: LanStats.Compute thống nhất cho cả 4 Lân ở mọi cấp 0..10 (HP=base+10*cấp, DMG=base+2*cấp, FR=base+0.2*cấp).
+-------------------------------------------------------------
+TỔNG KẾT: 27/27 ca PASS.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.EditorTools.LevelProgressSelfTest:RunAllTests () (at Assets/_Project/Editor/LevelProgressSelfTest.cs:957)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:489)
+
+(Filename: Assets/_Project/Editor/LevelProgressSelfTest.cs Line: 957)
+
+=== BÁO CÁO TÌM GLYPH THIẾU (FIND MISSING GLYPHS) ===
+Tổng số đối tượng TMP thiếu glyph: 0
+Không tìm thấy ký tự nào thiếu glyph trong LiberationSans SDF!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Editor.FindMissingGlyphs:ScanMissingGlyphs () (at Assets/_Project/Editor/FindMissingGlyphs.cs:73)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:493)
+
+(Filename: Assets/_Project/Editor/FindMissingGlyphs.cs Line: 73)
+
+Opening scene 'Assets/Scenes/Main_Menu.unity'
+Unloading 75 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Main_Menu.unity'
+	Deserialize:            9.666 ms
+	Integration:            265.518 ms
+	Integration of assets:  0.713 ms
+	Thread Wait Time:       0.117 ms
+	Total Operation Time:   276.014 ms
+Unloading 712 unused Assets / (15.0 MB). Loaded Objects now: 9444.
+Memory consumption went from 0.56 GB to 0.54 GB.
+Total: 9.015100 ms (FindLiveObjects: 0.439600 ms CreateObjectMapping: 1.607300 ms MarkObjects: 6.304700 ms  DeleteObjects: 0.662300 ms)
+
+Opening scene 'Assets/Scenes/LevelSelect.unity'
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/LevelSelect.unity'
+	Deserialize:            16.363 ms
+	Integration:            270.119 ms
+	Integration of assets:  0.519 ms
+	Thread Wait Time:       4.189 ms
+	Total Operation Time:   291.190 ms
+Unloading 45 unused Assets / (38.5 KB). Loaded Objects now: 10742.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 8.418800 ms (FindLiveObjects: 0.535700 ms CreateObjectMapping: 1.317100 ms MarkObjects: 6.431600 ms  DeleteObjects: 0.133900 ms)
+
+Opening scene 'Assets/Scenes/Gameplay.unity'
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Gameplay.unity'
+	Deserialize:            7.549 ms
+	Integration:            255.893 ms
+	Integration of assets:  18.243 ms
+	Thread Wait Time:       1.435 ms
+	Total Operation Time:   283.120 ms
+Unloading 285 unused Assets / (98.9 KB). Loaded Objects now: 9384.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 7.951500 ms (FindLiveObjects: 0.420000 ms CreateObjectMapping: 1.306000 ms MarkObjects: 5.989700 ms  DeleteObjects: 0.235200 ms)
+
+================================================================================
+       BỘ KIỂM THỬ XÁC MINH TOÀN DIỆN GIAI ĐOẠN UI-1 (7 TIÊU CHÍ)              
+================================================================================
+Thời gian: 2026-11-03 09:59:20
+
+--- 1. HANGAR VỚI CẢ 4 LÂN ---
+  [PASS] playBtn có StyledButton GoldPrimary đúng chuẩn.
+  [PASS] playBtn đã gỡ sạch icon gamepad lạ bên phải.
+  [PASS] unlockBtn có StyledButton GoldPrimary (giữ icon tiền tệ và ổ khóa).
+  [PASS] readStoryBtn có StyledButton NavySecondary và icon_book.
+  Kiểm tra cập nhật tên Lân động trên nút truyền thuyết (Tổng số Lân: 4):
+    [PASS] Lân 'Kim Lân': Nút ghi chính xác "ĐỌC TRUYỀN THUYẾT KIM LÂN", không bị gãy dòng.
+    [FAIL] Lân 'Hỏa Lân': Nút ghi "ĐỌC TRUYỀN THUYẾT KIM LÂN", kỳ vọng "ĐỌC TRUYỀN THUYẾT HỎA LÂN"
+    [FAIL] Lân 'Thủy Lân': Nút ghi "ĐỌC TRUYỀN THUYẾT KIM LÂN", kỳ vọng "ĐỌC TRUYỀN THUYẾT THỦY LÂN"
+    [FAIL] Lân 'Lân Vàng': Nút ghi "ĐỌC TRUYỀN THUYẾT KIM LÂN", kỳ vọng "ĐỌC TRUYỀN THUYẾT LÂN VÀNG"
+-> KẾT QUẢ MỤC 1: FAIL
+
+--- 2. BẢNG TRUYỀN THUYẾT (LOREPANELUI) ---
+  [PASS] LorePanel cho 'Kim Lân': Màu nhấn đúng titleColor, Tiêu đề đúng, Drop-cap 150% chuẩn.
+  [PASS] LorePanel cho 'Hỏa Lân': Màu nhấn đúng titleColor, Tiêu đề đúng, Drop-cap 150% chuẩn.
+  [PASS] LorePanel cho 'Thủy Lân': Màu nhấn đúng titleColor, Tiêu đề đúng, Drop-cap 150% chuẩn.
+  [PASS] LorePanel cho 'Lân Vàng': Màu nhấn đúng titleColor, Tiêu đề đúng, Drop-cap 150% chuẩn.
+  [PASS] Viewport sử dụng RectMask2D sạch sẽ (không dùng Mask + Image alpha 0).
+  [PASS] LorePanel đóng mượt bằng Hide() (hỗ trợ nút ĐÓNG, nút X, Backdrop, Escape, Android Back).
+-> KẾT QUẢ MỤC 2: PASS
+
+--- 3. CÀI ĐẶT MAIN_MENU VÀ TRONG TRẬN ---
+  [PASS] Settings Main_Menu: Nút 'THOÁT GAME' kiểu CoralExit, icon_exit, 1 dòng.
+  [PASS] Settings Main_Menu: Nút đóng dùng sprite btn_close chuẩn.
+  [PASS] Settings Gameplay: Nút 'VỀ CHỌN MÀN' kiểu CoralExit, sizeDelta=(480.00, 100.00) (vừa 1 dòng, không gãy).
+-> KẾT QUẢ MỤC 3: PASS
+
+--- 4. LEVELSELECT POPUP & GAMEPLAY PANELS ---
+  [FAIL] LevelDetailModal: Nút Play chưa chuẩn!
+  [PASS] VictoryPanel: 'MÀN TIẾP' kiểu GoldPrimary.
+  [PASS] VictoryPanel: 'CHƠI LẠI' kiểu NavySecondary.
+  [PASS] VictoryPanel: 'CHỌN MÀN' kiểu NavySecondary.
+  [FAIL] GameOverPanel: 'CHƠI LẠI' chưa chuẩn!
+  [FAIL] GameOverPanel: 'CHỌN MÀN' chưa chuẩn!
+  [PASS] GameOverPanel: Nút hồi sinh 'HỒI SINH · XEM QUẢNG CÁO' giữ nguyên màu xanh và sprite chuẩn.
+-> KẾT QUẢ MỤC 4: FAIL
+
+--- 5. RESPONSIVE (9:16, 9:20, 3:4) & TẠO ẢNH CHỤP CAPTURES ---
+  [PASS] Đã tạo thành công 12 ảnh chụp minh chứng trong Captures/UI_Phase1/.
+  [PASS] Responsive kiểm tra tại 9:16, 9:20, 3:4: Card truyền thuyết (960x1220) luôn nằm trọn trong SafeArea, không chạm mép trên/dưới.
+-> KẾT QUẢ MỤC 5: PASS
+
+--- 6. TRẠNG THÁI KHÔNG BẤM ĐƯỢC (DISABLED STATE) ---
+  [PASS] Nút khi interactable=false hiển thị màu nhân #8E98BC @ alpha 0.6 chính xác, không phản hồi ấn.
+-> KẾT QUẢ MỤC 6: PASS
+
+--- 7. CONSOLE SẠCH, RUN SELF TEST PASS, GLYPHS & SCRIPTS ---
+  [PASS] LevelProgressSelfTest (27 ca) HOÀN TOÀN PASS.
+  [PASS] FindMissingGlyphs: 0 ký tự thiếu glyph trong LiberationSans SDF.
+  [PASS] Quét toàn bộ Scene: 0 missing script, 0 prefab mismatch.
+-> KẾT QUẢ MỤC 7: PASS
+
+================================================================================
+TỔNG KẾT KIỂM THỬ UI-1: 5/7 TIÊU CHÍ PASS (CẦN ĐIỀU CHỈNH)
+================================================================================
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Editor.VerifyUIPhase1:RunAllVerifications () (at Assets/_Project/Editor/VerifyUIPhase1.cs:551)
+
+(Filename: Assets/_Project/Editor/VerifyUIPhase1.cs Line: 551)
+
+Batchmode quit successfully invoked - shutting down!
+Clearing [LiberationSans SDF - Fallback] dynamic font asset data.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TMPro.EditorEventCallbacks/<>c:<InitializeFontAssetResourceChangeCallBacks>b__0_0 () (at ./Library/PackageCache/com.unity.ugui@1c4864518158/Editor/TMP/TMP_EditorResourceManager.cs:36)
+UnityEditor.EditorApplication:Internal_EditorApplicationQuit ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@1c4864518158/Editor/TMP/TMP_EditorResourceManager.cs Line: 36)
+
+Killing ADB server in 2.0671588 seconds.
+Importing 'GUID: 2e498d1c8094910479dc3e1b768306a4 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 2e498d1c8094910479dc3e1b768306a4' -> (Import Result ID: '00ace86ffc89b53eecb29254d965963e') in 0.006 seconds [static dependencies only]. Details - ImportResultOutputID=94ce4dace069634644df4d315a8acf11 DependenciesID=e35c89a5a0859163440e29da7d0e0940 StaticDependenciesID=0f521615ff0cf5f9a59708376166a46d 
+Asset Pipeline Refresh (id=d85ce3755eabed343964831b6713a449): Total: 0.083 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-Admin-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Admin channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

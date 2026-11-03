@@ -9,27 +9,32 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d70dcaa96c883140b10e0809ac77106, type: 3}
+  m_Script: {fileID: 11500000, guid: 0e08b35bfec43df4ebbd32fea39d31ce, type: 3}
   m_Name: 4
-  m_EditorClassIdentifier: DemHoiDenLong::DemHoiDenLong.Data.LanConfig
-  LanId: 4
-  LanName: "L\xE2n V\xE0ng (Premium)"
-  LanIcon: {fileID: -6457455979207012126, guid: 523c1de76f9b35d4a9cc4e7dac1e08b7, type: 3}
-  UnlockCostStar: 0
-  UnlockCostDiamond: 300
-  BaseHp: 150
-  BaseSpeed: 250
-  BaseDamage: 15
-  BaseFireRate: 5
-  SkillName: "M\u01B0a ph\xE1o hoa to\xE0n m\xE0n"
-  SkillDescription: "B\u1EAFn ra m\u01B0a ph\xE1o hoa \u0111a h\u01B0\u1EDBng bao
+  m_EditorClassIdentifier: DemHoiDenLong::DemHoiDenLong.Data.LanData
+  lanId: 4
+  lanName: "L\xE2n V\xE0ng"
+  nickname: "L\xE2n \xC1nh Tr\u0103ng"
+  icon: {fileID: -6457455979207012126, guid: 3a2e57d77065e4a4c9f853c63f504e48, type: 3}
+  prefab: {fileID: 4569586737540177783, guid: c552173aa954b1a4d942b3303cdd8b32, type: 3}
+  tiltLeftSprite: {fileID: 0}
+  tiltRightSprite: {fileID: 0}
+  isUnlockedByDefault: 0
+  unlockCostStars: -1
+  unlockCostGems: 300
+  upgradeCostMultiplier: 1.73
+  maxHp: 150
+  moveSpeed: 250
+  baseDamage: 15
+  fireRate: 5
+  skillConfig: {fileID: 11400000, guid: 4f318f64e2889d249b3c636a37aaa142, type: 2}
+  skillName: "M\u01B0a ph\xE1o hoa to\xE0n m\xE0n"
+  skillDescription: "B\u1EAFn ra m\u01B0a ph\xE1o hoa \u0111a h\u01B0\u1EDBng bao
     ph\u1EE7 to\xE0n m\xE0n h\xECnh, m\u1ED7i \u0111\u1EA7u \u0111\u1EA1n ph\xE1o
     hoa g\xE2y s\xE1t th\u01B0\u01A1ng l\u1EDBn khi ch\u1EA1m \u0111\u1ECBch."
-  SkillDamage: 100
-  SkillCooldown: 25
-  lanNickname: "L\xE2n \xC1nh Tr\u0103ng"
-  storyChapter: "H\u1ED2I 01 - NG\u01AF\u1EDCI GI\u1EEE \u0110\xC8N"
-  storyTitle: "L\u1EDDi h\u1EE9a d\u01B0\u1EDBi tr\u0103ng"
+  skillDamage: 100
+  skillCooldown: 25
+  skillIcon: {fileID: -1865693884979889419, guid: 9026f835931dbfe4fb53565c75cfc70b, type: 3}
   storyDescription: "L\xE2n V\xE0ng kh\xF4ng sinh ra \u1EDF nh\xE2n gian nh\u01B0
     ba ng\u01B0\u1EDDi anh em \u2014 \u0111\xE2y l\xE0 ho\xE1 th\xE2n cu\u1ED1i c\xF9ng
     v\xE0 m\u1EA1nh nh\u1EA5t c\u1EE7a Nguy\xEAn L\xE2n, \u0111\u01B0\u1EE3c t\xF4i
@@ -48,10 +53,8 @@ MonoBehaviour:
     \u0111i\u1EC1u \u01B0\u1EDBc c\u1EE7a ng\u01B0\u1EDDi tr\u1EA7n \u0111\xE3 \u0111\u01B0\u1EE3c
     H\u1EB1ng Nga ch\u1EA5p thu\u1EADn. \u0110\xE2y c\u0169ng l\xE0 l\xFD do L\xE2n
     V\xE0ng ch\u1EC9 xu\u1EA5t hi\u1EC7n v\u1EDBi ng\u01B0\u1EDDi ch\u01A1i th\xF4ng
-    qua nghi th\u1EE9c \u0111\u1EB7c bi\u1EC7t  \u2014 nh\u01B0 m\u1ED9t \xE2n hu\u1EC7
+    qua nghi th\u1EE9c \u0111\u1EB7c bi\u1EC7t \u2014 nh\u01B0 m\u1ED9t \xE2n hu\u1EC7
     hi\u1EBFm hoi ch\u1EE9 kh\xF4ng ph\u1EA3i s\u1EE9c m\u1EA1nh c\xF3 th\u1EC3 \u0111\u1EA1t
     \u0111\u01B0\u1EE3c b\u1EB1ng n\u1ED7 l\u1EF1c th\xF4ng th\u01B0\u1EDDng."
-  lanRole: "\u0110\u1EA1i di\u1EC7n Cung Tr\u0103ng \u2014 Act 3 (Final). \u0110\u1ED1i
-    \u0111\u1EA7u Th\u1ECF Ng\u1ECDc h\xF3a qu\xE1i, ng\u01B0\u1EDDi b\u1EA1n th\xE2n
-    c\u1EE7a ch\xEDnh L\xE2n V\xE0ng."
-  storyToken: "T\xEDn v\u1EADt: Chu\xF4ng Nguy\u1EC7t Quang"
+  titleColor: {r: 0.9607843, g: 0.77254903, b: 0.09411765, a: 1}
+  skillTitleColor: {r: 0.9607843, g: 0.77254903, b: 0.09411765, a: 1}

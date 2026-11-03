@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d158cb4490e731a4889bbc8d7460c638, type: 3}
+  m_Name: SO_Level_17
+  m_EditorClassIdentifier: DemHoiDenLong::DemHoiDenLong.Data.LevelData
+  waves:
+  - spawnTime: 3
+    enemyCount: 20
+    spawnInterval: 1.15
+    enemyType: {fileID: 11400000, guid: a1b2c3d4e5f60708090a0b0c0d0e0f10, type: 2}
+  - spawnTime: 30
+    enemyCount: 22
+    spawnInterval: 1.15
+    enemyType: {fileID: 11400000, guid: c3d4e5f607182930313a3b3c3d3e3f40, type: 2}
+  - spawnTime: 59.3
+    enemyCount: 24
+    spawnInterval: 1.15
+    enemyType: {fileID: 11400000, guid: c3d4e5f607182930313a3b3c3d3e3f40, type: 2}
+  - spawnTime: 90.899994
+    enemyCount: 26
+    spawnInterval: 1.15
+    enemyType: {fileID: 11400000, guid: c3d4e5f607182930313a3b3c3d3e3f40, type: 2}
+  - spawnTime: 124.799995
+    enemyCount: 28
+    spawnInterval: 1.15
+    enemyType: {fileID: 11400000, guid: a1b2c3d4e5f60708090a0b0c0d0e0f10, type: 2}
+  - spawnTime: 161
+    enemyCount: 30
+    spawnInterval: 1.15
+    enemyType: {fileID: 11400000, guid: c3d4e5f607182930313a3b3c3d3e3f40, type: 2}
+  - spawnTime: 199.5
+    enemyCount: 32
+    spawnInterval: 1.15
+    enemyType: {fileID: 11400000, guid: a1b2c3d4e5f60708090a0b0c0d0e0f10, type: 2}
+  - spawnTime: 240.3
+    enemyCount: 34
+    spawnInterval: 1.15
+    enemyType: {fileID: 11400000, guid: c3d4e5f607182930313a3b3c3d3e3f40, type: 2}
+  baseHpMultiplier: 2.28
+  baseSpeedMultiplier: 1.48
+  baseDamageMultiplier: 1.8
+  bossPrefab: {fileID: 0}
+  bossSpawnDelay: 286.4

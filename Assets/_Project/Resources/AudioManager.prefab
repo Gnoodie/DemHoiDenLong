@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5906256863196370348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5947081138310512888}
+  - component: {fileID: 2565135767969314185}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5947081138310512888
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5906256863196370348}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2565135767969314185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5906256863196370348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb7c120e8d8f25c4387372d8c35f7c0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: DemHoiDenLong::DemHoiDenLong.Audio.AudioManager
+  bgmMainMenu: {fileID: 8300000, guid: b1a200610fc698448a77f99240eb88e8, type: 3}
+  bgmGameplay: {fileID: 8300000, guid: 32fbb18e41d24e34f8c7c6f8cab76621, type: 3}
+  bgmBossFight: {fileID: 8300000, guid: c521177eb04d11448a6324cbd12f9481, type: 3}
+  jingleVictory: {fileID: 8300000, guid: 486ebb3786bf35a49841d4b2932d72a2, type: 3}
+  jingleDefeat: {fileID: 8300000, guid: 37c8656a31d9c1248828f9cdd5d32eaa, type: 3}
+  sfxPlayerShoot: {fileID: 8300000, guid: b1bbf5aec5fd96f4290198054a44e7fd, type: 3}
+  sfxPlayerHit: {fileID: 8300000, guid: c7e4318401b171a4190744ae074d3bc1, type: 3}
+  sfxPlayerDeath: {fileID: 8300000, guid: c7e4318401b171a4190744ae074d3bc1, type: 3}
+  sfxShieldBreak: {fileID: 8300000, guid: 28a05c3124c3b264db292f7424b71466, type: 3}
+  sfxSkillKim: {fileID: 8300000, guid: cf67fdbc7261378479d07a59122bc8c0, type: 3}
+  sfxSkillHoa: {fileID: 8300000, guid: 293ba2a0f7500eb4aae06e82f1942d7c, type: 3}
+  sfxSkillThuy: {fileID: 8300000, guid: 43b441d9204ac14409800fcee40e2f7d, type: 3}
+  sfxSkillVang: {fileID: 8300000, guid: 61f8cbbaf3013d14cabe42189858af3f, type: 3}
+  sfxEnemyHit: {fileID: 8300000, guid: a61c9dc4e19a90343994aa0901969cf5, type: 3}
+  sfxEnemyDeath: {fileID: 8300000, guid: 339f25f83de5c0c479f3edd80eb17bf9, type: 3}
+  sfxBossAppear: {fileID: 8300000, guid: 2cb93bf983345d94a88eccc8b17a91a1, type: 3}
+  sfxBossShoot: {fileID: 8300000, guid: 70fa6c69d55a8714cac463e6c4f8a875, type: 3}
+  sfxBossDeath: {fileID: 8300000, guid: 980c1eb5d48cc2c49908c72469e5262f, type: 3}
+  sfxItemDrop: {fileID: 8300000, guid: d4589e8273a4cad47ac197f420501dbb, type: 3}
+  sfxPickupCoin: {fileID: 8300000, guid: 5fbb5dd85812f0d41bc49d87255fac19, type: 3}
+  sfxPickupHeal: {fileID: 8300000, guid: f12131d89c67c1247b834d2bac7d2269, type: 3}
+  sfxPickupPowerup: {fileID: 8300000, guid: a7ca3e0208c461b43b5dce20a5c4674a, type: 3}
+  sfxUiClick: {fileID: 8300000, guid: 8e463d4ff7e2d314682c568c561aa7bf, type: 3}
+  sfxUiError: {fileID: 8300000, guid: 718d4ae7941e4794c80cade77f79febc, type: 3}
+  sfxWarningBoss: {fileID: 8300000, guid: 4e6b55530e410154ba892d706828e80e, type: 3}
+  bgmSource: {fileID: 0}
+  sfxSourceCount: 10

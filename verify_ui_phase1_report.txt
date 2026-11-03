@@ -1,0 +1,64 @@
+================================================================================
+       BỘ KIỂM THỬ XÁC MINH TOÀN DIỆN GIAI ĐOẠN UI-1 (7 TIÊU CHÍ)              
+================================================================================
+Thời gian: 2026-11-03 11:41:07
+
+--- 1. HANGAR VỚI CẢ 4 LÂN ---
+  [PASS] playBtn có StyledButton GoldPrimary đúng chuẩn.
+  [PASS] playBtn đã gỡ sạch icon gamepad lạ bên phải.
+  [PASS] unlockBtn có StyledButton GoldPrimary (giữ icon tiền tệ và ổ khóa).
+  [PASS] readStoryBtn có StyledButton NavySecondary và icon_book.
+  Kiểm tra cập nhật tên Lân động trên nút truyền thuyết (Tổng số Lân: 4):
+    [PASS] Lân 'Kim Lân': Nút ghi chính xác "ĐỌC TRUYỀN THUYẾT KIM LÂN", không bị gãy dòng.
+    [PASS] Lân 'Hỏa Lân': Nút ghi chính xác "ĐỌC TRUYỀN THUYẾT HỎA LÂN", không bị gãy dòng.
+    [PASS] Lân 'Thủy Lân': Nút ghi chính xác "ĐỌC TRUYỀN THUYẾT THỦY LÂN", không bị gãy dòng.
+    [PASS] Lân 'Lân Vàng': Nút ghi chính xác "ĐỌC TRUYỀN THUYẾT LÂN VÀNG", không bị gãy dòng.
+-> KẾT QUẢ MỤC 1: PASS
+
+--- 2. BẢNG TRUYỀN THUYẾT (LOREPANELUI) ---
+  [PASS] LorePanel cho 'Kim Lân': Màu nhấn đúng titleColor, Tiêu đề đúng, Drop-cap 150% chuẩn.
+  [PASS] LorePanel cho 'Hỏa Lân': Màu nhấn đúng titleColor, Tiêu đề đúng, Drop-cap 150% chuẩn.
+  [PASS] LorePanel cho 'Thủy Lân': Màu nhấn đúng titleColor, Tiêu đề đúng, Drop-cap 150% chuẩn.
+  [PASS] LorePanel cho 'Lân Vàng': Màu nhấn đúng titleColor, Tiêu đề đúng, Drop-cap 150% chuẩn.
+  [PASS] Viewport sử dụng RectMask2D sạch sẽ (không dùng Mask + Image alpha 0).
+  [PASS] Kích hoạt 'ĐỌC TRUYỀN THUYẾT HỎA LÂN' mở chính xác bảng truyền thuyết của Hỏa Lân.
+  [PASS] Nút 'ĐÓNG' ở đáy hoạt động chính xác, đóng LorePanel thành công.
+  [PASS] Nút icon 'X' ở góc trên hoạt động chính xác, đóng LorePanel thành công.
+  [PASS] LorePanel đóng mượt bằng Hide() (hỗ trợ nút ĐÓNG, nút X, Backdrop, Escape, Android Back).
+-> KẾT QUẢ MỤC 2: PASS
+
+--- 3. CÀI ĐẶT MAIN_MENU VÀ TRONG TRẬN ---
+  [PASS] Settings Main_Menu: Nút 'THOÁT GAME' kiểu CoralExit, icon_exit, 1 dòng.
+  [PASS] Settings Main_Menu: Nút đóng dùng sprite btn_close chuẩn.
+  [PASS] Settings Gameplay: Nút 'VỀ CHỌN MÀN' kiểu CoralExit, sizeDelta=(560.00, 110.00) (vừa 1 dòng, không gãy).
+-> KẾT QUẢ MỤC 3: PASS
+
+--- 4. LEVELSELECT POPUP & GAMEPLAY PANELS ---
+  [PASS] LevelDetailModal: Nút 'BẮT ĐẦU CHƠI' kiểu GoldPrimary, icon_play thay tam giác cũ.
+  [PASS] LevelDetailModal: Nút đóng dùng btn_close chuẩn.
+  [PASS] VictoryPanel: 'MÀN TIẾP' kiểu GoldPrimary.
+  [PASS] VictoryPanel: 'CHƠI LẠI' kiểu NavySecondary.
+  [PASS] VictoryPanel: 'CHỌN MÀN' kiểu NavySecondary.
+  [PASS] GameOverPanel: 'CHƠI LẠI' kiểu NavySecondary.
+  [PASS] GameOverPanel: 'CHỌN MÀN' kiểu NavySecondary.
+  [PASS] GameOverPanel: Nút hồi sinh 'HỒI SINH · XEM QUẢNG CÁO' giữ nguyên màu xanh và sprite chuẩn.
+-> KẾT QUẢ MỤC 4: PASS
+
+--- 5. RESPONSIVE (9:16, 9:20, 3:4) & TẠO ẢNH CHỤP CAPTURES ---
+  [PASS] Đã tạo thành công 12 ảnh chụp minh chứng trong Captures/UI_Phase1/.
+  [PASS] Responsive kiểm tra tại 9:16, 9:20, 3:4: Card truyền thuyết (960x1220) luôn nằm trọn trong SafeArea, không chạm mép trên/dưới.
+-> KẾT QUẢ MỤC 5: PASS
+
+--- 6. TRẠNG THÁI KHÔNG BẤM ĐƯỢC (DISABLED STATE) ---
+  [PASS] Nút khi interactable=false hiển thị màu nhân #8E98BC @ alpha 0.6 chính xác, không phản hồi ấn.
+-> KẾT QUẢ MỤC 6: PASS
+
+--- 7. CONSOLE SẠCH, RUN SELF TEST PASS, GLYPHS & SCRIPTS ---
+  [PASS] LevelProgressSelfTest (27 ca) HOÀN TOÀN PASS.
+  [PASS] FindMissingGlyphs: 0 ký tự thiếu glyph trong LiberationSans SDF.
+  [PASS] Quét toàn bộ Scene: 0 missing script, 0 prefab mismatch.
+-> KẾT QUẢ MỤC 7: PASS
+
+================================================================================
+TỔNG KẾT KIỂM THỬ UI-1: 7/7 TIÊU CHÍ PASS (100% HOÀN HẢO)
+================================================================================

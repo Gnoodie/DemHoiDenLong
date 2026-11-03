@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21a8970982c4ea54b90afd89dc7b766f, type: 3}
+  m_Name: Act_3
+  m_EditorClassIdentifier: DemHoiDenLong::DemHoiDenLong.Data.ActData
+  actIndex: 2
+  title: "H\u1ED2I 3 - CUNG TR\u0102NG HUY\u1EC0N \u1EA2O"
+  subtitle: "B\xCD \u1EA8N CUNG TR\u0102NG"
+  unlockHint: "\u0110\xE1nh b\u1EA1i tr\xF9m H\u1ED3i 2 \u0111\u1EC3 m\u1EDF kh\xF3a"
+  accentColor: {r: 0.663, g: 0.608, b: 1, a: 1}
+  banner: {fileID: 7308913567369164726, guid: 392c5106e8522074894c5a42ee0fc1c8, type: 3}
+  mapBackground: {fileID: -8806349067160933327, guid: 8afbc8b3c94386946b9d4de2b139f99e, type: 3}
+  battleBackground: {fileID: -1085340388196363058, guid: e9334545a234d4c448adc314ffd8597e, type: 3}
+  bossSprite: {fileID: 5634996885631898029, guid: 8c2f041ba6738484a991d1e99f364592, type: 3}
+  battleDim: 0.18
+  enemyTypeIds:
+  - den_ma
+  levels:
+  - {fileID: 11400000, guid: 40f07eb71b406854ebae428a7f6ab7ec, type: 2}
+  - {fileID: 11400000, guid: 6d3335341714b18418e133f553af3ed2, type: 2}
+  - {fileID: 11400000, guid: fc1394fe1a13a394c8106a74e1c8d891, type: 2}
+  - {fileID: 11400000, guid: 3b22ccab4737a5441984375cbcb815de, type: 2}
+  - {fileID: 11400000, guid: c3d6cd3b3cc03b746bdd851c9df9bfe9, type: 2}

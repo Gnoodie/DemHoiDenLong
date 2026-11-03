@@ -73,6 +73,7 @@ namespace DemHoiDenLong.UI
 
         private void OnLevelSelected(int levelIndex)
         {
+            Audio.AudioManager.Instance?.PlayUIClick();
             Debug.Log($"WorldMapUI: Selected Level {levelIndex}. Proceeding to Gameplay Scene...");
             // Load gameplay scene here
             // UnityEngine.SceneManagement.SceneManager.LoadScene("Gameplay");

@@ -31,5 +31,12 @@ namespace DemHoiDenLong.Data
         public MovementPattern movementPattern = MovementPattern.StraightDown;
         public float sinFrequency = 2.0f; // Oscillation speed for SinWave
         public float sinAmplitude = 1.5f; // Oscillation width for SinWave
+        [Header("Shooting (Optional)")]
+        public bool canShoot = false;
+        public float fireRate = 2f;      // seconds between shots
+        public float bulletSpeed = 300f; // px/s or world units/s
+        public Sprite bulletSprite;
+        [Tooltip("Scale of bullet sprite. 1 = default size, 1.5 = 50% larger")]
+        public float bulletScale = 1f;
     }
 }

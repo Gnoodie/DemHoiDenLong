@@ -21,6 +21,8 @@ namespace DemHoiDenLong.Gameplay
         private Collider2D bulletCollider;
         private Vector2 minScreenBounds;
         private Vector2 maxScreenBounds;
+        private Sprite defaultSprite; // Store original sprite to reset pooled bullets
+        private Vector3 defaultScale; // Store original scale to reset pooled bullets
 
         public float Damage => damage;
         public float Speed => speed;
@@ -35,12 +37,19 @@ namespace DemHoiDenLong.Gameplay
             {
                 bulletCollider.isTrigger = true;
             }
+            
+            // Store default sprite and scale to reset pooled bullets
+            defaultScale = transform.localScale;
+            if (spriteRenderer != null)
+            {
+                defaultSprite = spriteRenderer.sprite;
+            }
         }
 
         /// <summary>
         /// Initializes projectile parameters when spawned from BulletPool.
         /// </summary>
-        public void Initialize(Vector3 spawnPosition, Vector2 moveDirection, float moveSpeed, float bulletDamage, bool fromPlayer, Vector2 screenMin, Vector2 screenMax, Sprite customSprite = null)
+        public void Initialize(Vector3 spawnPosition, Vector2 moveDirection, float moveSpeed, float bulletDamage, bool fromPlayer, Vector2 screenMin, Vector2 screenMax, Sprite customSprite = null, float scale = 1f)
         {
             transform.position = spawnPosition;
             direction = moveDirection.normalized;
@@ -51,11 +60,23 @@ namespace DemHoiDenLong.Gameplay
             maxScreenBounds = screenMax;
             lifetimeTimer = 0f;
 
-            if (customSprite != null && spriteRenderer != null)
+            // Always reset sprite and scale to prevent pooled-bullet pollution
+            transform.localScale = defaultScale * scale;
+            if (spriteRenderer != null)
             {
-                spriteRenderer.sprite = customSprite;
+                spriteRenderer.sprite = customSprite != null ? customSprite : defaultSprite;
             }
 
+            if (direction.sqrMagnitude > 0.001f)
+            {
+                float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
+                // Sprite đạn địch (bullet_enemy) được vẽ chúc xuống (-Y), bù 180 độ để đầu đạn hướng đúng chiều bay
+                if (!isPlayerBullet)
+                {
+                    angle += 180f;
+                }
+                transform.rotation = Quaternion.Euler(0f, 0f, angle);
+            }
             gameObject.SetActive(true);
         }
 
@@ -101,7 +122,7 @@ namespace DemHoiDenLong.Gameplay
             // Player bullets damage Enemies/Boss; Enemy bullets damage Player
             if (isPlayerBullet)
             {
-                var target = other.GetComponent<IDamageable>();
+                var target = other.GetComponentInParent<IDamageable>();
                 // Make sure we don't shoot ourselves
                 if (target != null && !(target is PlayerController))
                 {

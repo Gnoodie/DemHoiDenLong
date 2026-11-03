@@ -1,0 +1,3 @@
+=== BÁO CÁO TÌM GLYPH THIẾU (FIND MISSING GLYPHS) ===
+Tổng số đối tượng TMP thiếu glyph: 0
+Không tìm thấy ký tự nào thiếu glyph trong LiberationSans SDF!

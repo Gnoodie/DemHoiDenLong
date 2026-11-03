@@ -1,0 +1,42 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin" at "2026-10-28T03:45:23.6497626Z"
+Built from '6000.5/staging' branch; Version is '6000.5.8f1 (5cb7df797b7d) revision 6076383'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 16176 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-28T03:45:23Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 11104, path: "D:/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              dad064d0db42456ebb350a03ed287c66
+  Correlation Id:          6482baac28663953a5565a611d5492f0
+  External correlation Id: 7624531637568993590
+  Machine Id:              lQ7buzFeKRneuD95H9kLXIWklkM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Admin" (connect: 0.00s, validation: 0.01s, handshake: 0.07s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin-notifications" at "2026-10-28T03:45:23.7259473Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968483045552-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.08s
+
+COMMAND LINE ARGUMENTS:
+D:\6000.5.8f1\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+D:\Dev_Game\DemHoiDenLong
+-executeMethod
+DemHoiDenLong.EditorTools.LevelProgressSelfTest.RunAllTests
+-logFile
+D:\Dev_Game\DemHoiDenLong\test_batch.log
+Successfully changed project path to: D:\Dev_Game\DemHoiDenLong
+D:/Dev_Game/DemHoiDenLong
+Exiting without the bug reporter. Application will terminate with return code 1

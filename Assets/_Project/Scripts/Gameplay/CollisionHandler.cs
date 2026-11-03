@@ -17,7 +17,21 @@ namespace DemHoiDenLong.Gameplay
             if (bullet == null || target == null) return false;
             if (!bullet.gameObject.activeSelf || target.IsDead) return false;
 
-            target.TakeDamage(bullet.Damage);
+            if (target is EnemyBase eb)
+            {
+                eb.TakeDamage(bullet.Damage, KillCause.PlayerBullet);
+            }
+            else
+            {
+                target.TakeDamage(bullet.Damage);
+            }
+            
+            // Trigger hit VFX at bullet position
+            if (VFX.VFXManager.Instance != null)
+            {
+                VFX.VFXManager.Instance.PlayHit(bullet.transform.position);
+            }
+            
             bullet.Recycle();
             return true;
         }

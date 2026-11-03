@@ -1,0 +1,1497 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.8f1 (5cb7df797b7d) revision 6076383'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 16176 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin" at "2026-10-23T09:46:33.8855477Z"
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-23T09:46:33Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 2900, path: "D:/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              11782e79c34045108795350324385692
+  Correlation Id:          4f801260e668720042133729ab3ef580
+  External correlation Id: 413640119907646751
+  Machine Id:              lQ7buzFeKRneuD95H9kLXIWklkM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Admin" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin-notifications" at "2026-10-23T09:46:33.9400823Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968483045552-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.06s
+
+COMMAND LINE ARGUMENTS:
+D:\6000.5.8f1\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+D:\Dev_Game\DemHoiDenLong
+-executeMethod
+DemHoiDenLong.EditorTools.PlaytestRunner.RunAllPlaytests
+-logFile
+D:\Dev_Game\DemHoiDenLong\playtest_run.log
+Successfully changed project path to: D:\Dev_Game\DemHoiDenLong
+D:/Dev_Game/DemHoiDenLong
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.Player connection [6664]  Target information:
+
+Player connection [6664]  * "[IP] 192.168.206.1 [Port] 55504 [Flags] 2 [Guid] 851081720 [EditorId] 851081720 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8VS68C7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6664]  * "[IP] 192.168.65.1 [Port] 55504 [Flags] 2 [Guid] 851081720 [EditorId] 851081720 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8VS68C7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6664]  * "[IP] 10.10.10.1 [Port] 55504 [Flags] 2 [Guid] 851081720 [EditorId] 851081720 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8VS68C7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6664]  * "[IP] 192.168.29.1 [Port] 55504 [Flags] 2 [Guid] 851081720 [EditorId] 851081720 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8VS68C7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6664]  * "[IP] 192.168.1.1 [Port] 55504 [Flags] 2 [Guid] 851081720 [EditorId] 851081720 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8VS68C7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6664]  * "[IP] 192.168.10.1 [Port] 55504 [Flags] 2 [Guid] 851081720 [EditorId] 851081720 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8VS68C7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6664]  * "[IP] 192.168.20.1 [Port] 55504 [Flags] 2 [Guid] 851081720 [EditorId] 851081720 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8VS68C7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6664]  * "[IP] 192.168.1.7 [Port] 55504 [Flags] 2 [Guid] 851081720 [EditorId] 851081720 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8VS68C7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6664] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6664] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-12908" after 0.2 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Active build profile path: `Assets/Settings/Build Profiles/Android™.asset`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+[Licensing::Client] Successfully resolved entitlement details
+Got setting from build profile YAML, name `m_BuildTarget`, value `13`
+Got setting from build profile YAML, name `m_Subtarget`, value `0`
+Initialize engine version: 6000.5.8f1 (5cb7df797b7d)
+[Subsystems] Discovering subsystems at path D:/6000.5.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Dev_Game/DemHoiDenLong/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25e2)
+    Vendor:          NVIDIA
+    VRAM:            3977 MB
+    App VRAM Budget: 3380 MB
+    Driver:          31.0.15.4630
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Initialize mono
+Mono path[0] = 'D:/6000.5.8f1/Editor/Data/Managed'
+Mono path[1] = 'D:/6000.5.8f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'D:/6000.5.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/6000.5.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/6000.5.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/6000.5.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/6000.5.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001350 seconds.
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.583 seconds
+Domain Reload Profiling: 1100ms
+	BeginReloadAssembly (131ms)
+		CreateAndSetChildDomain (9ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (305ms)
+		LoadAssemblies (122ms)
+		AnalyzeDomain (221ms)
+			TypeCache.Refresh (219ms)
+				TypeCache.ScanAssembly (205ms)
+	FinalizeReload (584ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (314ms)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 65 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.2d.animation@15.1.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.animation@6d5a363ae647)
+    com.unity.2d.aseprite@5.0.3 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.aseprite@d13865913efa)
+    com.unity.2d.psdimporter@14.0.3 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.psdimporter@5d82044f9e43)
+    com.unity.2d.spriteshape@15.0.3 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.spriteshape@fcb7ec61a58b)
+    com.unity.2d.tilemap.extras@8.0.3 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.tilemap.extras@a80140457adc)
+    com.unity.2d.tooling@3.0.1 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.tooling@6f06ffb033c0)
+    com.unity.collab-proxy@2.13.5 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.collab-proxy@120d77864ebc)
+    com.unity.ide.rider@3.0.38 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.timeline@1.8.12 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.timeline@8cd8509afae5)
+    com.unity.visualscripting@1.9.12 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.2d.common@14.0.1 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.common@73badf92ba8b)
+    com.unity.searcher@4.9.5 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.burst@1.8.30 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.burst@2f3d916873ea)
+    com.unity.nuget.mono-cecil@1.11.6 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.5.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.test-framework.performance@8b56083ec0f0)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.sprite@053a968eab56)
+    com.unity.2d.tilemap@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.tilemap@b959501fd678)
+    com.unity.multiplayer.center@1.0.1 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.render-pipelines.universal@17.5.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.render-pipelines.universal@73b4c4ff130e)
+    com.unity.test-framework@1.7.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.test-framework@1405238725ab)
+    com.unity.ugui@2.5.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.ugui@1c4864518158)
+    com.unity.modules.accessibility@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.ext.nunit@44f7d31723bd)
+    com.unity.render-pipelines.core@17.5.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.render-pipelines.core@a4c9a9793789)
+    com.unity.shadergraph@17.5.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.shadergraph@8d7376ec43ee)
+    com.unity.render-pipelines.universal-config@17.5.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.render-pipelines.universal-config@fdda01c80fe3)
+    com.unity.collections@6.5.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.collections@ec2c217e4cb2)
+    com.unity.mathematics@1.4.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.mathematics@981956d94fb6)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.03 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: D:\6000.5.8f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: D:/Dev_Game/DemHoiDenLong
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 4s55ms
+[ 896/1156  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1152/1156  1s] Csc Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[1153/1156  0s] ILPostProcess Library/Bee/artifacts/1300b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp-Editor.dll, with 149 defines and 382 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1154/1156  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[1155/1156  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (4.01 seconds), 5 items updated, 1156 evaluated
+Total cache size 133264037
+Total cache size after purge 133264037, took 00:00:00.0936877
+AssetDatabase: script compilation time: 5.136317s
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+================================================================================
+                       BÁO CÁO CHẨN ĐOÁN ACTSELECTVIEW                          
+================================================================================
+Thời gian: 2026-10-23 16:46:45 | IsPlaying: False
+LỖI: Không tìm thấy Canvas trong Scene!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.EditorTools.DiagnoseActSelectView:WriteAndLog (string) (at Assets/_Project/Editor/DiagnoseActSelectView.cs:280)
+DemHoiDenLong.EditorTools.DiagnoseActSelectView:RunDiagnosis () (at Assets/_Project/Editor/DiagnoseActSelectView.cs:27)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/_Project/Editor/DiagnoseActSelectView.cs Line: 280)
+
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.246 seconds
+Domain Reload Profiling: 4185ms
+	BeginReloadAssembly (234ms)
+		DisableScriptedObjects (25ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (629ms)
+		LoadAssemblies (326ms)
+		AnalyzeDomain (280ms)
+			TypeCache.Refresh (198ms)
+				TypeCache.ScanAssembly (184ms)
+			BuildScriptInfoCaches (72ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (3247ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (2536ms)
+			ProcessInitializeOnLoadMethodAttributes (342ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Starting new worker id: 0 with log in D:/Dev_Game/DemHoiDenLong/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=f4c594929d8073b42a219cb9de5afc74): Total: 10.424 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=3905 ms
+		Asset DB Callback time: managed=304 ms, native=43 ms
+		Scripting: domain reloads=1, domain reload time=979 ms, compile time=5138 ms, other=53 ms
+		Project Asset Count: scripts=1679, non-scripts=3667
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 34.481ms
+	ApplyChangesToAssetFolders: 0.589ms
+	Scan: 209.633ms
+	Collect global state as custom dependencies: 20.843ms
+	OnSourceAssetsModified: 0.665ms
+	CategorizeScriptCompilationAssets: 50.112ms
+	ProcessAssetsWithTransientArtifactChanges: 97.772ms
+	CategorizeAssets: 72.059ms
+	CompileScripts: 5137.779ms
+	ImportOutOfDateAssets: 3333.296ms (3267.569ms without children)
+		UnloadImportedAssets: 0.860ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.782ms
+		ImportSchedulerStart: 64.039ms
+	PostProcessAllAssets: 307.128ms
+		VCAutoAddAssetPostprocess 1.511ms
+		XRBuildSystem.XRAssetImported 0.406ms
+		MonoPostProcessAllAssets: 304.362ms
+			AssetPostprocessor.OnPostprocessAllAssets 189.390ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 31.745ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 18.255ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 7.133ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 4.500ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 3.522ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 3.315ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 3.211ms
+			AssetChangedListener.OnPostprocessAllAssets 2.883ms
+			MaterialPostprocessor.OnPostprocessAllAssets 2.769ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.418ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.701ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.325ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.977ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.942ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.860ms
+			AssetProcessor.OnPostprocessAllAssets 0.827ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.683ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.580ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.529ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.473ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.457ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.449ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.362ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.352ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.327ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.295ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.278ms
+			AssetEvents.OnPostprocessAllAssets 0.270ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.269ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.260ms
+			PostProcessor.OnPostprocessAllAssets 0.255ms
+			SyncVS.PostprocessSyncProject 0.238ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.236ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.226ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.221ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.150ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.146ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.131ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.129ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.106ms
+	PostAssetChangesProfiler: 7.377ms
+	UnloadStreamsBegin: 3.030ms
+	PersistCurrentRevisions: 0.190ms
+	GenerateScriptTypeHashes: 3.070ms
+	GenerateScriptTypeSerializationHashes: 5.242ms
+	Untracked: 1144.938ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Scanning for USB devices : 4.483ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-DemHoiDenLong
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7527 unused Assets / (6.5 MB). Loaded Objects now: 8601.
+Memory consumption went from 462.3 MB to 455.7 MB.
+Total: 18.136100 ms (FindLiveObjects: 1.030000 ms CreateObjectMapping: 3.605500 ms MarkObjects: 9.232400 ms  DeleteObjects: 4.243300 ms)
+
+=========================================================
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:17)
+
+(Filename: Assets/_Project/Editor/PlaytestRunner.cs Line: 17)
+
+=== BẮT ĐẦU CHẠY 5 KỊCH BẢN GAMEPLAY THẬT (PHASE 5A.1) ===
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:18)
+
+(Filename: Assets/_Project/Editor/PlaytestRunner.cs Line: 18)
+
+=========================================================
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:19)
+
+(Filename: Assets/_Project/Editor/PlaytestRunner.cs Line: 19)
+
+
+>>> [KỊCH BẢN 1] BẮT ĐẦU CHƠI THẬT: Màn 1 (KillCount 25 địch)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario1_WinKillCount () (at Assets/_Project/Editor/PlaytestRunner.cs:37)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:21)
+
+(Filename: Assets/_Project/Editor/PlaytestRunner.cs Line: 37)
+
+[LevelSession] Khởi tạo phiên chơi: Màn=1 (MÀN 1-1), Lân=Hỏa Lân (id=2), HP=90, DMG=12, FireRate=3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.LevelSession:Initialize (int,string) (at Assets/_Project/Scripts/Gameplay/LevelSession.cs:108)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario1_WinKillCount () (at Assets/_Project/Editor/PlaytestRunner.cs:38)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:21)
+
+(Filename: Assets/_Project/Scripts/Gameplay/LevelSession.cs Line: 108)
+
+[PlayerController] Loaded stats from LevelSession: HP=90, Speed=200, Damage=12, FireRate=3, Lives=3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.PlayerController:InitializeStats () (at Assets/_Project/Scripts/Gameplay/PlayerController.cs:229)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:281)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario1_WinKillCount () (at Assets/_Project/Editor/PlaytestRunner.cs:39)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:21)
+
+(Filename: Assets/_Project/Scripts/Gameplay/PlayerController.cs Line: 229)
+
+[WaveManager] Bắt đầu màn 1: Điều kiện=KillCount, TargetKills=25, Survive=0s, IsBoss=False
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.WaveManager:StartLevel (DemHoiDenLong.Data.LevelData) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:103)
+DemHoiDenLong.Gameplay.GameManager:ChangeState (DemHoiDenLong.Gameplay.GameState) (at Assets/_Project/Scripts/Gameplay/GameManager.cs:144)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:297)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario1_WinKillCount () (at Assets/_Project/Editor/PlaytestRunner.cs:39)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:21)
+
+(Filename: Assets/_Project/Scripts/Gameplay/WaveManager.cs Line: 103)
+
+[WaveManager] Bắt đầu màn 1: Điều kiện=KillCount, TargetKills=25, Survive=0s, IsBoss=False
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.WaveManager:StartLevel (DemHoiDenLong.Data.LevelData) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:103)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:301)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario1_WinKillCount () (at Assets/_Project/Editor/PlaytestRunner.cs:39)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:21)
+
+(Filename: Assets/_Project/Scripts/Gameplay/WaveManager.cs Line: 103)
+
+[RUN] KillCount 5/25
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.WaveManager:HandleEnemyDied (DemHoiDenLong.Gameplay.EnemyBase) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:118)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario1_WinKillCount>b__1_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:58)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario1_WinKillCount () (at Assets/_Project/Editor/PlaytestRunner.cs:39)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:21)
+
+(Filename: Assets/_Project/Scripts/Gameplay/WaveManager.cs Line: 118)
+
+[RUN] KillCount 10/25
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.WaveManager:HandleEnemyDied (DemHoiDenLong.Gameplay.EnemyBase) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:118)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario1_WinKillCount>b__1_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:58)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario1_WinKillCount () (at Assets/_Project/Editor/PlaytestRunner.cs:39)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:21)
+
+(Filename: Assets/_Project/Scripts/Gameplay/WaveManager.cs Line: 118)
+
+[RUN] KillCount 15/25
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.WaveManager:HandleEnemyDied (DemHoiDenLong.Gameplay.EnemyBase) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:118)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario1_WinKillCount>b__1_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:58)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario1_WinKillCount () (at Assets/_Project/Editor/PlaytestRunner.cs:39)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:21)
+
+(Filename: Assets/_Project/Scripts/Gameplay/WaveManager.cs Line: 118)
+
+[RUN] KillCount 20/25
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.WaveManager:HandleEnemyDied (DemHoiDenLong.Gameplay.EnemyBase) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:118)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario1_WinKillCount>b__1_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:58)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario1_WinKillCount () (at Assets/_Project/Editor/PlaytestRunner.cs:39)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:21)
+
+(Filename: Assets/_Project/Scripts/Gameplay/WaveManager.cs Line: 118)
+
+[RUN] KillCount 25/25
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.WaveManager:HandleEnemyDied (DemHoiDenLong.Gameplay.EnemyBase) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:118)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario1_WinKillCount>b__1_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:58)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario1_WinKillCount () (at Assets/_Project/Editor/PlaytestRunner.cs:39)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:21)
+
+(Filename: Assets/_Project/Scripts/Gameplay/WaveManager.cs Line: 118)
+
+[WaveManager] Đạt mục tiêu hạ 25/25 địch -> Thắng màn!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.WaveManager:HandleEnemyDied (DemHoiDenLong.Gameplay.EnemyBase) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:126)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario1_WinKillCount>b__1_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:58)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario1_WinKillCount () (at Assets/_Project/Editor/PlaytestRunner.cs:39)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:21)
+
+(Filename: Assets/_Project/Scripts/Gameplay/WaveManager.cs Line: 126)
+
+[LevelSession] EconomyManager null: Đệm +30 Sao vào PlayerPrefs (tổng Player_Stars: 430)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.LevelSession:AwardStars (int) (at Assets/_Project/Scripts/Gameplay/LevelSession.cs:206)
+DemHoiDenLong.Gameplay.GameManager:TriggerVictory (string) (at Assets/_Project/Scripts/Gameplay/GameManager.cs:220)
+DemHoiDenLong.Gameplay.WaveManager:TriggerLevelCompleted (string) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:327)
+DemHoiDenLong.Gameplay.WaveManager:HandleEnemyDied (DemHoiDenLong.Gameplay.EnemyBase) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:127)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario1_WinKillCount>b__1_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:58)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario1_WinKillCount () (at Assets/_Project/Editor/PlaytestRunner.cs:39)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:21)
+
+(Filename: Assets/_Project/Scripts/Gameplay/LevelSession.cs Line: 206)
+
+[RUN END] level=1 result=WIN reason=KillCount kills=25/25 time=45.0s hearts=3 hp=90/90 hp01=1.00 stars=3 usedRevive=False runStars=30
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.GameManager:TriggerVictory (string) (at Assets/_Project/Scripts/Gameplay/GameManager.cs:232)
+DemHoiDenLong.Gameplay.WaveManager:TriggerLevelCompleted (string) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:327)
+DemHoiDenLong.Gameplay.WaveManager:HandleEnemyDied (DemHoiDenLong.Gameplay.EnemyBase) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:127)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario1_WinKillCount>b__1_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:58)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario1_WinKillCount () (at Assets/_Project/Editor/PlaytestRunner.cs:39)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:21)
+
+(Filename: Assets/_Project/Scripts/Gameplay/GameManager.cs Line: 232)
+
+[TELEMETRY] level=1 enemies=[Giấy:20, Gai:5, Cá:0, Ma:0, Tổng:25] starsDropped=30 starsCollected=30 pickupRatio=100.0 %
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.LevelSession:LogTelemetry (int) (at Assets/_Project/Scripts/Gameplay/LevelSession.cs:185)
+DemHoiDenLong.Gameplay.GameManager:TriggerVictory (string) (at Assets/_Project/Scripts/Gameplay/GameManager.cs:233)
+DemHoiDenLong.Gameplay.WaveManager:TriggerLevelCompleted (string) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:327)
+DemHoiDenLong.Gameplay.WaveManager:HandleEnemyDied (DemHoiDenLong.Gameplay.EnemyBase) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:127)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario1_WinKillCount>b__1_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:58)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario1_WinKillCount () (at Assets/_Project/Editor/PlaytestRunner.cs:39)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:21)
+
+(Filename: Assets/_Project/Scripts/Gameplay/LevelSession.cs Line: 185)
+
+
+>>> [KỊCH BẢN 2] BẮT ĐẦU CHƠI THẬT: Màn 2 (SurviveTime 51 giây)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario2_WinSurviveTime () (at Assets/_Project/Editor/PlaytestRunner.cs:70)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:22)
+
+(Filename: Assets/_Project/Editor/PlaytestRunner.cs Line: 70)
+
+[LevelSession] Khởi tạo phiên chơi: Màn=2 (MÀN 1-2), Lân=Hỏa Lân (id=2), HP=90, DMG=12, FireRate=3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.LevelSession:Initialize (int,string) (at Assets/_Project/Scripts/Gameplay/LevelSession.cs:108)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario2_WinSurviveTime () (at Assets/_Project/Editor/PlaytestRunner.cs:71)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:22)
+
+(Filename: Assets/_Project/Scripts/Gameplay/LevelSession.cs Line: 108)
+
+[PlayerController] Loaded stats from LevelSession: HP=90, Speed=200, Damage=12, FireRate=3, Lives=3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.PlayerController:InitializeStats () (at Assets/_Project/Scripts/Gameplay/PlayerController.cs:229)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:281)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario2_WinSurviveTime () (at Assets/_Project/Editor/PlaytestRunner.cs:72)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:22)
+
+(Filename: Assets/_Project/Scripts/Gameplay/PlayerController.cs Line: 229)
+
+[WaveManager] Bắt đầu màn 2: Điều kiện=SurviveTime, TargetKills=0, Survive=51s, IsBoss=False
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.WaveManager:StartLevel (DemHoiDenLong.Data.LevelData) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:103)
+DemHoiDenLong.Gameplay.GameManager:ChangeState (DemHoiDenLong.Gameplay.GameState) (at Assets/_Project/Scripts/Gameplay/GameManager.cs:144)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:297)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario2_WinSurviveTime () (at Assets/_Project/Editor/PlaytestRunner.cs:72)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:22)
+
+(Filename: Assets/_Project/Scripts/Gameplay/WaveManager.cs Line: 103)
+
+[WaveManager] Bắt đầu màn 2: Điều kiện=SurviveTime, TargetKills=0, Survive=51s, IsBoss=False
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.WaveManager:StartLevel (DemHoiDenLong.Data.LevelData) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:103)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:301)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario2_WinSurviveTime () (at Assets/_Project/Editor/PlaytestRunner.cs:72)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:22)
+
+(Filename: Assets/_Project/Scripts/Gameplay/WaveManager.cs Line: 103)
+
+[LevelProgressManager] RewardSink chưa sẵn sàng. Hoãn nhận thưởng mốc 1 màn 2, chưa đánh dấu đã nhận.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:487)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:392)
+DemHoiDenLong.Gameplay.GameManager:TriggerVictory (string) (at Assets/_Project/Scripts/Gameplay/GameManager.cs:217)
+DemHoiDenLong.Gameplay.WaveManager:TriggerLevelCompleted (string) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:327)
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario2_WinSurviveTime>b__2_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:94)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario2_WinSurviveTime () (at Assets/_Project/Editor/PlaytestRunner.cs:72)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:22)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 487)
+
+[LevelProgressManager] RewardSink chưa sẵn sàng. Hoãn nhận thưởng mốc 2 màn 2, chưa đánh dấu đã nhận.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:487)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:392)
+DemHoiDenLong.Gameplay.GameManager:TriggerVictory (string) (at Assets/_Project/Scripts/Gameplay/GameManager.cs:217)
+DemHoiDenLong.Gameplay.WaveManager:TriggerLevelCompleted (string) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:327)
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario2_WinSurviveTime>b__2_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:94)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario2_WinSurviveTime () (at Assets/_Project/Editor/PlaytestRunner.cs:72)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:22)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 487)
+
+[LevelProgressManager] RewardSink chưa sẵn sàng. Hoãn nhận thưởng mốc 3 màn 2, chưa đánh dấu đã nhận.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:487)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:392)
+DemHoiDenLong.Gameplay.GameManager:TriggerVictory (string) (at Assets/_Project/Scripts/Gameplay/GameManager.cs:217)
+DemHoiDenLong.Gameplay.WaveManager:TriggerLevelCompleted (string) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:327)
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario2_WinSurviveTime>b__2_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:94)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario2_WinSurviveTime () (at Assets/_Project/Editor/PlaytestRunner.cs:72)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:22)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 487)
+
+[LevelSession] EconomyManager null: Đệm +21 Sao vào PlayerPrefs (tổng Player_Stars: 451)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.LevelSession:AwardStars (int) (at Assets/_Project/Scripts/Gameplay/LevelSession.cs:206)
+DemHoiDenLong.Gameplay.GameManager:TriggerVictory (string) (at Assets/_Project/Scripts/Gameplay/GameManager.cs:220)
+DemHoiDenLong.Gameplay.WaveManager:TriggerLevelCompleted (string) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:327)
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario2_WinSurviveTime>b__2_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:94)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario2_WinSurviveTime () (at Assets/_Project/Editor/PlaytestRunner.cs:72)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:22)
+
+(Filename: Assets/_Project/Scripts/Gameplay/LevelSession.cs Line: 206)
+
+[RUN END] level=2 result=WIN reason=SurviveTime kills=17/0 time=51/51 hearts=3 hp=90/90 hp01=1.00 stars=3 usedRevive=False runStars=21
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.GameManager:TriggerVictory (string) (at Assets/_Project/Scripts/Gameplay/GameManager.cs:232)
+DemHoiDenLong.Gameplay.WaveManager:TriggerLevelCompleted (string) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:327)
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario2_WinSurviveTime>b__2_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:94)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario2_WinSurviveTime () (at Assets/_Project/Editor/PlaytestRunner.cs:72)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:22)
+
+(Filename: Assets/_Project/Scripts/Gameplay/GameManager.cs Line: 232)
+
+[TELEMETRY] level=2 enemies=[Giấy:13, Gai:4, Cá:0, Ma:0, Tổng:17] starsDropped=21 starsCollected=21 pickupRatio=100.0 %
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.LevelSession:LogTelemetry (int) (at Assets/_Project/Scripts/Gameplay/LevelSession.cs:185)
+DemHoiDenLong.Gameplay.GameManager:TriggerVictory (string) (at Assets/_Project/Scripts/Gameplay/GameManager.cs:233)
+DemHoiDenLong.Gameplay.WaveManager:TriggerLevelCompleted (string) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:327)
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario2_WinSurviveTime>b__2_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:94)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario2_WinSurviveTime () (at Assets/_Project/Editor/PlaytestRunner.cs:72)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:22)
+
+(Filename: Assets/_Project/Scripts/Gameplay/LevelSession.cs Line: 185)
+
+
+>>> [KỊCH BẢN 3] BẮT ĐẦU CHƠI THẬT: Màn 5 (BossKill - Đèn Tàn Trùm Làng HP 500)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario3_WinBossKill () (at Assets/_Project/Editor/PlaytestRunner.cs:104)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:23)
+
+(Filename: Assets/_Project/Editor/PlaytestRunner.cs Line: 104)
+
+[LevelSession] Khởi tạo phiên chơi: Màn=5 (MÀN 1-5), Lân=Hỏa Lân (id=2), HP=90, DMG=12, FireRate=3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.LevelSession:Initialize (int,string) (at Assets/_Project/Scripts/Gameplay/LevelSession.cs:108)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario3_WinBossKill () (at Assets/_Project/Editor/PlaytestRunner.cs:105)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:23)
+
+(Filename: Assets/_Project/Scripts/Gameplay/LevelSession.cs Line: 108)
+
+[PlayerController] Loaded stats from LevelSession: HP=90, Speed=200, Damage=12, FireRate=3, Lives=3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.PlayerController:InitializeStats () (at Assets/_Project/Scripts/Gameplay/PlayerController.cs:229)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:281)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario3_WinBossKill () (at Assets/_Project/Editor/PlaytestRunner.cs:106)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:23)
+
+(Filename: Assets/_Project/Scripts/Gameplay/PlayerController.cs Line: 229)
+
+[WaveManager] Bắt đầu màn 5: Điều kiện=BossKill, TargetKills=0, Survive=0s, IsBoss=True
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.WaveManager:StartLevel (DemHoiDenLong.Data.LevelData) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:103)
+DemHoiDenLong.Gameplay.GameManager:ChangeState (DemHoiDenLong.Gameplay.GameState) (at Assets/_Project/Scripts/Gameplay/GameManager.cs:144)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:297)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario3_WinBossKill () (at Assets/_Project/Editor/PlaytestRunner.cs:106)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:23)
+
+(Filename: Assets/_Project/Scripts/Gameplay/WaveManager.cs Line: 103)
+
+[WaveManager] Bắt đầu màn 5: Điều kiện=BossKill, TargetKills=0, Survive=0s, IsBoss=True
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.WaveManager:StartLevel (DemHoiDenLong.Data.LevelData) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:103)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:301)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario3_WinBossKill () (at Assets/_Project/Editor/PlaytestRunner.cs:106)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:23)
+
+(Filename: Assets/_Project/Scripts/Gameplay/WaveManager.cs Line: 103)
+
+[BossController] Trùm 'PF_BossAct1(Clone)' xuất hiện với 500 HP. Nhận 500 sát thương từ Lân...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario3_WinBossKill>b__3_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:135)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario3_WinBossKill () (at Assets/_Project/Editor/PlaytestRunner.cs:106)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:23)
+
+(Filename: Assets/_Project/Editor/PlaytestRunner.cs Line: 135)
+
+Boss TakeDamage called: amount=500, isInvulnerable=False, hasShieldBarrier=False, shieldCount=0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.BossAct1:TakeDamage (single) (at Assets/_Project/Scripts/Gameplay/BossAct1.cs:167)
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario3_WinBossKill>b__3_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:138)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario3_WinBossKill () (at Assets/_Project/Editor/PlaytestRunner.cs:106)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:23)
+
+(Filename: Assets/_Project/Scripts/Gameplay/BossAct1.cs Line: 167)
+
+Calling base.TakeDamage
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.BossAct1:TakeDamage (single) (at Assets/_Project/Scripts/Gameplay/BossAct1.cs:186)
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario3_WinBossKill>b__3_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:138)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario3_WinBossKill () (at Assets/_Project/Editor/PlaytestRunner.cs:106)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:23)
+
+(Filename: Assets/_Project/Scripts/Gameplay/BossAct1.cs Line: 186)
+
+[BossController] Trùm bị tiêu diệt! Thưởng +50 Sao trực tiếp vào runStars (Tổng: 62)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.BossController:Die () (at Assets/_Project/Scripts/Gameplay/BossController.cs:219)
+DemHoiDenLong.Gameplay.BossController:TakeDamage (single) (at Assets/_Project/Scripts/Gameplay/BossController.cs:165)
+DemHoiDenLong.Gameplay.BossAct1:TakeDamage (single) (at Assets/_Project/Scripts/Gameplay/BossAct1.cs:187)
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario3_WinBossKill>b__3_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:138)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario3_WinBossKill () (at Assets/_Project/Editor/PlaytestRunner.cs:106)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:23)
+
+(Filename: Assets/_Project/Scripts/Gameplay/BossController.cs Line: 219)
+
+[LevelProgressManager] ReportLevelResult: Màn 5 đang bị khóa! Lượt chơi bị từ chối.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResultInternal (int,bool,single,bool,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:427)
+DemHoiDenLong.Data.LevelProgressManager:ReportLevelResult (int,bool,single,bool) (at Assets/_Project/Scripts/Data/LevelProgressManager.cs:392)
+DemHoiDenLong.Gameplay.GameManager:TriggerVictory (string) (at Assets/_Project/Scripts/Gameplay/GameManager.cs:217)
+DemHoiDenLong.Gameplay.BossController:Die () (at Assets/_Project/Scripts/Gameplay/BossController.cs:225)
+DemHoiDenLong.Gameplay.BossController:TakeDamage (single) (at Assets/_Project/Scripts/Gameplay/BossController.cs:165)
+DemHoiDenLong.Gameplay.BossAct1:TakeDamage (single) (at Assets/_Project/Scripts/Gameplay/BossAct1.cs:187)
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario3_WinBossKill>b__3_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:138)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario3_WinBossKill () (at Assets/_Project/Editor/PlaytestRunner.cs:106)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:23)
+
+(Filename: Assets/_Project/Scripts/Data/LevelProgressManager.cs Line: 427)
+
+[LevelSession] EconomyManager null: Đệm +62 Sao vào PlayerPrefs (tổng Player_Stars: 513)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.LevelSession:AwardStars (int) (at Assets/_Project/Scripts/Gameplay/LevelSession.cs:206)
+DemHoiDenLong.Gameplay.GameManager:TriggerVictory (string) (at Assets/_Project/Scripts/Gameplay/GameManager.cs:220)
+DemHoiDenLong.Gameplay.BossController:Die () (at Assets/_Project/Scripts/Gameplay/BossController.cs:225)
+DemHoiDenLong.Gameplay.BossController:TakeDamage (single) (at Assets/_Project/Scripts/Gameplay/BossController.cs:165)
+DemHoiDenLong.Gameplay.BossAct1:TakeDamage (single) (at Assets/_Project/Scripts/Gameplay/BossAct1.cs:187)
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario3_WinBossKill>b__3_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:138)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario3_WinBossKill () (at Assets/_Project/Editor/PlaytestRunner.cs:106)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:23)
+
+(Filename: Assets/_Project/Scripts/Gameplay/LevelSession.cs Line: 206)
+
+[RUN END] level=5 result=WIN reason=BossKill kills=10/0 time=40.0s hearts=3 hp=90/90 hp01=1.00 stars=0 usedRevive=False runStars=62
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.GameManager:TriggerVictory (string) (at Assets/_Project/Scripts/Gameplay/GameManager.cs:232)
+DemHoiDenLong.Gameplay.BossController:Die () (at Assets/_Project/Scripts/Gameplay/BossController.cs:225)
+DemHoiDenLong.Gameplay.BossController:TakeDamage (single) (at Assets/_Project/Scripts/Gameplay/BossController.cs:165)
+DemHoiDenLong.Gameplay.BossAct1:TakeDamage (single) (at Assets/_Project/Scripts/Gameplay/BossAct1.cs:187)
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario3_WinBossKill>b__3_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:138)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario3_WinBossKill () (at Assets/_Project/Editor/PlaytestRunner.cs:106)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:23)
+
+(Filename: Assets/_Project/Scripts/Gameplay/GameManager.cs Line: 232)
+
+[TELEMETRY] level=5 enemies=[Giấy:8, Gai:2, Cá:0, Ma:0, Tổng:10] starsDropped=62 starsCollected=62 pickupRatio=100.0 %
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.LevelSession:LogTelemetry (int) (at Assets/_Project/Scripts/Gameplay/LevelSession.cs:185)
+DemHoiDenLong.Gameplay.GameManager:TriggerVictory (string) (at Assets/_Project/Scripts/Gameplay/GameManager.cs:233)
+DemHoiDenLong.Gameplay.BossController:Die () (at Assets/_Project/Scripts/Gameplay/BossController.cs:225)
+DemHoiDenLong.Gameplay.BossController:TakeDamage (single) (at Assets/_Project/Scripts/Gameplay/BossController.cs:165)
+DemHoiDenLong.Gameplay.BossAct1:TakeDamage (single) (at Assets/_Project/Scripts/Gameplay/BossAct1.cs:187)
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario3_WinBossKill>b__3_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:138)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario3_WinBossKill () (at Assets/_Project/Editor/PlaytestRunner.cs:106)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:23)
+
+(Filename: Assets/_Project/Scripts/Gameplay/LevelSession.cs Line: 185)
+
+
+>>> [KỊCH BẢN 4] BẮT ĐẦU CHƠI THẬT: Màn 1 (Thua do hết tim OutOfHearts)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario4_LoseOutOfHearts () (at Assets/_Project/Editor/PlaytestRunner.cs:156)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:24)
+
+(Filename: Assets/_Project/Editor/PlaytestRunner.cs Line: 156)
+
+[LevelSession] Khởi tạo phiên chơi: Màn=1 (MÀN 1-1), Lân=Hỏa Lân (id=2), HP=90, DMG=12, FireRate=3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.LevelSession:Initialize (int,string) (at Assets/_Project/Scripts/Gameplay/LevelSession.cs:108)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario4_LoseOutOfHearts () (at Assets/_Project/Editor/PlaytestRunner.cs:157)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:24)
+
+(Filename: Assets/_Project/Scripts/Gameplay/LevelSession.cs Line: 108)
+
+[PlayerController] Loaded stats from LevelSession: HP=90, Speed=200, Damage=12, FireRate=3, Lives=3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.PlayerController:InitializeStats () (at Assets/_Project/Scripts/Gameplay/PlayerController.cs:229)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:281)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario4_LoseOutOfHearts () (at Assets/_Project/Editor/PlaytestRunner.cs:158)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:24)
+
+(Filename: Assets/_Project/Scripts/Gameplay/PlayerController.cs Line: 229)
+
+[WaveManager] Bắt đầu màn 1: Điều kiện=KillCount, TargetKills=25, Survive=0s, IsBoss=False
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.WaveManager:StartLevel (DemHoiDenLong.Data.LevelData) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:103)
+DemHoiDenLong.Gameplay.GameManager:ChangeState (DemHoiDenLong.Gameplay.GameState) (at Assets/_Project/Scripts/Gameplay/GameManager.cs:144)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:297)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario4_LoseOutOfHearts () (at Assets/_Project/Editor/PlaytestRunner.cs:158)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:24)
+
+(Filename: Assets/_Project/Scripts/Gameplay/WaveManager.cs Line: 103)
+
+[WaveManager] Bắt đầu màn 1: Điều kiện=KillCount, TargetKills=25, Survive=0s, IsBoss=False
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.WaveManager:StartLevel (DemHoiDenLong.Data.LevelData) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:103)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:301)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario4_LoseOutOfHearts () (at Assets/_Project/Editor/PlaytestRunner.cs:158)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:24)
+
+(Filename: Assets/_Project/Scripts/Gameplay/WaveManager.cs Line: 103)
+
+[RUN END] level=1 result=LOSE reason=OutOfHearts kills=3/25 time=6.0s hearts=0 hp=0/90 hp01=0.00 stars=0 usedRevive=False runStars=3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.GameManager:HandlePlayerDeath () (at Assets/_Project/Scripts/Gameplay/GameManager.cs:249)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c__DisplayClass6_0:<SetupAndPlayGameplay>b__0 () (at Assets/_Project/Editor/PlaytestRunner.cs:294)
+DemHoiDenLong.Gameplay.PlayerController:OnDeath () (at Assets/_Project/Scripts/Gameplay/PlayerController.cs:406)
+DemHoiDenLong.Gameplay.PlayerController:TakeDamage (single) (at Assets/_Project/Scripts/Gameplay/PlayerController.cs:334)
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario4_LoseOutOfHearts>b__4_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:181)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario4_LoseOutOfHearts () (at Assets/_Project/Editor/PlaytestRunner.cs:158)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:24)
+
+(Filename: Assets/_Project/Scripts/Gameplay/GameManager.cs Line: 249)
+
+[TELEMETRY] level=1 enemies=[Giấy:3, Gai:0, Cá:0, Ma:0, Tổng:3] starsDropped=3 starsCollected=3 pickupRatio=100.0 %
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.LevelSession:LogTelemetry (int) (at Assets/_Project/Scripts/Gameplay/LevelSession.cs:185)
+DemHoiDenLong.Gameplay.GameManager:HandlePlayerDeath () (at Assets/_Project/Scripts/Gameplay/GameManager.cs:250)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c__DisplayClass6_0:<SetupAndPlayGameplay>b__0 () (at Assets/_Project/Editor/PlaytestRunner.cs:294)
+DemHoiDenLong.Gameplay.PlayerController:OnDeath () (at Assets/_Project/Scripts/Gameplay/PlayerController.cs:406)
+DemHoiDenLong.Gameplay.PlayerController:TakeDamage (single) (at Assets/_Project/Scripts/Gameplay/PlayerController.cs:334)
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario4_LoseOutOfHearts>b__4_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:181)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario4_LoseOutOfHearts () (at Assets/_Project/Editor/PlaytestRunner.cs:158)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:24)
+
+(Filename: Assets/_Project/Scripts/Gameplay/LevelSession.cs Line: 185)
+
+
+>>> [KỊCH BẢN 5] BẮT ĐẦU CHƠI THẬT: Màn 1 (Thắng có hồi sinh quảng cáo usedRevive=True)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario5_WinWithRevive () (at Assets/_Project/Editor/PlaytestRunner.cs:192)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:25)
+
+(Filename: Assets/_Project/Editor/PlaytestRunner.cs Line: 192)
+
+[LevelSession] Khởi tạo phiên chơi: Màn=1 (MÀN 1-1), Lân=Hỏa Lân (id=2), HP=90, DMG=12, FireRate=3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.LevelSession:Initialize (int,string) (at Assets/_Project/Scripts/Gameplay/LevelSession.cs:108)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario5_WinWithRevive () (at Assets/_Project/Editor/PlaytestRunner.cs:193)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:25)
+
+(Filename: Assets/_Project/Scripts/Gameplay/LevelSession.cs Line: 108)
+
+[PlayerController] Loaded stats from LevelSession: HP=90, Speed=200, Damage=12, FireRate=3, Lives=3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.PlayerController:InitializeStats () (at Assets/_Project/Scripts/Gameplay/PlayerController.cs:229)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:281)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario5_WinWithRevive () (at Assets/_Project/Editor/PlaytestRunner.cs:194)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:25)
+
+(Filename: Assets/_Project/Scripts/Gameplay/PlayerController.cs Line: 229)
+
+[WaveManager] Bắt đầu màn 1: Điều kiện=KillCount, TargetKills=25, Survive=0s, IsBoss=False
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.WaveManager:StartLevel (DemHoiDenLong.Data.LevelData) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:103)
+DemHoiDenLong.Gameplay.GameManager:ChangeState (DemHoiDenLong.Gameplay.GameState) (at Assets/_Project/Scripts/Gameplay/GameManager.cs:144)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:297)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario5_WinWithRevive () (at Assets/_Project/Editor/PlaytestRunner.cs:194)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:25)
+
+(Filename: Assets/_Project/Scripts/Gameplay/WaveManager.cs Line: 103)
+
+[WaveManager] Bắt đầu màn 1: Điều kiện=KillCount, TargetKills=25, Survive=0s, IsBoss=False
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.WaveManager:StartLevel (DemHoiDenLong.Data.LevelData) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:103)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:301)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario5_WinWithRevive () (at Assets/_Project/Editor/PlaytestRunner.cs:194)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:25)
+
+(Filename: Assets/_Project/Scripts/Gameplay/WaveManager.cs Line: 103)
+
+[RUN] KillCount 5/25
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.WaveManager:HandleEnemyDied (DemHoiDenLong.Gameplay.EnemyBase) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:118)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario5_WinWithRevive>b__5_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:209)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario5_WinWithRevive () (at Assets/_Project/Editor/PlaytestRunner.cs:194)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:25)
+
+(Filename: Assets/_Project/Scripts/Gameplay/WaveManager.cs Line: 118)
+
+[RUN] KillCount 10/25
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.WaveManager:HandleEnemyDied (DemHoiDenLong.Gameplay.EnemyBase) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:118)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario5_WinWithRevive>b__5_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:209)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario5_WinWithRevive () (at Assets/_Project/Editor/PlaytestRunner.cs:194)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:25)
+
+(Filename: Assets/_Project/Scripts/Gameplay/WaveManager.cs Line: 118)
+
+[RUN END] level=1 result=LOSE reason=OutOfHearts kills=10/25 time=15.0s hearts=0 hp=0/90 hp01=0.00 stars=0 usedRevive=False runStars=14
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.GameManager:HandlePlayerDeath () (at Assets/_Project/Scripts/Gameplay/GameManager.cs:249)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c__DisplayClass6_0:<SetupAndPlayGameplay>b__0 () (at Assets/_Project/Editor/PlaytestRunner.cs:294)
+DemHoiDenLong.Gameplay.PlayerController:OnDeath () (at Assets/_Project/Scripts/Gameplay/PlayerController.cs:406)
+DemHoiDenLong.Gameplay.PlayerController:TakeDamage (single) (at Assets/_Project/Scripts/Gameplay/PlayerController.cs:334)
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario5_WinWithRevive>b__5_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:218)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario5_WinWithRevive () (at Assets/_Project/Editor/PlaytestRunner.cs:194)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:25)
+
+(Filename: Assets/_Project/Scripts/Gameplay/GameManager.cs Line: 249)
+
+[TELEMETRY] level=1 enemies=[Giấy:6, Gai:4, Cá:0, Ma:0, Tổng:10] starsDropped=14 starsCollected=14 pickupRatio=100.0 %
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.LevelSession:LogTelemetry (int) (at Assets/_Project/Scripts/Gameplay/LevelSession.cs:185)
+DemHoiDenLong.Gameplay.GameManager:HandlePlayerDeath () (at Assets/_Project/Scripts/Gameplay/GameManager.cs:250)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c__DisplayClass6_0:<SetupAndPlayGameplay>b__0 () (at Assets/_Project/Editor/PlaytestRunner.cs:294)
+DemHoiDenLong.Gameplay.PlayerController:OnDeath () (at Assets/_Project/Scripts/Gameplay/PlayerController.cs:406)
+DemHoiDenLong.Gameplay.PlayerController:TakeDamage (single) (at Assets/_Project/Scripts/Gameplay/PlayerController.cs:334)
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario5_WinWithRevive>b__5_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:218)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario5_WinWithRevive () (at Assets/_Project/Editor/PlaytestRunner.cs:194)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:25)
+
+(Filename: Assets/_Project/Scripts/Gameplay/LevelSession.cs Line: 185)
+
+[Revive] Người chơi xem Rewarded Ad và hồi sinh với 1 tim!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario5_WinWithRevive>b__5_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:222)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario5_WinWithRevive () (at Assets/_Project/Editor/PlaytestRunner.cs:194)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:25)
+
+(Filename: Assets/_Project/Editor/PlaytestRunner.cs Line: 222)
+
+[RUN] KillCount 15/25
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.WaveManager:HandleEnemyDied (DemHoiDenLong.Gameplay.EnemyBase) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:118)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario5_WinWithRevive>b__5_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:236)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario5_WinWithRevive () (at Assets/_Project/Editor/PlaytestRunner.cs:194)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:25)
+
+(Filename: Assets/_Project/Scripts/Gameplay/WaveManager.cs Line: 118)
+
+[RUN] KillCount 20/25
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.WaveManager:HandleEnemyDied (DemHoiDenLong.Gameplay.EnemyBase) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:118)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario5_WinWithRevive>b__5_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:236)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario5_WinWithRevive () (at Assets/_Project/Editor/PlaytestRunner.cs:194)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:25)
+
+(Filename: Assets/_Project/Scripts/Gameplay/WaveManager.cs Line: 118)
+
+[RUN] KillCount 25/25
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.WaveManager:HandleEnemyDied (DemHoiDenLong.Gameplay.EnemyBase) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:118)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario5_WinWithRevive>b__5_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:236)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario5_WinWithRevive () (at Assets/_Project/Editor/PlaytestRunner.cs:194)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:25)
+
+(Filename: Assets/_Project/Scripts/Gameplay/WaveManager.cs Line: 118)
+
+[WaveManager] Đạt mục tiêu hạ 25/25 địch -> Thắng màn!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.WaveManager:HandleEnemyDied (DemHoiDenLong.Gameplay.EnemyBase) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:126)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario5_WinWithRevive>b__5_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:236)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario5_WinWithRevive () (at Assets/_Project/Editor/PlaytestRunner.cs:194)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:25)
+
+(Filename: Assets/_Project/Scripts/Gameplay/WaveManager.cs Line: 126)
+
+[LevelSession] EconomyManager null: Đệm +33 Sao vào PlayerPrefs (tổng Player_Stars: 546)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.LevelSession:AwardStars (int) (at Assets/_Project/Scripts/Gameplay/LevelSession.cs:206)
+DemHoiDenLong.Gameplay.GameManager:TriggerVictory (string) (at Assets/_Project/Scripts/Gameplay/GameManager.cs:220)
+DemHoiDenLong.Gameplay.WaveManager:TriggerLevelCompleted (string) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:327)
+DemHoiDenLong.Gameplay.WaveManager:HandleEnemyDied (DemHoiDenLong.Gameplay.EnemyBase) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:127)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario5_WinWithRevive>b__5_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:236)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario5_WinWithRevive () (at Assets/_Project/Editor/PlaytestRunner.cs:194)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:25)
+
+(Filename: Assets/_Project/Scripts/Gameplay/LevelSession.cs Line: 206)
+
+[RUN END] level=1 result=WIN reason=KillCount kills=25/25 time=37.5s hearts=1 hp=90/90 hp01=0.33 stars=1 usedRevive=True runStars=33
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.GameManager:TriggerVictory (string) (at Assets/_Project/Scripts/Gameplay/GameManager.cs:232)
+DemHoiDenLong.Gameplay.WaveManager:TriggerLevelCompleted (string) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:327)
+DemHoiDenLong.Gameplay.WaveManager:HandleEnemyDied (DemHoiDenLong.Gameplay.EnemyBase) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:127)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario5_WinWithRevive>b__5_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:236)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario5_WinWithRevive () (at Assets/_Project/Editor/PlaytestRunner.cs:194)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:25)
+
+(Filename: Assets/_Project/Scripts/Gameplay/GameManager.cs Line: 232)
+
+[TELEMETRY] level=1 enemies=[Giấy:17, Gai:8, Cá:0, Ma:0, Tổng:25] starsDropped=33 starsCollected=33 pickupRatio=100.0 %
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.Gameplay.LevelSession:LogTelemetry (int) (at Assets/_Project/Scripts/Gameplay/LevelSession.cs:185)
+DemHoiDenLong.Gameplay.GameManager:TriggerVictory (string) (at Assets/_Project/Scripts/Gameplay/GameManager.cs:233)
+DemHoiDenLong.Gameplay.WaveManager:TriggerLevelCompleted (string) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:327)
+DemHoiDenLong.Gameplay.WaveManager:HandleEnemyDied (DemHoiDenLong.Gameplay.EnemyBase) (at Assets/_Project/Scripts/Gameplay/WaveManager.cs:127)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+DemHoiDenLong.EditorTools.PlaytestRunner/<>c:<RunScenario5_WinWithRevive>b__5_0 (DemHoiDenLong.Gameplay.GameManager,DemHoiDenLong.Gameplay.WaveManager,DemHoiDenLong.Gameplay.EnemySpawner,DemHoiDenLong.Gameplay.PlayerController) (at Assets/_Project/Editor/PlaytestRunner.cs:236)
+DemHoiDenLong.EditorTools.PlaytestRunner:SetupAndPlayGameplay (int,System.Action`4<DemHoiDenLong.Gameplay.GameManager, DemHoiDenLong.Gameplay.WaveManager, DemHoiDenLong.Gameplay.EnemySpawner, DemHoiDenLong.Gameplay.PlayerController>) (at Assets/_Project/Editor/PlaytestRunner.cs:304)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunScenario5_WinWithRevive () (at Assets/_Project/Editor/PlaytestRunner.cs:194)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:25)
+
+(Filename: Assets/_Project/Scripts/Gameplay/LevelSession.cs Line: 185)
+
+=========================================================
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:27)
+
+(Filename: Assets/_Project/Editor/PlaytestRunner.cs Line: 27)
+
+=== HOÀN TẤT 5 KỊCH BẢN GAMEPLAY THẬT ===
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:28)
+
+(Filename: Assets/_Project/Editor/PlaytestRunner.cs Line: 28)
+
+=========================================================
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.EditorTools.PlaytestRunner:RunAllPlaytests () (at Assets/_Project/Editor/PlaytestRunner.cs:29)
+
+(Filename: Assets/_Project/Editor/PlaytestRunner.cs Line: 29)
+
+Batchmode quit successfully invoked - shutting down!
+Curl error 42: Callback aborted
+Worker ready: AssetImportWorkerHW0 0
+Killing ADB server in 2.0924378 seconds.
+Importing 'GUID: 00000000000000007000000000000000 - Path: ProjectSettings/TimeManager.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000007000000000000000' -> (Import Result ID: '3ba53aed27a6ef041ba03ffe01e4a81a') in 0.008 seconds [static dependencies only]. Details - ImportResultOutputID=bcbe57e6eed4f14d697ceae3e9a4ee48 DependenciesID=e580e169d1377fcc4b05f06cc0cf7431 StaticDependenciesID=94840bb2575e225303d1d1ec715cc2b3 
+Refreshing native plugins compatible for Editor in 2.61 ms, found 5 plugins.
+Asset Pipeline Refresh (id=3e258ec5c8d2cab43aa0dcffaa532617): Total: 0.136 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-Admin-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Admin channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -7,6 +7,23 @@ namespace DemHoiDenLong.VFX
     {
         public static CameraShake Instance { get; private set; }
 
+        private const string SHAKE_KEY = "ScreenShakeEnabled";
+
+        public static bool IsShakeEnabled
+        {
+            get => PlayerPrefs.GetInt(SHAKE_KEY, 1) == 1;
+            set
+            {
+                PlayerPrefs.SetInt(SHAKE_KEY, value ? 1 : 0);
+                PlayerPrefs.Save();
+            }
+        }
+
+        public static void SetShakeEnabled(bool enabled)
+        {
+            IsShakeEnabled = enabled;
+        }
+
         private Vector3 originalPos;
         private Coroutine shakeCoroutine;
 
@@ -25,6 +42,8 @@ namespace DemHoiDenLong.VFX
 
         public void Shake(float duration, float magnitude)
         {
+            if (!IsShakeEnabled) return;
+
             if (shakeCoroutine != null)
             {
                 StopCoroutine(shakeCoroutine);

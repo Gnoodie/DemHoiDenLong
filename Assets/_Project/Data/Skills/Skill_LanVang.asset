@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 164f5c43fac8630498b618a244d1e11b, type: 3}
+  m_Name: Skill_LanVang
+  m_EditorClassIdentifier: DemHoiDenLong::DemHoiDenLong.Data.SkillConfig
+  skillName: "M\u01B0a ph\xE1o hoa to\xE0n m\xE0n"
+  lanId: 4
+  description: 
+  cooldown: 25
+  duration: 1.5
+  damage: 100
+  primaryColor: {r: 1, g: 0.84, b: 0, a: 1}
+  bossDamageCap: 300
+  maxWidthPercentW: 105
+  maxHeightPercentH: 105
+  maxCoveragePercent: 30
+  dashSpeedMultiplier: 1.8
+  dashPhase1Dur: 0.55
+  dashPhase1OffsetH: 0.4
+  dashPhase2Dur: 0.45
+  dashPhase2DriftH: 0.03
+  dashPhase3Dur: 0.5
+  ghostInterval: 0.04
+  ghostFadeTime: 0.3
+  ghostAlpha: 0.4
+  ghostColor: {r: 0.85, g: 0.89, b: 0.94, a: 0.4}
+  silverStreakWidthL: 0.6
+  silverStreakHeightH: 0.18
+  shieldAuraDiameterL: 1.3
+  shieldAuraAlphaMin: 0.35
+  shieldAuraAlphaMax: 0.6
+  shieldBlinkDur: 0.3
+  ringStartDiameterL: 1.4
+  ringEndDiameterL: 2.2
+  ringExpandDur: 0.25
+  camPunchPercent: 0.03
+  chargeDur: 0.2
+  sweepDur: 1.5
+  fadeDur: 0.2
+  sweepAngleMin: -50
+  sweepAngleMax: 50
+  coneRadiusH: 0.7
+  coneHalfAngle: 10
+  damagePerTick: 20
+  tickInterval: 0.1
+  fireDebuffDuration: 1
+  fireParticlesPerSec: 70
+  maxFireParticles: 120
+  particleLifetime: 0.45
+  particleStartSizeL: 0.5
+  particleEndSizeL: 1
+  enemyBurnSizeL: 0.5
+  cameraShakeDur: 0.2
+  cameraShakeAmpW: 0.005
+  waveTravelDur: 1.2
+  waveStartWidthL: 1
+  waveEndWidthW: 1.05
+  waveSpeedMinH: 0.8
+  waveSpeedMaxH: 1.6
+  waveScaleYRatio: 0.55
+  hitboxHeightH: 0.12
+  pushDistanceRatio: 0.25
+  pushDuration: 0.5
+  slowPercent: 0.5
+  slowDuration: 3
+  bossSlowPercent: 0.25
+  mouthRingStartL: 1
+  mouthRingEndL: 1.8
+  mouthRingDur: 0.2
+  splashInterval: 0.1
+  splashMinL: 0.4
+  splashMaxL: 0.6
+  bubbleSizeL: 0.3
+  bubbleCount: 12
+  rocketCount: 16
+  rocketStagger: 0.04
+  fanAngleMin: -75
+  fanAngleMax: 75
+  rocketSpeedH: 1.5
+  rocketMaxDistH: 1.1
+  rocketRadiusL: 0.25
+  sparkDiameterL: 0.3
+  trailLengthH: 0.08
+  trailWidthL: 0.05
+  expBurstDiameterL: 0.8
+  expStarDiameterL: 0.9
+  expDur: 0.35
+  expAlpha: 0.7
+  maxConcurrentExp: 4
+  maxDamagePerEnemy: 200
+  bulletTimeScale: 1
+  bulletTimeDuration: 0
+  chargeDuration: 0.2
+  burstDuration: 1
+  lingerDuration: 0.5
+  screenShakeAmp: 0
+  screenShakeDur: 0.25
+  hitStopDuration: 0.03
+  screenFlashAlpha: 0
+  vfxScale: 1
+  vfxIntensity: 1

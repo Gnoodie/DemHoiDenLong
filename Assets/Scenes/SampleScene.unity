@@ -2921,8 +2921,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5df4ccd7b8de2884ab56db459ad6197e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: DemHoiDenLong::DemHoiDenLong.UI.HangarUI
-  listContainer: {fileID: 1968079496}
-  itemPrefab: {fileID: 276234800}
+  playBtn: {fileID: 0}
+  nextLanBtn: {fileID: 0}
+  prevLanBtn: {fileID: 0}
   lanNameText: {fileID: 650402650}
   lanIconLarge: {fileID: 940756995}
   skillDescText: {fileID: 1276660730}

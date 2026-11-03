@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d158cb4490e731a4889bbc8d7460c638, type: 3}
+  m_Name: Level_10
+  m_EditorClassIdentifier: DemHoiDenLong::DemHoiDenLong.Data.LevelData
+  levelId: 10
+  actIndex: 1
+  indexInAct: 5
+  displayName: "M\xC0N 2-5"
+  isBoss: 1
+  bossName: "R\u1ED3ng \u0110\xE8n Ph\u1ED1 C\u1ED5"
+  bossEnemyId: boss_rong_den_pho_co
+  winCondition: 2
+  targetKillCount: 0
+  surviveSeconds: 0
+  enemySpawnBudget: 43
+  winRuleInitialized: 1
+  hpMultiplier: 1.72
+  speedMultiplier: 1.27
+  damageMultiplier: 1.45
+  enemyCount: 43
+  waves:
+  - spawnTime: 3
+    enemyCount: 13
+    spawnInterval: 1.5
+    enemyType: {fileID: 11400000, guid: a1b2c3d4e5f60708090a0b0c0d0e0f10, type: 2}
+  - spawnTime: 26.5
+    enemyCount: 15
+    spawnInterval: 1.5
+    enemyType: {fileID: 11400000, guid: c3d4e5f607182930313a3b3c3d3e3f40, type: 2}
+  baseHpMultiplier: 1.72
+  baseSpeedMultiplier: 1.27
+  baseDamageMultiplier: 1.45
+  bossPrefab: {fileID: 5860836894108605855, guid: b9393348d29c1574096380453380ffd7, type: 3}
+  bossSpawnDelay: 3
+  bossHp: 800
+  bossSpeed: 30
+  bossDamage: 35

@@ -12,18 +12,18 @@ namespace DemHoiDenLong.UI
         [SerializeField] private GameObject lockedOverlay;
         [SerializeField] private Button selectButton;
 
-        private LanConfig currentConfig;
+        private LanData currentConfig;
         private HangarUI hangarUI;
 
-        public string LanId => currentConfig != null ? currentConfig.LanId : string.Empty;
+        public string LanId => currentConfig != null ? currentConfig.lanId : string.Empty;
 
-        public void Initialize(LanConfig config, bool isUnlocked, HangarUI parentUI)
+        public void Initialize(LanData config, bool isUnlocked, HangarUI parentUI)
         {
             currentConfig = config;
             hangarUI = parentUI;
 
-            if (iconImage != null) iconImage.sprite = config.LanIcon;
-            if (nameText != null) nameText.text = config.LanName;
+            if (iconImage != null) iconImage.sprite = config.icon;
+            if (nameText != null) nameText.text = config.lanName;
             
             if (lockedOverlay != null) lockedOverlay.SetActive(!isUnlocked);
 
@@ -38,6 +38,7 @@ namespace DemHoiDenLong.UI
 
         private void OnClicked()
         {
+            Audio.AudioManager.Instance?.PlayUIClick();
             if (hangarUI != null && currentConfig != null)
             {
                 hangarUI.SelectLan(currentConfig);

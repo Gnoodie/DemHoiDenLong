@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d158cb4490e731a4889bbc8d7460c638, type: 3}
+  m_Name: SO_Level_04
+  m_EditorClassIdentifier: DemHoiDenLong::DemHoiDenLong.Data.LevelData
+  waves:
+  - spawnTime: 3
+    enemyCount: 7
+    spawnInterval: 1.8
+    enemyType: {fileID: 11400000, guid: a1b2c3d4e5f60708090a0b0c0d0e0f10, type: 2}
+  - spawnTime: 19.599998
+    enemyCount: 9
+    spawnInterval: 1.8
+    enemyType: {fileID: 11400000, guid: a1b2c3d4e5f60708090a0b0c0d0e0f10, type: 2}
+  - spawnTime: 39.799995
+    enemyCount: 11
+    spawnInterval: 1.8
+    enemyType: {fileID: 11400000, guid: a1b2c3d4e5f60708090a0b0c0d0e0f10, type: 2}
+  - spawnTime: 63.599995
+    enemyCount: 13
+    spawnInterval: 1.8
+    enemyType: {fileID: 11400000, guid: a1b2c3d4e5f60708090a0b0c0d0e0f10, type: 2}
+  baseHpMultiplier: 1.24
+  baseSpeedMultiplier: 1.09
+  baseDamageMultiplier: 1.15
+  bossPrefab: {fileID: 0}
+  bossSpawnDelay: 93.99999

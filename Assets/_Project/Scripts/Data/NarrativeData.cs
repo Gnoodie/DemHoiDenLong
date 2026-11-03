@@ -40,11 +40,11 @@ namespace DemHoiDenLong.Data
             "chỉ cần được nghe lại tên mình một lần nữa để thoát khỏi bóng tối.";
 
         [Header("Danh sách các hồi (Acts) — tham chiếu đến LanConfig")]
-        public List<ActData> acts;
+        public List<NarrativeActData> acts;
     }
 
     [System.Serializable]
-    public class ActData
+    public class NarrativeActData
     {
         [Tooltip("Tên hồi, ví dụ: HỒI 01 — LÀNG QUÊ")]
         public string actName;

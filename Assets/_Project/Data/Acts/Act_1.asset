@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21a8970982c4ea54b90afd89dc7b766f, type: 3}
+  m_Name: Act_1
+  m_EditorClassIdentifier: DemHoiDenLong::DemHoiDenLong.Data.ActData
+  actIndex: 0
+  title: "H\u1ED2I 1 - L\xC0NG QU\xCA THANH B\xCCNH"
+  subtitle: "KH\u1EDEI \u0110\u1EA6U \u0110\xCAM R\u1EB0M"
+  unlockHint: 
+  accentColor: {r: 0.498, g: 0.89, b: 0.753, a: 1}
+  banner: {fileID: -7013454509991531037, guid: a64ca7a31e9c3be4090c8910a4173e19, type: 3}
+  mapBackground: {fileID: 8134244927722997481, guid: fbec5f7942cb38c4ea9d38b199cb75bf, type: 3}
+  battleBackground: {fileID: 417163731701830919, guid: 15b448515b3290f46a29e5f7264c8c0c, type: 3}
+  bossSprite: {fileID: 3900994610838494933, guid: e074e54607c2c794389fbac2cdf274d3, type: 3}
+  battleDim: 0.18
+  enemyTypeIds:
+  - den_giay
+  - den_gai
+  levels:
+  - {fileID: 11400000, guid: a858fc8bfaf034744a04976f58f09f37, type: 2}
+  - {fileID: 11400000, guid: 4d84c23479a42b64288df57557a312df, type: 2}
+  - {fileID: 11400000, guid: 7b10bb0bbede53741afaa785fb507809, type: 2}
+  - {fileID: 11400000, guid: 564b01e1c1a1ee840a0ebf23389bf13c, type: 2}
+  - {fileID: 11400000, guid: 3c5f112482f0be44997b1368237b93aa, type: 2}

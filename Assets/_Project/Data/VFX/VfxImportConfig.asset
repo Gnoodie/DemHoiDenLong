@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e138f48e4fe1c4682621e314e8b2aa, type: 3}
+  m_Name: VfxImportConfig
+  m_EditorClassIdentifier: DemHoiDenLong::DemHoiDenLong.Data.VfxImportConfig
+  entries:
+  - sourceFile: vfx_ring.png
+    outputFile: vfx_ring_gray.png
+    isGrayscale: 1
+    isAlphaFromLuminance: 0
+    maxDimension: 512
+    isRing: 1
+    pivot: {x: 0.5, y: 0.5}
+    materialType: VFX_Additive
+    description: "V\xF2ng n\u0103ng l\u01B0\u1EE3ng d\u1ED3n l\u1EF1c & k\u1EBFt
+      chi\xEAu"
+  - sourceFile: vfx_spark.png
+    outputFile: vfx_spark_proc.png
+    isGrayscale: 0
+    isAlphaFromLuminance: 0
+    maxDimension: 512
+    isRing: 0
+    pivot: {x: 0.5, y: 0.5}
+    materialType: VFX_Additive
+    description: "Tia s\xE1ng va ch\u1EA1m & t\xE0n l\u1EEDa"
+  - sourceFile: vfx_silver_streaks.png
+    outputFile: vfx_silver_streaks_proc.png
+    isGrayscale: 0
+    isAlphaFromLuminance: 0
+    maxDimension: 1536
+    isRing: 0
+    pivot: {x: 0.5, y: 0.5}
+    materialType: VFX_Additive
+    description: "V\u1EC7t gi\xF3 b\u1EA1c 2 m\xE9p m\xE0n h\xECnh (Kim)"
+  - sourceFile: vfx_shield_aura.png
+    outputFile: vfx_shield_aura_gray.png
+    isGrayscale: 1
+    isAlphaFromLuminance: 0
+    maxDimension: 1024
+    isRing: 0
+    pivot: {x: 0.5, y: 0.5}
+    materialType: VFX_Additive
+    description: "H\xE0o quang khi\xEAn b\u1EA5t t\u1EED (Kim)"
+  - sourceFile: vfx_fire_swirl.png
+    outputFile: vfx_fire_swirl_proc.png
+    isGrayscale: 0
+    isAlphaFromLuminance: 0
+    maxDimension: 1024
+    isRing: 0
+    pivot: {x: 0.5, y: 0.5}
+    materialType: VFX_Additive
+    description: "Xo\xE1y l\u1EEDa d\u1ED3n l\u1EF1c & b\u1EAFt l\u1EEDa (H\u1ECFa)"
+  - sourceFile: vfx_fire_wave.png
+    outputFile: vfx_fire_wave_proc.png
+    isGrayscale: 0
+    isAlphaFromLuminance: 0
+    maxDimension: 1536
+    isRing: 0
+    pivot: {x: 0.5, y: 0.5}
+    materialType: VFX_ScrollMask
+    description: "D\u1EA3i s\xF3ng l\u1EEDa qu\xE9t ngang (H\u1ECFa)"
+  - sourceFile: vfx_firework_burst.png
+    outputFile: vfx_firework_burst_proc.png
+    isGrayscale: 0
+    isAlphaFromLuminance: 0
+    maxDimension: 1024
+    isRing: 0
+    pivot: {x: 0.5, y: 0.5}
+    materialType: VFX_Additive
+    description: "V\u1EE5 n\u1ED5 ph\xE1o hoa t\u1ECFa tia (V\xE0ng)"
+  - sourceFile: vfx_firework_star.png
+    outputFile: vfx_firework_star_proc.png
+    isGrayscale: 0
+    isAlphaFromLuminance: 0
+    maxDimension: 1024
+    isRing: 0
+    pivot: {x: 0.5, y: 0.5}
+    materialType: VFX_Additive
+    description: "V\u1EE5 n\u1ED5 ph\xE1o hoa ng\xF4i sao (V\xE0ng)"
+  - sourceFile: vfx_glitter.png
+    outputFile: vfx_glitter_proc.png
+    isGrayscale: 0
+    isAlphaFromLuminance: 0
+    maxDimension: 1024
+    isRing: 0
+    pivot: {x: 0.5, y: 0.5}
+    materialType: VFX_Additive
+    description: "B\u1EE5i kim tuy\u1EBFn bay l\xEAn & r\u01A1i ch\u1EADm (V\xE0ng)"
+  - sourceFile: vfx_water_wave.png
+    outputFile: vfx_water_wave_alpha.png
+    isGrayscale: 0
+    isAlphaFromLuminance: 1
+    maxDimension: 1536
+    isRing: 0
+    pivot: {x: 0.5, y: 0.5}
+    materialType: VFX_ScrollMask
+    description: "S\xF3ng n\u01B0\u1EDBc ng\u1ECDn l\u1EDBn \u1EDF gi\u1EEFa (Th\u1EE7y)"
+  - sourceFile: vfx_splash.png
+    outputFile: vfx_splash_alpha.png
+    isGrayscale: 0
+    isAlphaFromLuminance: 1
+    maxDimension: 1024
+    isRing: 0
+    pivot: {x: 0.5, y: 0.5}
+    materialType: VFX_AlphaBlend
+    description: "B\u1ECDt n\u01B0\u1EDBc b\u1EAFn tung t\xF3e & tan (Th\u1EE7y)"
+  - sourceFile: vfx_smoke.png
+    outputFile: vfx_smoke_alpha.png
+    isGrayscale: 0
+    isAlphaFromLuminance: 1
+    maxDimension: 512
+    isRing: 0
+    pivot: {x: 0.5, y: 0.5}
+    materialType: VFX_AlphaBlend
+    description: "Kh\xF3i t\xE0n d\u01B0 (T\xF9y ch\u1ECDn)"
+  - sourceFile: vfx_rocket_trail.png
+    outputFile: vfx_rocket_trail_proc.png
+    isGrayscale: 0
+    isAlphaFromLuminance: 0
+    maxDimension: 512
+    isRing: 0
+    pivot: {x: 0.5, y: 0.5}
+    materialType: VFX_Additive
+    description: "V\u1EC7t kh\xF3i \u0111u\xF4i ph\xE1o (T\xF9y ch\u1ECDn)"

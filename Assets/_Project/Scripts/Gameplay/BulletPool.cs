@@ -151,7 +151,7 @@ namespace DemHoiDenLong.Gameplay
         /// <summary>
         /// Spawns a bullet from the pool at specified position, direction, speed, and damage payload.
         /// </summary>
-        public Bullet SpawnBullet(Vector3 spawnPosition, Vector2 direction, float speed, float damage, bool isPlayerBullet, Sprite customSprite = null)
+        public Bullet SpawnBullet(Vector3 spawnPosition, Vector2 direction, float speed, float damage, bool isPlayerBullet, Sprite customSprite = null, float scale = 1f)
         {
             if (availableBullets == null || activeBullets == null || availableBullets.Count == 0 && activeBullets.Count == 0)
             {
@@ -181,7 +181,7 @@ namespace DemHoiDenLong.Gameplay
             if (bullet != null)
             {
                 activeBullets.Add(bullet);
-                bullet.Initialize(spawnPosition, direction, speed, damage, isPlayerBullet, minScreenBounds, maxScreenBounds, customSprite);
+                bullet.Initialize(spawnPosition, direction, speed, damage, isPlayerBullet, minScreenBounds, maxScreenBounds, customSprite, scale);
             }
 
             return bullet;
@@ -211,6 +211,35 @@ namespace DemHoiDenLong.Gameplay
             {
                 availableBullets.Enqueue(bullet);
             }
+        }
+
+        /// <summary>
+        /// Clears enemy bullets inside a given rectangular world box (used by Fire and Water skills).
+        /// Returns the count of cleared bullets.
+        /// </summary>
+        public int ClearEnemyBulletsInBox(Vector2 center, Vector2 size)
+        {
+            if (activeBullets == null) return 0;
+
+            int cleared = 0;
+            Vector2 half = size * 0.5f;
+            Vector2 min = center - half;
+            Vector2 max = center + half;
+
+            for (int i = activeBullets.Count - 1; i >= 0; i--)
+            {
+                Bullet b = activeBullets[i];
+                if (b != null && !b.IsPlayerBullet)
+                {
+                    Vector3 pos = b.transform.position;
+                    if (pos.x >= min.x && pos.x <= max.x && pos.y >= min.y && pos.y <= max.y)
+                    {
+                        ReturnBullet(b);
+                        cleared++;
+                    }
+                }
+            }
+            return cleared;
         }
 
         /// <summary>

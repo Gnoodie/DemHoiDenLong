@@ -9,6 +9,11 @@ namespace DemHoiDenLong.Data
         public string LanId;
         public string LanName;
         public Sprite LanIcon;
+        public GameObject Prefab;
+
+        [Header("Tilt Sprites")]
+        public Sprite TiltLeftSprite;
+        public Sprite TiltRightSprite;
 
         [Header("Unlock Requirements")]
         public int UnlockCostStar = 0;

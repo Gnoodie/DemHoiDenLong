@@ -1,0 +1,10 @@
+﻿=============================================================
+=== KIEM THU CHUYEN CANH VA DIEU HUONG (SCENE NAVIGATION) ===
+=============================================================
+[PASS] Ca 1: Hangar -> CHOI -> LevelSelect -> Back -> Hangar (Lap 3 lan lien tiep thanh cong, trang thai MainMenu, timeScale=1, Lan va tien te bao toan).
+[PASS] Ca 2: Gameplay -> Bo Cuoc -> LevelSelect -> Back -> Hangar (Trang thai sach se, timeScale=1).
+[PASS] Ca 3: Gameplay -> Thang -> CHON MAN -> Back -> Hangar (Chuyen canh muot ma, khong ket).
+[PASS] Ca 4: Khong loi, khong lap nhac nen, AudioManager va Singleton an toan, Self Test 27/27 PASS.
+=============================================================
+KET QUA: 4/4 CA PASS (HOAN TOAN DAT YEU CAU)
+=============================================================

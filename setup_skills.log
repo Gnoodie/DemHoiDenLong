@@ -1,0 +1,695 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin" at "2026-10-30T07:28:44.6449839Z"
+Built from '6000.5/staging' branch; Version is '6000.5.8f1 (5cb7df797b7d) revision 6076383'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 16176 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-30T07:28:44Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 16976, path: "D:/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              f24f86b35583441c8818643371320730
+  Correlation Id:          ee14ae0a0ec7324e9d15c10bc6a3290c
+  External correlation Id: 5905087854588533241
+  Machine Id:              lQ7buzFeKRneuD95H9kLXIWklkM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Admin" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin-notifications" at "2026-10-30T07:28:44.6988504Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968483045552-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.06s
+
+COMMAND LINE ARGUMENTS:
+D:\6000.5.8f1\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+D:\Dev_Game\DemHoiDenLong
+-executeMethod
+DemHoiDenLong.EditorTools.SetupSkillData.SetupAll
+-logFile
+D:\Dev_Game\DemHoiDenLong\setup_skills.log
+Successfully changed project path to: D:\Dev_Game\DemHoiDenLong
+D:/Dev_Game/DemHoiDenLong
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.Player connection [25956]  Target information:
+
+Player connection [25956]  * "[IP] 192.168.206.1 [Port] 55504 [Flags] 2 [Guid] 3003171116 [EditorId] 3003171116 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8VS68C7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25956]  * "[IP] 192.168.65.1 [Port] 55504 [Flags] 2 [Guid] 3003171116 [EditorId] 3003171116 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8VS68C7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25956]  * "[IP] 10.10.10.1 [Port] 55504 [Flags] 2 [Guid] 3003171116 [EditorId] 3003171116 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8VS68C7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25956]  * "[IP] 192.168.29.1 [Port] 55504 [Flags] 2 [Guid] 3003171116 [EditorId] 3003171116 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8VS68C7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25956]  * "[IP] 192.168.1.1 [Port] 55504 [Flags] 2 [Guid] 3003171116 [EditorId] 3003171116 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8VS68C7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25956]  * "[IP] 192.168.10.1 [Port] 55504 [Flags] 2 [Guid] 3003171116 [EditorId] 3003171116 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8VS68C7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25956]  * "[IP] 192.168.20.1 [Port] 55504 [Flags] 2 [Guid] 3003171116 [EditorId] 3003171116 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8VS68C7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25956]  * "[IP] 192.168.1.11 [Port] 55504 [Flags] 2 [Guid] 3003171116 [EditorId] 3003171116 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8VS68C7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25956] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25956] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-5648" after 0.3 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Active build profile path: `Assets/Settings/Build Profiles/Android™.asset`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+[Licensing::Client] Successfully resolved entitlement details
+Got setting from build profile YAML, name `m_BuildTarget`, value `13`
+Got setting from build profile YAML, name `m_Subtarget`, value `0`
+Initialize engine version: 6000.5.8f1 (5cb7df797b7d)
+[Subsystems] Discovering subsystems at path D:/6000.5.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Dev_Game/DemHoiDenLong/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25e2)
+    Vendor:          NVIDIA
+    VRAM:            3977 MB
+    App VRAM Budget: 3380 MB
+    Driver:          31.0.15.4630
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Initialize mono
+Mono path[0] = 'D:/6000.5.8f1/Editor/Data/Managed'
+Mono path[1] = 'D:/6000.5.8f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'D:/6000.5.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/6000.5.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/6000.5.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/6000.5.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/6000.5.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002202 seconds.
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.554 seconds
+Domain Reload Profiling: 1093ms
+	BeginReloadAssembly (148ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (306ms)
+		LoadAssemblies (127ms)
+		AnalyzeDomain (229ms)
+			TypeCache.Refresh (227ms)
+				TypeCache.ScanAssembly (214ms)
+	FinalizeReload (556ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (98ms)
+			ProcessInitializeOnLoadMethodAttributes (293ms)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 65 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.2d.animation@15.1.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.animation@6d5a363ae647)
+    com.unity.2d.aseprite@5.0.3 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.aseprite@d13865913efa)
+    com.unity.2d.psdimporter@14.0.3 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.psdimporter@5d82044f9e43)
+    com.unity.2d.spriteshape@15.0.3 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.spriteshape@fcb7ec61a58b)
+    com.unity.2d.tilemap.extras@8.0.3 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.tilemap.extras@a80140457adc)
+    com.unity.2d.tooling@3.0.1 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.tooling@6f06ffb033c0)
+    com.unity.collab-proxy@2.13.5 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.collab-proxy@120d77864ebc)
+    com.unity.ide.rider@3.0.38 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.timeline@1.8.12 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.timeline@8cd8509afae5)
+    com.unity.visualscripting@1.9.12 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.2d.common@14.0.1 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.common@73badf92ba8b)
+    com.unity.searcher@4.9.5 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.burst@1.8.30 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.burst@2f3d916873ea)
+    com.unity.nuget.mono-cecil@1.11.6 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.5.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.test-framework.performance@8b56083ec0f0)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.sprite@053a968eab56)
+    com.unity.2d.tilemap@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.2d.tilemap@b959501fd678)
+    com.unity.multiplayer.center@1.0.1 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.render-pipelines.universal@17.5.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.render-pipelines.universal@73b4c4ff130e)
+    com.unity.test-framework@1.7.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.test-framework@1405238725ab)
+    com.unity.ugui@2.5.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.ugui@1c4864518158)
+    com.unity.modules.accessibility@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.ext.nunit@44f7d31723bd)
+    com.unity.render-pipelines.core@17.5.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.render-pipelines.core@a4c9a9793789)
+    com.unity.shadergraph@17.5.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.shadergraph@8d7376ec43ee)
+    com.unity.render-pipelines.universal-config@17.5.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.render-pipelines.universal-config@fdda01c80fe3)
+    com.unity.collections@6.5.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.collections@ec2c217e4cb2)
+    com.unity.mathematics@1.4.0 (location: D:\Dev_Game\DemHoiDenLong\Library\PackageCache\com.unity.mathematics@981956d94fb6)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.03 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\Dev_Game\DemHoiDenLong
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 30.6497ms
+Starting: D:\6000.5.8f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: D:/Dev_Game/DemHoiDenLong
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "D:\6000.5.8f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "D:\6000.5.8f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "D:\6000.5.8f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "D:\6000.5.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
+DisplayProgressbar: Compiling Scripts
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.burst@2f3d916873ea\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Mono.Cecil, Version=0.11.5.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff\Mono.Cecil.dll
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 48.7656ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1300b0aE.dag/DemHoiDenLong.dll, with 151 defines and 298 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 15.1944ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1300b0aE.dag/Tests.dll, with 149 defines and 296 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 1.6635ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll, with 151 defines and 355 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with Library\Bee\artifacts\1300b0aE.dag\Unity.Collections.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with D:\6000.5.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with D:\6000.5.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Scripting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with D:\6000.5.8f1\Editor\Data\Managed\UnityEngine\Unity.Scripting.dll
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil.Rocks, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.burst@2f3d916873ea\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 410.7370ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp-Editor.dll, with 149 defines and 382 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 96.2070ms
+ExitCode: 0 Duration: 5s619ms
+[ 893/1156  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1140/1156  1s] Csc Library/Bee/artifacts/1300b0aE.dag/DemHoiDenLong.dll (+2 others)
+Assets\_Project\Scripts\UI\SettingsUI.cs(212,13): warning CS0618: 'TMP_Text.enableWordWrapping' is obsolete: 'The enabledWordWrapping property is now obsolete. Please use the textWrappingMode property instead.'
+
+Assets\_Project\Scripts\Gameplay\GameplayDebugPanel.cs(347,77): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\_Project\Scripts\Gameplay\GameplayDebugPanel.cs(347,36): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\_Project\Scripts\Gameplay\GameplayDebugPanel.cs(361,77): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\_Project\Scripts\Gameplay\GameplayDebugPanel.cs(361,36): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(631,64): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(631,35): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(667,68): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(667,34): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(816,60): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(816,31): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(847,64): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(847,30): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(1003,60): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(1003,31): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(1026,68): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(1026,34): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(1106,53): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(1106,27): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(45,23): warning CS0414: The field 'PlayerSkillController.debugHitboxHeight' is assigned but its value is never used
+
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(43,23): warning CS0414: The field 'PlayerSkillController.debugHitboxCenterY' is assigned but its value is never used
+
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(44,23): warning CS0414: The field 'PlayerSkillController.debugHitboxWidth' is assigned but its value is never used
+[1141/1156  0s] Csc Library/Bee/artifacts/1300b0aE.dag/Tests.dll (+2 others)
+[1142/1156  0s] ILPostProcess Library/Bee/artifacts/1300b0aE.dag/post-processed/DemHoiDenLong.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1300b0aE.dag/DemHoiDenLong.dll, with 151 defines and 298 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1143/1156  0s] CopyFiles Library/ScriptAssemblies/DemHoiDenLong.pdb
+[1144/1156  0s] Csc Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll (+2 others)
+[1145/1156  0s] ILPostProcess Library/Bee/artifacts/1300b0aE.dag/post-processed/Tests.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1300b0aE.dag/Tests.dll, with 149 defines and 296 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1146/1156  0s] CopyFiles Library/ScriptAssemblies/Tests.pdb
+[1147/1156  0s] CopyFiles Library/ScriptAssemblies/Tests.dll
+[1148/1156  0s] CopyFiles Library/ScriptAssemblies/DemHoiDenLong.dll
+[1149/1156  0s] ILPostProcess Library/Bee/artifacts/1300b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll, with 151 defines and 355 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1150/1156  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[1151/1156  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[1152/1156  1s] Csc Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+Assets\_Project\Editor\ValidateSceneNames.cs(26,18): warning CS0219: The variable 'changed' is assigned but its value is never used
+[1153/1156  0s] ILPostProcess Library/Bee/artifacts/1300b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp-Editor.dll, with 149 defines and 382 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1154/1156  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[1155/1156  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (5.57 seconds), 17 items updated, 1156 evaluated
+Assets\_Project\Scripts\UI\SettingsUI.cs(212,13): warning CS0618: 'TMP_Text.enableWordWrapping' is obsolete: 'The enabledWordWrapping property is now obsolete. Please use the textWrappingMode property instead.'
+Assets\_Project\Scripts\Gameplay\GameplayDebugPanel.cs(347,77): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\_Project\Scripts\Gameplay\GameplayDebugPanel.cs(347,36): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\_Project\Scripts\Gameplay\GameplayDebugPanel.cs(361,77): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\_Project\Scripts\Gameplay\GameplayDebugPanel.cs(361,36): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(631,64): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(631,35): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(667,68): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(667,34): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(816,60): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(816,31): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(847,64): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(847,30): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(1003,60): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(1003,31): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(1026,68): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(1026,34): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(1106,53): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(1106,27): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(45,23): warning CS0414: The field 'PlayerSkillController.debugHitboxHeight' is assigned but its value is never used
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(43,23): warning CS0414: The field 'PlayerSkillController.debugHitboxCenterY' is assigned but its value is never used
+Assets\_Project\Scripts\Gameplay\PlayerSkillController.cs(44,23): warning CS0414: The field 'PlayerSkillController.debugHitboxWidth' is assigned but its value is never used
+Assets\_Project\Editor\ValidateSceneNames.cs(26,18): warning CS0219: The variable 'changed' is assigned but its value is never used
+Total cache size 133264037
+Total cache size after purge 133264037, took 00:00:00.1017417
+AssetDatabase: script compilation time: 7.601549s
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 5.97 ms, found 5 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+================================================================================
+                       BÁO CÁO CHẨN ĐOÁN ACTSELECTVIEW                          
+================================================================================
+Thời gian: 2026-10-30 14:28:59 | IsPlaying: False
+LỖI: Không tìm thấy Canvas trong Scene!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.EditorTools.DiagnoseActSelectView:WriteAndLog (string) (at Assets/_Project/Editor/DiagnoseActSelectView.cs:280)
+DemHoiDenLong.EditorTools.DiagnoseActSelectView:RunDiagnosis () (at Assets/_Project/Editor/DiagnoseActSelectView.cs:27)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/_Project/Editor/DiagnoseActSelectView.cs Line: 280)
+
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.458 seconds
+Domain Reload Profiling: 4603ms
+	BeginReloadAssembly (232ms)
+		DisableScriptedObjects (28ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (818ms)
+		LoadAssemblies (491ms)
+		AnalyzeDomain (311ms)
+			TypeCache.Refresh (229ms)
+				TypeCache.ScanAssembly (214ms)
+			BuildScriptInfoCaches (71ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (3459ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (2691ms)
+			ProcessInitializeOnLoadMethodAttributes (372ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Importing 'GUID: 90687b63a0cacf8499c5565eb24cd29f - Path: Assets/_Project/Resources/VFX/Generated/vfx_ring_alpha.png' with importer (TextureImporter)
+Imported 'GUID: 90687b63a0cacf8499c5565eb24cd29f' -> (Import Result ID: '64b3c42c3109cc28c32a30e73c2fd04d') in 0.172 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2f10c418cf3bd711ed5f7da5c1e26196 DependenciesID=f9835cd86f22749f7be1839d6510d201 StaticDependenciesID=30068cb4fb61890df564fc4baeeb94d2 
+Importing 'GUID: f9907f4c662723e4f868bfe96daa897b - Path: Assets/_Project/Art/VFX/Generated/vfx_water_wave_alpha.png' with importer (TextureImporter)
+Imported 'GUID: f9907f4c662723e4f868bfe96daa897b' -> (Import Result ID: '8a67f2bdfca66e17957f4f18ac07193a') in 0.070 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8e1a75366532c377ac7bde100aee8bd7 DependenciesID=63e50e853a34d5cd35991659af2ad20f StaticDependenciesID=2b33ee69f8774b94389080b19e753675 
+Importing 'GUID: cc0b2966b158e514796b2c628370f39b - Path: Assets/_Project/Resources/VFX/Generated/vfx_ring_gray.png' with importer (TextureImporter)
+Imported 'GUID: cc0b2966b158e514796b2c628370f39b' -> (Import Result ID: 'ae8af014309b6c2009941f5d2509ef35') in 0.055 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d59610b973fdb42556d03eab47b792ad DependenciesID=73250ea5bedb8044796ca63df827cbc2 StaticDependenciesID=9a3124c4fe2ccdfa22fd214f2e26c0ab 
+Importing 'GUID: 7ec04e00025018942967a3a0f25fd6a4 - Path: Assets/_Project/Art/VFX/Generated/vfx_ring_alpha.png' with importer (TextureImporter)
+Imported 'GUID: 7ec04e00025018942967a3a0f25fd6a4' -> (Import Result ID: '3bf5f821d5659d47d8c1ccce6ee2f879') in 0.091 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=96d7ef045b41eb01d56cb963640cc3a4 DependenciesID=b5165fd2a87b9a5cc6fc572498807d12 StaticDependenciesID=631eb1115e6693805390648db444b771 
+Importing 'GUID: 7e98f6efcc33ed3469aa5938d78ddc29 - Path: Assets/_Project/Art/VFX/Generated/vfx_ring_gray.png' with importer (TextureImporter)
+Imported 'GUID: 7e98f6efcc33ed3469aa5938d78ddc29' -> (Import Result ID: '34a1885e557788d2c18a4c3e1bd15eae') in 0.122 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ac09df4a78d0ad8053a552bd63de849a DependenciesID=12bc6b4d0193ddadcc9a8cc2fed83493 StaticDependenciesID=ea9bd84401e666500075ee2c5a900b39 
+Importing 'GUID: 3f66e334b2af46645ad21c59bfbade21 - Path: Assets/_Project/Resources/VFX/Generated/vfx_water_wave_alpha.png' with importer (TextureImporter)
+Imported 'GUID: 3f66e334b2af46645ad21c59bfbade21' -> (Import Result ID: 'a67cadc675d0d375dfae04cad24bff8e') in 0.054 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ee40c291252d35d52c70c1ed1d46731a DependenciesID=44e42f00d30f8742246a7a81c54832a8 StaticDependenciesID=e2ab1ad115f914c1f2e6b159ea2d1d9f 
+Starting new worker id: 0 with log in D:/Dev_Game/DemHoiDenLong/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=28edfd6c1b3c6604685221e80914fde1): Total: 14.001 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=6 (actual=6, local cache=0, cache server=0)
+		Asset DB Process Time: managed=63 ms, native=4681 ms
+		Asset DB Callback time: managed=374 ms, native=38 ms
+		Scripting: domain reloads=1, domain reload time=1187 ms, compile time=7603 ms, other=52 ms
+		Project Asset Count: scripts=1686, non-scripts=3746
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 31.113ms
+	ApplyChangesToAssetFolders: 0.539ms
+	Scan: 188.212ms
+	Collect global state as custom dependencies: 24.105ms
+	OnSourceAssetsModified: 0.902ms
+	CategorizeScriptCompilationAssets: 54.542ms
+	ProcessAssetsWithTransientArtifactChanges: 97.125ms
+	CategorizeAssets: 69.067ms
+	CompileScripts: 7602.957ms
+	ImportOutOfDateAssets: 4124.983ms (3489.525ms without children)
+		ImportManagerImport: 569.684ms (2.152ms without children)
+			UpdateCategorizedAssets: 0.081ms
+		ReloadNativeAssets: 0.051ms
+		UnloadImportedAssets: 0.715ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.779ms
+		ImportSchedulerStart: 64.215ms
+	PostProcessAllAssets: 377.089ms
+		VCAutoAddAssetPostprocess 2.552ms
+		XRBuildSystem.XRAssetImported 0.313ms
+		SpriteAtlasDatabase.OnAssetPostprocessCallback 0.180ms
+		PostProcessCallbackCreateDeferredMaterials 0.116ms
+		MonoPostProcessAllAssets: 372.515ms
+			AssetPostprocessor.OnPostprocessAllAssets 262.871ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 30.623ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 17.163ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 7.655ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 5.216ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 3.163ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.971ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.919ms
+			AssetChangedListener.OnPostprocessAllAssets 2.432ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 2.304ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.066ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.291ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.029ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.973ms
+			AssetProcessor.OnPostprocessAllAssets 0.863ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.821ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.689ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.562ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.545ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.500ms
+			PostProcessor.OnPostprocessAllAssets 0.479ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.458ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.449ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.440ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.379ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.355ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.343ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.324ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.312ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.293ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.293ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.291ms
+			AssetEvents.OnPostprocessAllAssets 0.289ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.271ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.270ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.219ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.187ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.177ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.156ms
+			SyncVS.PostprocessSyncProject 0.147ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.111ms
+	PostAssetChangesProfiler: 5.242ms
+	UnloadStreamsBegin: 2.686ms
+	PersistCurrentRevisions: 0.405ms
+	GenerateScriptTypeHashes: 3.140ms
+	GenerateScriptTypeSerializationHashes: 5.210ms
+	Untracked: 1417.888ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Scanning for USB devices : 4.727ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-DemHoiDenLong
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7561 unused Assets / (7.5 MB). Loaded Objects now: 8632.
+Memory consumption went from 466.2 MB to 458.7 MB.
+Total: 23.544400 ms (FindLiveObjects: 1.215500 ms CreateObjectMapping: 4.715000 ms MarkObjects: 11.538500 ms  DeleteObjects: 5.781600 ms)
+
+[SetupSkillData] Khởi tạo 4 SkillConfig theo GDD...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.EditorTools.SetupSkillData:SetupAll () (at Assets/_Project/Editor/SetupSkillData.cs:20)
+
+(Filename: Assets/_Project/Editor/SetupSkillData.cs Line: 20)
+
+Importing 'GUID: 60bb97e3db97ef84bb92f4cb72e946ee - Path: Assets/_Project/Data/Skills/Skill_KimLan.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 60bb97e3db97ef84bb92f4cb72e946ee' -> (Import Result ID: '914f95f3116ece916f770ade988ba7f3') in 0.004 seconds [static dependencies only]. Details - ImportResultOutputID=77dab1696cbeff368ba4b593636136e0 DependenciesID=19268783c9cb86363c38405d0ffdc556 StaticDependenciesID=796b9b2b3ff5e50fa3728dacfb4b134b 
+Importing 'GUID: 60dfff4ac86420544a6833b6493764f7 - Path: Assets/_Project/Data/Lans/2.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 60dfff4ac86420544a6833b6493764f7' -> (Import Result ID: '8410ba34f78c5c052b6c36e52052ab72') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=57ade5c3a4d58502224712d1dac1dc74 DependenciesID=73ffdb64dd5e3230d1e0ce8ac85947fc StaticDependenciesID=1c7967ccccfaf01e92463f0f2539b1a6 
+Importing 'GUID: 557cb7758ba65b948a4cb741ce919dec - Path: Assets/_Project/Data/Lans/3.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 557cb7758ba65b948a4cb741ce919dec' -> (Import Result ID: '98a93e0cb9dd9e7effeb63d600db52be') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=fac78c96a7693d542d34b5339b9a6520 DependenciesID=f52f4892a2ecc520447c07793c8961f3 StaticDependenciesID=705f057a5083670e31bcd1554476a45c 
+Importing 'GUID: 65b81fd2d4cb48d458edd214d85117d6 - Path: Assets/_Project/Data/Skills/Skill_ThuyLan.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 65b81fd2d4cb48d458edd214d85117d6' -> (Import Result ID: '27c0997fe137d8d50c7318f07e9beeab') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=9e862bc2e702ed2a66d0e8e1e32a856f DependenciesID=57ae6e860d2fcc6f0de733562dd31fb1 StaticDependenciesID=a370073232118d2f999397b80f5995ce 
+Importing 'GUID: e6f64f3ef99b5214cb9294ea50bd3924 - Path: Assets/_Project/Data/Skills/Skill_HoaLan.asset' with importer (NativeFormatImporter)
+Imported 'GUID: e6f64f3ef99b5214cb9294ea50bd3924' -> (Import Result ID: '25bd6575c8d30dce43bf6d54416da722') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=aed5440b15da6bc48125c4dcb9fc2b32 DependenciesID=d46a6818297241917a06b2a166db797e StaticDependenciesID=0d866bd6b252bee1ad4b123327889fec 
+Importing 'GUID: 374b12ba360aa3940853ad0900ba9f6f - Path: Assets/_Project/Data/Lans/1.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 374b12ba360aa3940853ad0900ba9f6f' -> (Import Result ID: 'b7d457fe2c66698716afa8d9160b60bd') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=a7d91f68aef9228945814089ce170e47 DependenciesID=a9a45ebb2558ce2961b1c63b1631fd2b StaticDependenciesID=b45030bea54233356269e3d41dda2bfe 
+Importing 'GUID: ededde9d2594bd340a8da65415775732 - Path: Assets/_Project/Data/Lans/4.asset' with importer (NativeFormatImporter)
+Imported 'GUID: ededde9d2594bd340a8da65415775732' -> (Import Result ID: 'fe559af868b0f2b597692e70a0354527') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=67fcf7ef3ec5c478888474b6bc5efff9 DependenciesID=dc3de23b1102b1937256c1f0655e2aff StaticDependenciesID=5988232f61fd181117a14b879c46c0b5 
+Importing 'GUID: 4f318f64e2889d249b3c636a37aaa142 - Path: Assets/_Project/Data/Skills/Skill_LanVang.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 4f318f64e2889d249b3c636a37aaa142' -> (Import Result ID: 'a8ec4ed145ef6ad54d2327a67e7f44ea') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=2d9a2137c927c03dcac006163b8c689e DependenciesID=521a75f06f5fb41ed38a3f8a959e8dc7 StaticDependenciesID=d68224340fa579b432ead0f7d80065f0 
+Asset Pipeline Refresh (id=478c14feb1b3bb144bf30da1f470acd5): Total: 0.173 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=25dcfdd58ef59734b9a35514072e683b): Total: 0.011 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[SetupSkillData] Hoàn tất thiết lập 4 SkillConfig và gán vào LanData!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DemHoiDenLong.EditorTools.SetupSkillData:SetupAll () (at Assets/_Project/Editor/SetupSkillData.cs:144)
+
+(Filename: Assets/_Project/Editor/SetupSkillData.cs Line: 144)
+
+Batchmode quit successfully invoked - shutting down!
+Worker ready: AssetImportWorkerHW0 0
+Killing ADB server in 2.2244971 seconds.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-Admin-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Admin channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 0000000000005634, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000000E48, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000005634, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000000E48, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 4464
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -81,6 +81,7 @@ namespace DemHoiDenLong.UI
 
         public void ShowPrologue()
         {
+            Audio.AudioManager.Instance?.PlayUIClick();
             SetActivePanel(prologuePanel);
             if (prologueTitleText) prologueTitleText.text = narrativeData.prologueTitle;
             if (prologueBodyText)  prologueBodyText.text  = narrativeData.prologueBody;
@@ -88,6 +89,7 @@ namespace DemHoiDenLong.UI
 
         public void ShowEpilogue()
         {
+            Audio.AudioManager.Instance?.PlayUIClick();
             SetActivePanel(epiloguePanel);
             if (epilogueTitleText) epilogueTitleText.text = narrativeData.epilogueTitle;
             if (epilogueBodyText)  epilogueBodyText.text  = narrativeData.epilogueBody;
@@ -95,6 +97,7 @@ namespace DemHoiDenLong.UI
 
         public void ShowLanDetail(int index)
         {
+            Audio.AudioManager.Instance?.PlayUIClick();
             if (index < 0 || index >= lanConfigs.Count) return;
             LanConfig lan = lanConfigs[index];
 
